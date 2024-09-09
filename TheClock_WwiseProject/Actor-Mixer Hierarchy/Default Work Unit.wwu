@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D7FFB268-CDE3-4278-8474-685E5B7F6801}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{D7FFB268-CDE3-4278-8474-685E5B7F6801}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="testevent" ID="{AF36F5D6-E312-46AE-9BC0-A36E5F980E7A}" ShortID="7064866">
+					<PropertyList>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5F735549-7244-4326-A3D0-2D4907C17562}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Soundly Voice Designer, Abbi 1" ID="{F2217B4B-C012-4069-A4A8-5BE0597F764B}">
+							<Language>SFX</Language>
+							<AudioFile>Soundly Voice Designer, Abbi 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="847040234"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="Soundly Voice Designer, Abbi 2" ID="{A95D539A-2C00-473D-A5A2-82FC7482EB35}">
+							<Language>SFX</Language>
+							<AudioFile>Soundly Voice Designer, Abbi 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="557991585"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Soundly Voice Designer, Abbi 2" ID="{A95D539A-2C00-473D-A5A2-82FC7482EB35}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

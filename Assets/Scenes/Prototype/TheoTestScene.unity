@@ -815,7 +815,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1102676593}
   - component: {fileID: 1102676596}
-  - component: {fileID: 1102676595}
   - component: {fileID: 1102676594}
   - component: {fileID: 1102676597}
   m_Layer: 0
@@ -1407,7 +1406,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1363797573}
   - component: {fileID: 1363797576}
-  - component: {fileID: 1363797575}
   - component: {fileID: 1363797574}
   - component: {fileID: 1363797577}
   m_Layer: 0
@@ -1561,7 +1559,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1377144823}
   - component: {fileID: 1377144826}
-  - component: {fileID: 1377144825}
   - component: {fileID: 1377144824}
   - component: {fileID: 1377144827}
   m_Layer: 0
@@ -1897,7 +1894,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1569064451}
   - component: {fileID: 1569064454}
-  - component: {fileID: 1569064453}
   - component: {fileID: 1569064452}
   - component: {fileID: 1569064455}
   m_Layer: 0
@@ -2360,3 +2356,4 @@ SceneRoots:
   - {fileID: 281322111}
   - {fileID: 2054929441}
   - {fileID: 927265936}
+  - {fileID: 1370201459}

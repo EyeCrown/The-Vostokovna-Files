@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2351864238	Play_testevent			\Default Work Unit\Play_testevent	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	557991585	testevent	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\Soundly Voice Designer, Abbi 2_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\testevent		17217
+
