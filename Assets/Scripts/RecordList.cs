@@ -3,16 +3,16 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "CameraList", menuName = "CameraList")]
+[CreateAssetMenu(fileName = "RecordList", menuName = "TheClock/RecordList")]
 [Serializable]
-public class CameraList : ScriptableObject
+public class RecordList : ScriptableObject
 {
-    public List<CamerasData> _cameras;
+    public List<RecordData> _cameras;
 }
 
 
 [Serializable]
-public class CamerasData
+public class RecordData
 {
     public List<Hours> _hours;
 }
@@ -29,5 +29,5 @@ public class Hours
 public class IntervalInfos
 {
     public Vector2 _minuteIntervals;
-    public RenderTexture _displayedImage;
+    public Texture2D _displayedImage;
 }
