@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CameraList
+  m_EditorClassIdentifier: Assembly-CSharp::CameraList
+  _cameras:
+  - _hours:
+    - _intervalInfos:
+      - _minuteIntervals: {x: 0, y: 59}
+        _displayedImage: {fileID: 8400000, guid: 7e61c3574fc39d941addc99cdf485d19, type: 2}
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+    - _intervalInfos: []
+  - _hours: []
+  - _hours: []
+  - _hours: []
