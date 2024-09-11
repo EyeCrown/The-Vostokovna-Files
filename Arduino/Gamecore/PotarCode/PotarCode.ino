@@ -55,6 +55,7 @@ void setup() {
 */
 void loop() {
   //doc.clear();
+  String data = "";
 
   hour      = analogRead(pinHours);
   minute    = analogRead(pinMinutes);
@@ -71,9 +72,11 @@ void loop() {
   doc["minute"] = minute;
   doc["camera"] = cameraId;
 
-  serializeJson(doc, Serial);
-  Serial.println();
-  PrintTime();
+  data = String(hour) + "," + String(minute) + "," + String(cameraId);
+
+  // serializeJson(doc, Serial);
+  Serial.println(data);
+  // PrintTime();
 }
 
 void PrintTime(){
