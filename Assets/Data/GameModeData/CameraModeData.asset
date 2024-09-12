@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modeName: Camera
   modifier: 1
-  maximum: 4
+  maximum: 6

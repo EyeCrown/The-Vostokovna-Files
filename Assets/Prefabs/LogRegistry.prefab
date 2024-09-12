@@ -230,6 +230,8 @@ MonoBehaviour:
   TimeField: {fileID: 6376716161865958515}
   InfoField: {fileID: 5656842727825301492}
   CamField: {fileID: 6333158235426896010}
+  _mask: {fileID: 4275564359355610296}
+  _notification: {fileID: 7466641969413915809}
 --- !u!1 &1603366079618817818
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using System.IO.Ports;
 using TMPro;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string _currentCameraImageName;
     
     [Header("   Max Values")]
-    private const int MAX_CAMERA = 3;
+    private const int MAX_CAMERA = 5;
     private const int MAX_HOUR = 23;
     private const int MAX_MIN = 59;
 
@@ -49,6 +50,11 @@ public class GameManager : MonoBehaviour
     #endregion
     
     private const string camImageFolder = "Images/";
+
+    #region Events
+    static public event Action<string> OnNewRecordWithInfoDisplay;
+
+    #endregion
 
     #endregion
 
@@ -195,8 +201,16 @@ public class GameManager : MonoBehaviour
             _uiImage.texture = _uiNoSignalImage;
         }
 
+        if (intervalInfos._eventLogText != "")
+        {
+            // TODO : do UI which display for x seconds after a new info appears.
+            // TODO : do it once.
+            OnNewRecordWithInfoDisplay?.Invoke(intervalInfos._eventLogText);
+        }
+
         // TODO : Start Ambiance Sound
         // TODO : Display potential subtitles
+
     }
 
     void DisplayTextureFile(string filename)
