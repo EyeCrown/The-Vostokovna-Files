@@ -190,7 +190,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1024, y: 512}
+  m_SizeDelta: {x: 731, y: 411}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1252979380
 CanvasRenderer:
@@ -582,6 +582,7 @@ MonoBehaviour:
   _selectedHour: {fileID: 11400000, guid: 9e06fcce151922b499252986943edf54, type: 2}
   _selectedMinute: {fileID: 11400000, guid: d7a340e9281ce2547a91afea56fa6f99, type: 2}
   _selectedCamera: {fileID: 11400000, guid: 78bd4105935d4694fbb7d05c6281d9dd, type: 2}
+  _currentCameraImageName: 
   _useArduino: 0
   _currentMode: {fileID: 11400000, guid: 3d9115d6d0b34804ca9b5c77c722f5f9, type: 2}
   _gameModeDatas: {fileID: 11400000, guid: 2923b167962b56149a2d70b573ed93b2, type: 2}

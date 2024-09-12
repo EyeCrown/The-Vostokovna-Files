@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private IntData _selectedMinute;
     [SerializeField] private IntData _selectedCamera;
 
+    [SerializeField] private string _currentCameraImageName;
+    
     [Header("   Max Values")]
     private const int MAX_CAMERA = 3;
     private const int MAX_HOUR = 23;
@@ -53,6 +55,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         UpdateDebugText();
+
+        _currentCameraImageName = String.Empty;
         
         if (_useArduino)
             SetupArduino();
@@ -132,13 +136,34 @@ public class GameManager : MonoBehaviour
 
     private void UpdateRecord()
     {
+        
         // Search if the Hour + Minute + Camera selected has a record
         foreach (IntervalInfos timeInterval in _recordList._cameras[_selectedCamera.Value]._hours[_selectedHour.Value]._intervalInfos)
         {
             if (MinuteIsInTimeInterval(_selectedMinute.Value, timeInterval._minuteIntervals))
             {
+                int idCamLog = 6;
+                if (_selectedCamera.Value == idCamLog)
+                {
+                    //TODO: Display Camera logger
+                    
+                    return;
+                }
+
+                string cameraId = (_selectedCamera.Value + 1).ToString();
+                string hour     = _selectedHour.Value < 10 ? $"0{_selectedHour.Value}" : _selectedHour.Value.ToString();
+                string minute   = timeInterval._minuteIntervals.x < 10 ? $"0{timeInterval._minuteIntervals.x}" : timeInterval._minuteIntervals.x.ToString();
+                
+                string filename = $"C{cameraId}_{hour}_{minute}";
+                
+                if (filename == _currentCameraImageName)
+                    return;
+                    
+                DisplayTextureFile(filename);
+                
                 // Notice : if 2 intervals overlap, only the first one is displayed
-                StartDisplayIntervalRecord(timeInterval);
+                //StartDisplayIntervalRecord(timeInterval);
+                
                 return;
             } 
         }
@@ -146,15 +171,19 @@ public class GameManager : MonoBehaviour
         DisplayNothing();
     }
 
+    
+    
+    
     private void UpdateDebugText()
     {
         string meridian = _currentDatas[0].Value > 11 ? "PM" : "AM";
-        string hour = $"{_currentDatas[0].Value % 12}";
-        string minutes = _currentDatas[1].Value < 10 ? $"0{_currentDatas[1].Value}" : $"{_currentDatas[1].Value}";
-        string camera = $"{_currentDatas[2].Value}";
-        string mode = $"{_gameModeDatas.DataModes[_currentMode.Value].name}";
 
+        bool is12PM = meridian == "PM" && _currentDatas[0].Value == 12;
         
+        string hour = is12PM ? "12" : $"{_currentDatas[0].Value % 12}";
+        string minutes = _currentDatas[1].Value < 10 ? $"0{_currentDatas[1].Value}" : $"{_currentDatas[1].Value}";
+        string camera = $"{_currentDatas[2].Value + 1}";    // Camera is from 1 to 6
+        string mode = $"{_gameModeDatas.DataModes[_currentMode.Value].name}";
         
         debug_text.text = $"{hour}h{minutes} {meridian}\n" +
                           $"Camera {camera}\n" +
@@ -186,9 +215,34 @@ public class GameManager : MonoBehaviour
         // TODO : Display potential subtitles
     }
 
+    void DisplayTextureFile(string filename)
+    {
+        
+        Debug.Log($"Try loading {filename}");
+
+        string camImageFolder = "Images/";
+        
+        Texture2D cameraImage = Resources.Load<Texture2D>($"{camImageFolder}{filename}");
+
+        if (cameraImage == null)
+        {
+            Debug.Log("File doesn't exists. Displaying No Signal.");
+            DisplayNothing();
+            return;
+        }
+
+        _uiImage.texture = cameraImage;
+
+        _currentCameraImageName = filename;
+    }
+
+
     private void DisplayNothing()
     {
         _uiImage.texture = _uiNoSignalImage;
+        
+        _currentCameraImageName = "NoSignal";
+        
         // TODO : Start Ambiance Sound
         // TODO : Display potential subtitles
     }
@@ -228,7 +282,7 @@ public class GameManager : MonoBehaviour
         
         _currentMode.Value = mod(_currentMode.Value + value, _gameModeDatas.DataModes.Count);
         
-        Debug.Log($"Current mode: {_currentMode.Value}");
+        
     }
     
     public void OnChangeValue(InputAction.CallbackContext context)
@@ -244,7 +298,6 @@ public class GameManager : MonoBehaviour
         
         _currentDatas[_currentMode.Value].Value = mod(k, n);
         
-        Debug.Log($"Change value: {value}");
     }
     
     #endregion
