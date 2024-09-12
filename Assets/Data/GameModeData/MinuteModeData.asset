@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5ee9b93285987340b0bf1ec71de9f9b, type: 3}
   m_Name: MinuteModeData
   m_EditorClassIdentifier: 
-  name: Minute
+  modeName: Minute
   modifier: 2
   maximum: 60
