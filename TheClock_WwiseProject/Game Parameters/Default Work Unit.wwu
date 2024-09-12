@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C1D5CF87-47DC-4975-9AD2-8EF0596899D0}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{C1D5CF87-47DC-4975-9AD2-8EF0596899D0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C1D5CF87-47DC-4975-9AD2-8EF0596899D0}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="clockspeed" ID="{CB1D4511-DF13-4D07-816B-0E125FDF5ECD}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_AMB_VOL" ID="{60C0955A-9A3E-4EB8-868B-D4A22B102187}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_MUSIC_VOL" ID="{83842E09-CC43-42A4-B4C7-85F483DECD75}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_DIALOGUE_VOL" ID="{0BCBEE49-2AFE-4256-BABF-F48CE283C378}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_SFX_VOL" ID="{B276655F-37BD-4793-871E-EB6BB77942AB}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_MASTER_VOL" ID="{9B1F9549-CB14-43EC-8469-1454F471EF22}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
