@@ -75,6 +75,7 @@ crashlytics-build.properties
 # Wwise
 .backup*
 .cache*
+/TheClock_WwiseProject/Originals/*
 *.akd
 *.prof
 *.validationcache
