@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MinuteModeData
   m_EditorClassIdentifier: 
   name: Minute
-  modifier: 3
+  modifier: 2
   maximum: 60
