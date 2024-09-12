@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private IntData _selectedHour;
     [SerializeField] private IntData _selectedMinute;
     [SerializeField] private IntData _selectedCamera;
+    [SerializeField] private BoolData _isDisplayingNoSignal;
 
     [SerializeField] private string _currentCameraImageName;
     
@@ -46,7 +47,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameModeDatas _gameModeDatas;
     [SerializeField] private TextMeshProUGUI debug_text;
     #endregion
-    
+
+
+    #region Events
+    static public event Action<string> OnRecordChanges;
+    static public event Action OnNoSignal;
+
+    #endregion
+
     private const string camImageFolder = "Images/";
 
     #endregion
@@ -73,7 +81,7 @@ public class GameManager : MonoBehaviour
         else
             UpdateKeyboard();
 
-        UpdateRecord();
+        //UpdateRecord();
     }
     #endregion
 
@@ -124,10 +132,7 @@ public class GameManager : MonoBehaviour
         {
             for (int i = 0; i < _currentDatas.Length; i++)
                 _currentDatas[i].Value = int.Parse(receivedDatabuffer[i]);
-            
-            // _selectedHour.Value = int.Parse(receivedDatabuffer[0]);
-            // _selectedMinute.Value = int.Parse(receivedDatabuffer[1]);
-            // _selectedCamera.Value = int.Parse(receivedDatabuffer[2]);
+
         }
         else
         {
@@ -170,7 +175,7 @@ public class GameManager : MonoBehaviour
                 return;
             } 
         }
-
+        _isDisplayingNoSignal.Value = true;
         DisplayNothing();
     }
 
@@ -218,7 +223,7 @@ public class GameManager : MonoBehaviour
         // TODO : Display potential subtitles
     }
 
-    void DisplayTextureFile(string filename)
+    public void DisplayTextureFile(string filename)
     {
         
         Debug.Log($"Try loading {filename}");
@@ -233,15 +238,21 @@ public class GameManager : MonoBehaviour
         }
 
         _uiImage.texture = cameraImage;
+        _isDisplayingNoSignal.Value = false;
+        OnRecordChanges?.Invoke(filename);
 
-        
     }
 
 
     private void DisplayNothing()
     {
         _uiImage.texture = _uiNoSignalImage;
-        
+
+        if (_currentCameraImageName != String.Empty)
+        {
+            OnNoSignal?.Invoke();
+        }
+
         _currentCameraImageName = String.Empty;
         
         // TODO : Start Ambiance Sound
