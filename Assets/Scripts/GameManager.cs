@@ -47,6 +47,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI debug_text;
     #endregion
     
+    private const string camImageFolder = "Images/";
 
     #endregion
 
@@ -161,6 +162,8 @@ public class GameManager : MonoBehaviour
                     
                 DisplayTextureFile(filename);
                 
+                _currentCameraImageName = filename;
+                
                 // Notice : if 2 intervals overlap, only the first one is displayed
                 //StartDisplayIntervalRecord(timeInterval);
                 
@@ -219,9 +222,7 @@ public class GameManager : MonoBehaviour
     {
         
         Debug.Log($"Try loading {filename}");
-
-        string camImageFolder = "Images/";
-        
+      
         Texture2D cameraImage = Resources.Load<Texture2D>($"{camImageFolder}{filename}");
 
         if (cameraImage == null)
@@ -233,7 +234,7 @@ public class GameManager : MonoBehaviour
 
         _uiImage.texture = cameraImage;
 
-        _currentCameraImageName = filename;
+        
     }
 
 
@@ -241,7 +242,7 @@ public class GameManager : MonoBehaviour
     {
         _uiImage.texture = _uiNoSignalImage;
         
-        _currentCameraImageName = "NoSignal";
+        _currentCameraImageName = String.Empty;
         
         // TODO : Start Ambiance Sound
         // TODO : Display potential subtitles
@@ -298,6 +299,17 @@ public class GameManager : MonoBehaviour
         
         _currentDatas[_currentMode.Value].Value = mod(k, n);
         
+    }
+
+    public void OnHelpNeeded(InputAction.CallbackContext context)
+    {
+        if (!context.performed)
+            return;
+
+        if (_currentCameraImageName != null)
+        {
+            DisplayTextureFile($"{_currentCameraImageName}_help");
+        }
     }
     
     #endregion
