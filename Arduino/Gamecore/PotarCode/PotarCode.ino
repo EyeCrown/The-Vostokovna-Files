@@ -8,6 +8,8 @@ const int pinMinutes  = A4;
 const int pinMeridian = A2;
 const int pinCamera   = A5;
 
+const int pinHelp = 7;
+
 JsonDocument doc;
 
 int hour;
@@ -34,6 +36,9 @@ int maxAnalogCamera;
 int maxCamera = 6;
 
 
+int buttonState;
+
+
 
 /*
 * Initialisation
@@ -43,6 +48,9 @@ void setup() {
   pinMode(pinMinutes, INPUT);
   pinMode(pinMeridian, INPUT);
   pinMode(pinCamera, INPUT);
+
+  pinMode(pinHelp, INPUT);
+
 
   Serial.begin (19200);
 
@@ -54,6 +62,12 @@ void setup() {
 * 
 */
 void loop() {
+  buttonState = digitalRead(pinHelp);
+
+  Serial.println(buttonState);
+
+
+
   //doc.clear();
   String data = "";
 
@@ -75,7 +89,7 @@ void loop() {
   data = String(hour) + "," + String(minute) + "," + String(cameraId);
 
   // serializeJson(doc, Serial);
-  Serial.println(data);
+  //Serial.println(data);
   // PrintTime();
 }
 
