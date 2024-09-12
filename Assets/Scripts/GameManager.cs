@@ -44,7 +44,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private IntData _currentMode;
     [SerializeField] private GameModeDatas _gameModeDatas;
-    [SerializeField] private TextMeshProUGUI debug_text;
+
+    [SerializeField] private GameObject _uiModePart;
     #endregion
     
     private const string camImageFolder = "Images/";
@@ -55,8 +56,6 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        UpdateDebugText();
-
         _currentCameraImageName = String.Empty;
         
         if (_useArduino)
@@ -82,6 +81,7 @@ public class GameManager : MonoBehaviour
 
     void SetupArduino()
     {
+        _uiModePart.SetActive(false);
         data_stream.Open();
     }
 
@@ -105,7 +105,7 @@ public class GameManager : MonoBehaviour
 
     void SetupKeyboard()
     {
-        
+        _uiModePart.SetActive(true);
     }
 
     bool UpdateKeyboard()
@@ -174,25 +174,6 @@ public class GameManager : MonoBehaviour
         DisplayNothing();
     }
 
-    
-    
-    
-    private void UpdateDebugText()
-    {
-        string meridian = _currentDatas[0].Value > 11 ? "PM" : "AM";
-
-        bool is12PM = meridian == "PM" && _currentDatas[0].Value == 12;
-        
-        string hour = is12PM ? "12" : $"{_currentDatas[0].Value % 12}";
-        string minutes = _currentDatas[1].Value < 10 ? $"0{_currentDatas[1].Value}" : $"{_currentDatas[1].Value}";
-        string camera = $"{_currentDatas[2].Value + 1}";    // Camera is from 1 to 6
-        string mode = $"{_gameModeDatas.DataModes[_currentMode.Value].name}";
-        
-        debug_text.text = $"{hour}h{minutes} {meridian}\n" +
-                          $"Camera {camera}\n" +
-                          $"Current Mode: {mode}";
-    }
-
     private bool AreReceivedDataValid()
     {
         return !(_selectedCamera.Value > MAX_CAMERA || _selectedHour.Value > MAX_HOUR || _selectedMinute.Value > MAX_MIN);
@@ -248,6 +229,16 @@ public class GameManager : MonoBehaviour
         // TODO : Display potential subtitles
     }
     
+    
+    void UseHelp()
+    {
+        if (_currentCameraImageName != null)
+        {
+            DisplayTextureFile($"{_currentCameraImageName}_help");
+        }
+    }
+
+    
     #endregion
 
     #region EventHandlers
@@ -257,10 +248,7 @@ public class GameManager : MonoBehaviour
         foreach (var data in _currentDatas)
         {
             data.OnChange.AddListener(UpdateRecord);
-            data.OnChange.AddListener(UpdateDebugText);
         }
-        _currentMode.OnChange.AddListener(UpdateDebugText);
-
     }
 
     private void OnDisable()
@@ -268,9 +256,7 @@ public class GameManager : MonoBehaviour
         foreach (var data in _currentDatas)
         {
             data.OnChange.RemoveListener(UpdateRecord);
-            data.OnChange.RemoveListener(UpdateDebugText);
         }
-        _currentMode.OnChange.RemoveListener(UpdateDebugText);
     }
 
 
@@ -306,11 +292,9 @@ public class GameManager : MonoBehaviour
         if (!context.performed)
             return;
 
-        if (_currentCameraImageName != null)
-        {
-            DisplayTextureFile($"{_currentCameraImageName}_help");
-        }
+        UseHelp();
     }
+
     
     #endregion
     
