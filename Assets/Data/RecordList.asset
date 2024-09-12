@@ -17,6 +17,8 @@ MonoBehaviour:
     - _intervalInfos:
       - _minuteIntervals: {x: 20, y: 30}
         _displayedImage: {fileID: 0}
+        _eventLogText: Yppppppp
+        _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos: []
@@ -31,37 +33,57 @@ MonoBehaviour:
     - _intervalInfos:
       - _minuteIntervals: {x: 50, y: 59}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos:
       - _minuteIntervals: {x: 16, y: 26}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos:
       - _minuteIntervals: {x: 0, y: 10}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 16, y: 26}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos:
       - _minuteIntervals: {x: 6, y: 16}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 39, y: 49}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos: []
     - _intervalInfos:
       - _minuteIntervals: {x: 25, y: 35}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos:
       - _minuteIntervals: {x: 25, y: 35}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos: []
   - _hours:
     - _intervalInfos:
       - _minuteIntervals: {x: 20, y: 30}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 43, y: 53}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos: []
@@ -76,9 +98,13 @@ MonoBehaviour:
     - _intervalInfos:
       - _minuteIntervals: {x: 50, y: 59}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos:
       - _minuteIntervals: {x: 12, y: 22}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos: []
@@ -86,35 +112,59 @@ MonoBehaviour:
     - _intervalInfos:
       - _minuteIntervals: {x: 0, y: 10}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 16, y: 26}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos:
       - _minuteIntervals: {x: 6, y: 16}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos:
       - _minuteIntervals: {x: 25, y: 35}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos:
       - _minuteIntervals: {x: 7, y: 13}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 17, y: 23}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 27, y: 33}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 37, y: 43}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 47, y: 53}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
   - _hours:
     - _intervalInfos:
       - _minuteIntervals: {x: 0, y: 0}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 20, y: 30}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 43, y: 53}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos: []
@@ -132,6 +182,8 @@ MonoBehaviour:
     - _intervalInfos:
       - _minuteIntervals: {x: 16, y: 26}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos: []
@@ -142,22 +194,38 @@ MonoBehaviour:
     - _intervalInfos:
       - _minuteIntervals: {x: 7, y: 13}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 17, y: 23}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 27, y: 33}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 37, y: 43}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 47, y: 53}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 57, y: 59}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
   - _hours:
     - _intervalInfos:
       - _minuteIntervals: {x: 3, y: 13}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 43, y: 53}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos: []
@@ -173,20 +241,30 @@ MonoBehaviour:
     - _intervalInfos:
       - _minuteIntervals: {x: 12, y: 22}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos:
       - _minuteIntervals: {x: 39, y: 49}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos:
       - _minuteIntervals: {x: 0, y: 10}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
       - _minuteIntervals: {x: 16, y: 26}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos:
       - _minuteIntervals: {x: 39, y: 49}
         _displayedImage: {fileID: 0}
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos: []

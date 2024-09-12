@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EventLog : MonoBehaviour
@@ -31,14 +32,18 @@ public class EventLog : MonoBehaviour
                 {
                     var currentInterval = _recordList._cameras[camIndex]._hours[hourIndex]._intervalInfos[intervalIndex];
 
+                    if (currentInterval._eventLogText == "")
+                        continue;
+                    
+
                     RecordBuffer test = new();
                     test.cam  = camIndex + 1;
                     test.hour = hourIndex;
                     test.minute = (int) ((currentInterval._minuteIntervals.x + currentInterval._minuteIntervals.y) / 2);
-                    test.info = "Info to fill";
+                    test.info = currentInterval._eventLogText;
+
                     buffer.Add(test);
                 }
-
             }
         }
 

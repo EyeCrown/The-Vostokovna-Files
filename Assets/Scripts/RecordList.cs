@@ -30,4 +30,6 @@ public class IntervalInfos
 {
     public Vector2 _minuteIntervals;
     public Texture2D _displayedImage;
+    public string _eventLogText;
+    public string[] _subtitles;
 }
