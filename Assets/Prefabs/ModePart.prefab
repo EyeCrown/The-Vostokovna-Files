@@ -335,7 +335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _currentMode: {fileID: 11400000, guid: 3d9115d6d0b34804ca9b5c77c722f5f9, type: 2}
-  _gameModes: {fileID: 11400000, guid: 2923b167962b56149a2d70b573ed93b2, type: 2}
+  _gameModes: {fileID: 11400000, guid: a4d5c520eb861714990d44f1aa9d92f2, type: 2}
   _modeText: {fileID: 8034008053512519723}
 --- !u!1 &7544885786560924496
 GameObject:
