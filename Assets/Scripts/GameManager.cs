@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using System.IO.Ports;
 using TMPro;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -25,9 +27,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string _currentCameraImageName;
     
     [Header("   Max Values")]
-    private const int MAX_CAMERA = 3;
+    private const int MAX_CAMERA = 5;
     private const int MAX_HOUR = 23;
     private const int MAX_MIN = 59;
+
+
+    [Header("Subtitles")]
+    [SerializeField] private TextMeshProUGUI _subtitleField;
+    private Coroutine _subtitlesCoroutine;
 
     #region Arduino Communication
     [Header("   Arduino Communication")]
@@ -45,7 +52,15 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private IntData _currentMode;
     [SerializeField] private GameModeDatas _gameModeDatas;
-    [SerializeField] private TextMeshProUGUI debug_text;
+
+    [SerializeField] private GameObject _uiModePart;
+    #endregion
+    
+    private const string camImageFolder = "Rendus/";
+
+    #region Events
+    static public event Action<IntervalInfos> OnRecordWithInfoDisplay;
+
     #endregion
 
 
@@ -63,8 +78,6 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        UpdateDebugText();
-
         _currentCameraImageName = String.Empty;
         
         if (_useArduino)
@@ -90,6 +103,7 @@ public class GameManager : MonoBehaviour
 
     void SetupArduino()
     {
+        _uiModePart.SetActive(false);
         data_stream.Open();
     }
 
@@ -113,7 +127,7 @@ public class GameManager : MonoBehaviour
 
     void SetupKeyboard()
     {
-        
+        _uiModePart.SetActive(true);
     }
 
     bool UpdateKeyboard()
@@ -142,7 +156,9 @@ public class GameManager : MonoBehaviour
 
     private void UpdateRecord()
     {
-        
+        if (_subtitlesCoroutine != null) StopCoroutine(_subtitlesCoroutine);
+        _subtitleField.text = "";
+
         // Search if the Hour + Minute + Camera selected has a record
         foreach (IntervalInfos timeInterval in _recordList._cameras[_selectedCamera.Value]._hours[_selectedHour.Value]._intervalInfos)
         {
@@ -161,17 +177,26 @@ public class GameManager : MonoBehaviour
                 string minute   = timeInterval._minuteIntervals.x < 10 ? $"0{timeInterval._minuteIntervals.x}" : timeInterval._minuteIntervals.x.ToString();
                 
                 string filename = $"C{cameraId}_{hour}_{minute}";
-                
+
                 if (filename == _currentCameraImageName)
                     return;
                     
                 DisplayTextureFile(filename);
                 
                 _currentCameraImageName = filename;
-                
-                // Notice : if 2 intervals overlap, only the first one is displayed
-                //StartDisplayIntervalRecord(timeInterval);
-                
+
+
+                if (timeInterval._eventLogText != "")
+                {
+                    OnRecordWithInfoDisplay?.Invoke(timeInterval);
+                }
+                timeInterval._discovered = true;
+
+                // Display Subtitles
+                if (timeInterval._subtitles.Length > 0)
+                {
+                    _subtitlesCoroutine = StartCoroutine(DisplaySubtitles(timeInterval._subtitles));
+                }
                 return;
             } 
         }
@@ -179,23 +204,19 @@ public class GameManager : MonoBehaviour
         DisplayNothing();
     }
 
-    
-    
-    
-    private void UpdateDebugText()
+    public IEnumerator DisplaySubtitles(Subtitle[] subtitles)
     {
-        string meridian = _currentDatas[0].Value > 11 ? "PM" : "AM";
+        yield return new WaitForSeconds(0.5f);
 
-        bool is12PM = meridian == "PM" && _currentDatas[0].Value == 12;
-        
-        string hour = is12PM ? "12" : $"{_currentDatas[0].Value % 12}";
-        string minutes = _currentDatas[1].Value < 10 ? $"0{_currentDatas[1].Value}" : $"{_currentDatas[1].Value}";
-        string camera = $"{_currentDatas[2].Value + 1}";    // Camera is from 1 to 6
-        string mode = $"{_gameModeDatas.DataModes[_currentMode.Value].name}";
-        
-        debug_text.text = $"{hour}h{minutes} {meridian}\n" +
-                          $"Camera {camera}\n" +
-                          $"Current Mode: {mode}";
+        foreach(Subtitle sub in subtitles)
+        {
+            _subtitleField.text = sub._quote;
+            yield return new WaitForSeconds(sub._duration);
+            _subtitleField.text = "";
+            yield return new WaitForSeconds(0.06f);
+        }
+
+        _subtitleField.text = "";
     }
 
     private bool AreReceivedDataValid()
@@ -208,25 +229,11 @@ public class GameManager : MonoBehaviour
         return (minuteStamp >= minuteInterval.x && minuteStamp <= minuteInterval.y);
     }
 
-    private void StartDisplayIntervalRecord(IntervalInfos intervalInfos)
-    {
-        if (intervalInfos._displayedImage)
-        {
-            _uiImage.texture = intervalInfos._displayedImage;
-        }
-        else
-        {
-            _uiImage.texture = _uiNoSignalImage;
-        }
-
-        // TODO : Start Ambiance Sound
-        // TODO : Display potential subtitles
-    }
 
     public void DisplayTextureFile(string filename)
     {
         
-        Debug.Log($"Try loading {filename}");
+        Debug.Log($"Try loading >{camImageFolder}{filename}");
       
         Texture2D cameraImage = Resources.Load<Texture2D>($"{camImageFolder}{filename}");
 
@@ -259,6 +266,16 @@ public class GameManager : MonoBehaviour
         // TODO : Display potential subtitles
     }
     
+    
+    void UseHelp()
+    {
+        if (_currentCameraImageName != null)
+        {
+            DisplayTextureFile($"{_currentCameraImageName}_help");
+        }
+    }
+
+    
     #endregion
 
     #region EventHandlers
@@ -268,10 +285,7 @@ public class GameManager : MonoBehaviour
         foreach (var data in _currentDatas)
         {
             data.OnChange.AddListener(UpdateRecord);
-            data.OnChange.AddListener(UpdateDebugText);
         }
-        _currentMode.OnChange.AddListener(UpdateDebugText);
-
     }
 
     private void OnDisable()
@@ -279,9 +293,7 @@ public class GameManager : MonoBehaviour
         foreach (var data in _currentDatas)
         {
             data.OnChange.RemoveListener(UpdateRecord);
-            data.OnChange.RemoveListener(UpdateDebugText);
         }
-        _currentMode.OnChange.RemoveListener(UpdateDebugText);
     }
 
 
@@ -317,12 +329,14 @@ public class GameManager : MonoBehaviour
         if (!context.performed)
             return;
 
+        UseHelp();
         if (_currentCameraImageName != null)
         {
             DisplayTextureFile($"{_currentCameraImageName}_help");
         }
 
     }
+
     
     #endregion
     

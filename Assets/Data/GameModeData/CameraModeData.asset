@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5ee9b93285987340b0bf1ec71de9f9b, type: 3}
   m_Name: CameraModeData
   m_EditorClassIdentifier: 
-  name: Camera
+  modeName: Camera
   modifier: 1
-  maximum: 4
+  maximum: 6
