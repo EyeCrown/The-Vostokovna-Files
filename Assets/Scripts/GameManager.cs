@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject _uiModePart;
     #endregion
     
-    private const string camImageFolder = "Images/";
+    private const string camImageFolder = "Rendus/";
 
     #region Events
     static public event Action<IntervalInfos> OnRecordWithInfoDisplay;
@@ -226,7 +226,7 @@ public class GameManager : MonoBehaviour
     void DisplayTextureFile(string filename)
     {
         
-        Debug.Log($"Try loading {filename}");
+        Debug.Log($"Try loading >{camImageFolder}{filename}");
       
         Texture2D cameraImage = Resources.Load<Texture2D>($"{camImageFolder}{filename}");
 
