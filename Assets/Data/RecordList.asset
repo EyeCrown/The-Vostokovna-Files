@@ -35,20 +35,24 @@ MonoBehaviour:
     - _intervalInfos: []
     - _intervalInfos:
       - _minuteIntervals: {x: 50, y: 59}
-        _eventLogText: 
+        _eventLogText: Scientists indicating a levitating box.
         _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos:
       - _minuteIntervals: {x: 16, y: 26}
         _eventLogText: 
-        _subtitles: []
+        _subtitles:
+        - _duration: 0
+          _quote: 
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos:
       - _minuteIntervals: {x: 0, y: 10}
         _eventLogText: 
-        _subtitles: []
+        _subtitles:
+        - _duration: 15
+          _quote: It is a pity that Alexandre is not with us for the party.
       - _minuteIntervals: {x: 16, y: 26}
         _eventLogText: 
         _subtitles: []
@@ -57,7 +61,7 @@ MonoBehaviour:
         _eventLogText: 
         _subtitles: []
       - _minuteIntervals: {x: 39, y: 49}
-        _eventLogText: 
+        _eventLogText: The test room is covered in blood.
         _subtitles: []
     - _intervalInfos: []
     - _intervalInfos:
@@ -66,7 +70,7 @@ MonoBehaviour:
         _subtitles: []
     - _intervalInfos:
       - _minuteIntervals: {x: 25, y: 35}
-        _eventLogText: 
+        _eventLogText: A scientist comes back from an expedition in the hole.
         _subtitles: []
     - _intervalInfos: []
   - _hours:
@@ -94,7 +98,7 @@ MonoBehaviour:
         _subtitles: []
     - _intervalInfos:
       - _minuteIntervals: {x: 12, y: 22}
-        _eventLogText: 
+        _eventLogText: A box lying in the test room.
         _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
@@ -102,14 +106,16 @@ MonoBehaviour:
     - _intervalInfos: []
     - _intervalInfos:
       - _minuteIntervals: {x: 0, y: 10}
-        _eventLogText: 
-        _subtitles: []
+        _eventLogText: Scientists tlaking through an intercom.
+        _subtitles:
+        - _duration: 20
+          _quote: We kept him a slice, we take him out at 10:30pm.
       - _minuteIntervals: {x: 16, y: 26}
         _eventLogText: 
         _subtitles: []
     - _intervalInfos:
       - _minuteIntervals: {x: 6, y: 16}
-        _eventLogText: 
+        _eventLogText: A goat hanging in the test room.
         _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
@@ -135,9 +141,6 @@ MonoBehaviour:
         _subtitles: []
   - _hours:
     - _intervalInfos:
-      - _minuteIntervals: {x: 0, y: 0}
-        _eventLogText: 
-        _subtitles: []
       - _minuteIntervals: {x: 20, y: 30}
         _eventLogText: 
         _subtitles: []
@@ -191,11 +194,11 @@ MonoBehaviour:
   - _hours:
     - _intervalInfos:
       - _minuteIntervals: {x: 3, y: 13}
-        _eventLogText: 
-        _subtitles: []
-      - _minuteIntervals: {x: 43, y: 53}
-        _eventLogText: 
-        _subtitles: []
+        _eventLogText: A scientist makes an appointment with her colleagues for a
+          party.
+        _subtitles:
+        - _duration: 20
+          _quote: Let's meet at 6pm for the departure of Maureen.
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos: []
@@ -214,8 +217,10 @@ MonoBehaviour:
         _subtitles: []
     - _intervalInfos:
       - _minuteIntervals: {x: 39, y: 49}
-        _eventLogText: 
-        _subtitles: []
+        _eventLogText: Scientists talking.
+        _subtitles:
+        - _duration: 15
+          _quote: We lost contact 1 hour and 27 minutes ago because of the storm.
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos: []
@@ -224,8 +229,12 @@ MonoBehaviour:
         _eventLogText: 
         _subtitles: []
       - _minuteIntervals: {x: 16, y: 26}
-        _eventLogText: 
-        _subtitles: []
+        _eventLogText: Two scientists talking in the refectory.
+        _subtitles:
+        - _duration: 15
+          _quote: I go to sleep early tonight, I'm on the lookout.
+        - _duration: 15
+          _quote: Dont you want to see the meteor shower ? It is at 11pm.
     - _intervalInfos:
       - _minuteIntervals: {x: 39, y: 49}
         _eventLogText: 
