@@ -85,11 +85,11 @@ public class EventLog : MonoBehaviour
         }
     }
 
-    private void RevealInfo(string infoText)
+    private void RevealInfo(IntervalInfos info)
     {
         foreach (var logRegistry in _logRegistries)
         {
-            if (logRegistry.InfoField.text == infoText)
+            if (logRegistry.InfoField.text == info._eventLogText && !info._discovered)
             {
                 if (_logUpdateCoroutine!= null)
                 {

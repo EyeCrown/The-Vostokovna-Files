@@ -32,4 +32,6 @@ public class IntervalInfos
     public Texture2D _displayedImage;
     public string _eventLogText;
     public string[] _subtitles;
+
+    [NonSerialized] public bool _discovered;
 }

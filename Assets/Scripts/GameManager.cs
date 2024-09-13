@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
     private const string camImageFolder = "Images/";
 
     #region Events
-    static public event Action<string> OnRecordWithInfoDisplay;
+    static public event Action<IntervalInfos> OnRecordWithInfoDisplay;
 
     #endregion
 
@@ -203,9 +203,8 @@ public class GameManager : MonoBehaviour
 
         if (intervalInfos._eventLogText != "")
         {
-            // TODO : do UI which display for x seconds after a new info appears.
-            // TODO : do it once.
-            OnRecordWithInfoDisplay?.Invoke(intervalInfos._eventLogText);
+            OnRecordWithInfoDisplay?.Invoke(intervalInfos);
+            intervalInfos._discovered = true;
         }
 
         // TODO : Start Ambiance Sound
