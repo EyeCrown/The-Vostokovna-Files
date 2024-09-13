@@ -699,6 +699,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: ac7bca5b-efb9-4d18-9fc6-6cbc21eb4120
     m_ActionName: 'KeyboardControls/ChangeValue[/Keyboard/leftArrow,/Keyboard/rightArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2a2974bb-be3e-4fa0-9128-8195f92c8f77
+    m_ActionName: 'KeyboardControls/Help[/Keyboard/space]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: KeyboardControls
@@ -726,10 +730,11 @@ MonoBehaviour:
   _selectedHour: {fileID: 11400000, guid: 9e06fcce151922b499252986943edf54, type: 2}
   _selectedMinute: {fileID: 11400000, guid: d7a340e9281ce2547a91afea56fa6f99, type: 2}
   _selectedCamera: {fileID: 11400000, guid: 78bd4105935d4694fbb7d05c6281d9dd, type: 2}
+  _currentCameraImageName: 
   _useArduino: 0
   _currentMode: {fileID: 11400000, guid: 3d9115d6d0b34804ca9b5c77c722f5f9, type: 2}
-  _gameModeDatas: {fileID: 11400000, guid: 2923b167962b56149a2d70b573ed93b2, type: 2}
-  debug_text: {fileID: 2087553627}
+  _gameModeDatas: {fileID: 11400000, guid: a4d5c520eb861714990d44f1aa9d92f2, type: 2}
+  _uiModePart: {fileID: 5289555190392073058, guid: 66e600a247f1e9b45a2bbb188b2dddbe, type: 3}
 --- !u!4 &1350277317
 Transform:
   m_ObjectHideFlags: 0

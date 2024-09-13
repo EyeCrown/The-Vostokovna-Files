@@ -17,7 +17,7 @@ MonoBehaviour:
     - _intervalInfos:
       - _minuteIntervals: {x: 20, y: 30}
         _displayedImage: {fileID: 0}
-        _eventLogText: Yppppppp
+        _eventLogText: You found me !
         _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []

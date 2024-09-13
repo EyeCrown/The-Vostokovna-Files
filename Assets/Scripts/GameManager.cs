@@ -162,17 +162,21 @@ public class GameManager : MonoBehaviour
                 string minute   = timeInterval._minuteIntervals.x < 10 ? $"0{timeInterval._minuteIntervals.x}" : timeInterval._minuteIntervals.x.ToString();
                 
                 string filename = $"C{cameraId}_{hour}_{minute}";
-                
+
                 if (filename == _currentCameraImageName)
                     return;
                     
                 DisplayTextureFile(filename);
                 
                 _currentCameraImageName = filename;
-                
-                // Notice : if 2 intervals overlap, only the first one is displayed
-                //StartDisplayIntervalRecord(timeInterval);
-                
+
+
+                if (timeInterval._eventLogText != "")
+                {
+                    OnRecordWithInfoDisplay?.Invoke(timeInterval);
+                }
+                timeInterval._discovered = true;
+
                 return;
             } 
         }

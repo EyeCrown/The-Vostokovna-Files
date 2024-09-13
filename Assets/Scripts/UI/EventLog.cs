@@ -160,5 +160,3 @@ public class EventLog : MonoBehaviour
         recordList.Sort((x, y) => (x.hour * 60 + x.minute).CompareTo(y.hour * 60 + y.minute));
     }
 }
-
-
