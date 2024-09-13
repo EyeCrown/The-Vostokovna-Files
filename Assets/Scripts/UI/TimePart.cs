@@ -41,11 +41,16 @@ public class TimePart : MonoBehaviour
 
         return _hourData.Value.ToString();
     }
+
+    string GetMinutes()
+    {
+        return _minuteData.Value < 10 ? $"0{_minuteData.Value}" : _minuteData.Value.ToString();
+    }
     
     void SetTimeText()
     {
         string hours = GetHours();
-        string minutes = _minuteData.Value.ToString();
+        string minutes = GetMinutes();
 
         _timeText.text = $"{hours}:{minutes}";
         _meridianText.text = _hourData.Value < 12 ? "AM" : "PM";
