@@ -16,12 +16,8 @@ MonoBehaviour:
   - _hours:
     - _intervalInfos:
       - _minuteIntervals: {x: 20, y: 30}
-        _eventLogText: You found me !
-        _subtitles:
-        - _duration: 3
-          _quote: Did you find it ?
-        - _duration: 4
-          _quote: What are you talking about ?
+        _eventLogText: 
+        _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
     - _intervalInfos: []
@@ -142,10 +138,10 @@ MonoBehaviour:
   - _hours:
     - _intervalInfos:
       - _minuteIntervals: {x: 20, y: 30}
-        _eventLogText: 
+        _eventLogText: An audio file of 15 decibels has been captured.
         _subtitles: []
       - _minuteIntervals: {x: 43, y: 53}
-        _eventLogText: 
+        _eventLogText: An audio file of 15 decibels has been captured.
         _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
@@ -163,7 +159,7 @@ MonoBehaviour:
     - _intervalInfos: []
     - _intervalInfos:
       - _minuteIntervals: {x: 16, y: 26}
-        _eventLogText: 
+        _eventLogText: An audio file of 17 decibels has been captured.
         _subtitles: []
     - _intervalInfos: []
     - _intervalInfos: []
@@ -174,22 +170,22 @@ MonoBehaviour:
     - _intervalInfos: []
     - _intervalInfos:
       - _minuteIntervals: {x: 7, y: 13}
-        _eventLogText: 
+        _eventLogText: The station map shows the locations of seven scientists.
         _subtitles: []
       - _minuteIntervals: {x: 17, y: 23}
-        _eventLogText: 
+        _eventLogText: The station map shows the locations of five scientists.
         _subtitles: []
       - _minuteIntervals: {x: 27, y: 33}
-        _eventLogText: 
+        _eventLogText: The station map shows the locations of four scientists.
         _subtitles: []
       - _minuteIntervals: {x: 37, y: 43}
-        _eventLogText: 
+        _eventLogText: The station map shows the locations of three scientists.
         _subtitles: []
       - _minuteIntervals: {x: 47, y: 53}
-        _eventLogText: 
+        _eventLogText: The station map shows the locations of two scientists.
         _subtitles: []
       - _minuteIntervals: {x: 57, y: 59}
-        _eventLogText: 
+        _eventLogText: The station map shows the locations of one scientist.
         _subtitles: []
   - _hours:
     - _intervalInfos:
