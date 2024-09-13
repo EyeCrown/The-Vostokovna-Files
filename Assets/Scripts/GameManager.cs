@@ -6,6 +6,7 @@ using System.IO.Ports;
 using TMPro;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,6 +29,11 @@ public class GameManager : MonoBehaviour
     private const int MAX_CAMERA = 5;
     private const int MAX_HOUR = 23;
     private const int MAX_MIN = 59;
+
+
+    [Header("Subtitles")]
+    [SerializeField] private TextMeshProUGUI _subtitleField;
+    private Coroutine _subtitlesCoroutine;
 
     #region Arduino Communication
     [Header("   Arduino Communication")]
@@ -78,7 +84,7 @@ public class GameManager : MonoBehaviour
         else
             UpdateKeyboard();
 
-        UpdateRecord();
+        //UpdateRecord();
     }
     #endregion
 
@@ -143,7 +149,8 @@ public class GameManager : MonoBehaviour
 
     private void UpdateRecord()
     {
-        
+        if (_subtitlesCoroutine != null) StopCoroutine(_subtitlesCoroutine);
+
         // Search if the Hour + Minute + Camera selected has a record
         foreach (IntervalInfos timeInterval in _recordList._cameras[_selectedCamera.Value]._hours[_selectedHour.Value]._intervalInfos)
         {
@@ -177,11 +184,31 @@ public class GameManager : MonoBehaviour
                 }
                 timeInterval._discovered = true;
 
+                // Display Subtitles
+                if (timeInterval._subtitles.Length > 0)
+                {
+                    _subtitlesCoroutine = StartCoroutine(DisplaySubtitles(timeInterval._subtitles));
+                }
                 return;
             } 
         }
 
         DisplayNothing();
+    }
+
+    public IEnumerator DisplaySubtitles(Subtitle[] subtitles)
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        foreach(Subtitle sub in subtitles)
+        {
+            _subtitleField.text = sub._quote;
+            yield return new WaitForSeconds(sub._duration);
+            _subtitleField.text = "";
+            yield return new WaitForSeconds(0.06f);
+        }
+
+        _subtitleField.text = "";
     }
 
     private bool AreReceivedDataValid()
@@ -194,27 +221,6 @@ public class GameManager : MonoBehaviour
         return (minuteStamp >= minuteInterval.x && minuteStamp <= minuteInterval.y);
     }
 
-    private void StartDisplayIntervalRecord(IntervalInfos intervalInfos)
-    {
-        if (intervalInfos._displayedImage)
-        {
-            _uiImage.texture = intervalInfos._displayedImage;
-        }
-        else
-        {
-            _uiImage.texture = _uiNoSignalImage;
-        }
-
-        if (intervalInfos._eventLogText != "")
-        {
-            OnRecordWithInfoDisplay?.Invoke(intervalInfos);
-            intervalInfos._discovered = true;
-        }
-
-        // TODO : Start Ambiance Sound
-        // TODO : Display potential subtitles
-
-    }
 
     void DisplayTextureFile(string filename)
     {
