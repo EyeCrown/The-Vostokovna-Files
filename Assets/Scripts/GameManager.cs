@@ -150,6 +150,7 @@ public class GameManager : MonoBehaviour
     private void UpdateRecord()
     {
         if (_subtitlesCoroutine != null) StopCoroutine(_subtitlesCoroutine);
+        _subtitleField.text = "";
 
         // Search if the Hour + Minute + Camera selected has a record
         foreach (IntervalInfos timeInterval in _recordList._cameras[_selectedCamera.Value]._hours[_selectedHour.Value]._intervalInfos)
