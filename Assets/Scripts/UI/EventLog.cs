@@ -78,7 +78,7 @@ public class EventLog : MonoBehaviour
         {
             GameObject logRegistryBuffer = Instantiate(_logRegistryPrefab, _infoContainer.transform);
             LogRegistry logRegistry = logRegistryBuffer.GetComponent<LogRegistry>();
-            logRegistry.TimeField.text = record.hour + " : " + record.minute;
+            logRegistry.TimeField.text = string.Format("{0:00}:{1:00}", record.hour, record.minute);
             logRegistry.InfoField.text = record.info;
             logRegistry.CamField.text = "" + record.cam;
             _logRegistries.Add(logRegistry);
