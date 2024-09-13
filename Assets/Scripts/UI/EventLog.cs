@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -18,6 +19,8 @@ public class EventLog : MonoBehaviour
     [SerializeField] private IntData _selectedCamera;
 
     [SerializeField] private List<LogRegistry> _logRegistries = new();
+
+    static public event Action OnNewEventLogUnlocked;
 
 
     private List<RecordBuffer> buffer = new();
@@ -99,6 +102,9 @@ public class EventLog : MonoBehaviour
                 _logUpdateCoroutine = StartCoroutine("EnableAndDisableLogUpdateUI");
                 logRegistry.RevealInfoText();
                 logRegistry.EnableNotification(true);
+
+                OnNewEventLogUnlocked?.Invoke();
+
                 break;
             }
         }
