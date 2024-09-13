@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using System.IO.Ports;
 using TMPro;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string _currentCameraImageName;
     
     [Header("   Max Values")]
-    private const int MAX_CAMERA = 3;
+    private const int MAX_CAMERA = 5;
     private const int MAX_HOUR = 23;
     private const int MAX_MIN = 59;
 
@@ -49,6 +50,11 @@ public class GameManager : MonoBehaviour
     #endregion
     
     private const string camImageFolder = "Images/";
+
+    #region Events
+    static public event Action<IntervalInfos> OnRecordWithInfoDisplay;
+
+    #endregion
 
     #endregion
 
@@ -156,17 +162,21 @@ public class GameManager : MonoBehaviour
                 string minute   = timeInterval._minuteIntervals.x < 10 ? $"0{timeInterval._minuteIntervals.x}" : timeInterval._minuteIntervals.x.ToString();
                 
                 string filename = $"C{cameraId}_{hour}_{minute}";
-                
+
                 if (filename == _currentCameraImageName)
                     return;
                     
                 DisplayTextureFile(filename);
                 
                 _currentCameraImageName = filename;
-                
-                // Notice : if 2 intervals overlap, only the first one is displayed
-                //StartDisplayIntervalRecord(timeInterval);
-                
+
+
+                if (timeInterval._eventLogText != "")
+                {
+                    OnRecordWithInfoDisplay?.Invoke(timeInterval);
+                }
+                timeInterval._discovered = true;
+
                 return;
             } 
         }
@@ -195,8 +205,15 @@ public class GameManager : MonoBehaviour
             _uiImage.texture = _uiNoSignalImage;
         }
 
+        if (intervalInfos._eventLogText != "")
+        {
+            OnRecordWithInfoDisplay?.Invoke(intervalInfos);
+            intervalInfos._discovered = true;
+        }
+
         // TODO : Start Ambiance Sound
         // TODO : Display potential subtitles
+
     }
 
     void DisplayTextureFile(string filename)
