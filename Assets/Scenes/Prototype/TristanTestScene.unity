@@ -1157,6 +1157,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1551477202}
     m_Modifications:
+    - target: {fileID: 5742001535467618893, guid: bf7ada9f941904e4c9824d62e130816f, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5761731516903456246, guid: bf7ada9f941904e4c9824d62e130816f, type: 3}
       propertyPath: m_Name
       value: EventLog
@@ -1270,6 +1274,18 @@ PrefabInstance:
     - target: {fileID: 2715040150374191454, guid: 61113fceb55148049b8b2d4006c3ddf1, type: 3}
       propertyPath: m_Name
       value: TimePart
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393972085478199225, guid: 61113fceb55148049b8b2d4006c3ddf1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.72423
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393972085478199225, guid: 61113fceb55148049b8b2d4006c3ddf1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.72423
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393972085478199225, guid: 61113fceb55148049b8b2d4006c3ddf1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.72423
       objectReference: {fileID: 0}
     - target: {fileID: 7371550194227678313, guid: 61113fceb55148049b8b2d4006c3ddf1, type: 3}
       propertyPath: m_Pivot.x
