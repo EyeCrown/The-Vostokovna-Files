@@ -68,9 +68,7 @@ public class GameManager : MonoBehaviour
     static public event Action<string> OnRecordChanges;
     static public event Action OnNoSignal;
 
-    #endregion
-
-    private const string camImageFolder = "Images/";
+    #endregion 
 
     #endregion
 

@@ -34,13 +34,17 @@
 				<GameParameter Id="4239806503" Name="RTPC_AMB_VOL"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{08DF4C77-3C47-E54D-F104-C458236EC7A8}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{F8595A90-7341-1FAF-0CAE-65C4D6792100}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
 				<File Id="7963171" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>snowstorm int4.wav</ShortName>
 					<CachePath>SFX/snowstorm int4_755F56E2.wem</CachePath>
+				</File>
+				<File Id="21633705" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C1_00_20.wav</ShortName>
+					<CachePath>SFX/C1_00_20_755F56E2.wem</CachePath>
 				</File>
 				<File Id="34232821" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>C6S11 tu ne veux pas voir la pluie d'étoiles filantes _ non je me couche tot ce soir.wav</ShortName>
@@ -117,6 +121,10 @@
 				<File Id="287632855" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>camera next camera previous.wav</ShortName>
 					<CachePath>SFX/camera next camera previous_87800BCB.wem</CachePath>
+				</File>
+				<File Id="294919922" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C2_22_25.wav</ShortName>
+					<CachePath>SFX/C2_22_25_755F56E2.wem</CachePath>
 				</File>
 				<File Id="310666768" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>snowstorm v3.wav</ShortName>
@@ -206,10 +214,6 @@
 					<ShortName>beeper slow mid desi low.wav</ShortName>
 					<CachePath>SFX/beeper slow mid desi low_073B4D0C.wem</CachePath>
 				</File>
-				<File Id="626362567" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ost theclock1.wav</ShortName>
-					<CachePath>SFX/ost theclock1_B7355EF7.wem</CachePath>
-				</File>
 				<File Id="659221316" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>C1S8 c'est dommage que alexandre ne soit pas avec nous pour la fete_.wav</ShortName>
 					<CachePath>SFX/C1S8 c'est dommage que alexandre ne soit pas avec nous pour la fete__37EAA2CF.wem</CachePath>
@@ -225,6 +229,10 @@
 				<File Id="740301231" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
 					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_C7DD13E4.wem</CachePath>
+				</File>
+				<File Id="779245781" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C2_00_20 mat noire.wav</ShortName>
+					<CachePath>SFX/C2_00_20 mat noire_755F56E2.wem</CachePath>
 				</File>
 				<File Id="789897436" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>camera next camera previous.wav</ShortName>
@@ -245,6 +253,10 @@
 				<File Id="813835800" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>dome v1 real.wav</ShortName>
 					<CachePath>SFX/dome v1 real_755F56E2.wem</CachePath>
+				</File>
+				<File Id="825287063" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>assemblage ost 123.wav</ShortName>
+					<CachePath>SFX/assemblage ost 123_073B4D0C.wem</CachePath>
 				</File>
 				<File Id="827848437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1.wav</ShortName>
@@ -286,6 +298,10 @@
 					<ShortName>am switch.wav</ShortName>
 					<CachePath>SFX/am switch_755F56E2.wem</CachePath>
 				</File>
+				<File Id="916918217" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C2_00_43.wav</ShortName>
+					<CachePath>SFX/C2_00_43_755F56E2.wem</CachePath>
+				</File>
 				<File Id="920777890" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>geotracker.wav</ShortName>
 					<CachePath>SFX/geotracker_EF6049D8.wem</CachePath>
@@ -313,6 +329,10 @@
 				<File Id="998206093" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>logupdate.wav</ShortName>
 					<CachePath>SFX/logupdate_952E39D7.wem</CachePath>
+				</File>
+				<File Id="1001344937" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C2_19_06.wav</ShortName>
+					<CachePath>SFX/C2_19_06_755F56E2.wem</CachePath>
 				</File>
 				<File Id="1003170687" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>beeping1 desi high.wav</ShortName>
@@ -351,8 +371,9 @@
 			<Events>
 				<Event Id="359480061" Name="C1_00_20" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="21633705"/>
 						<MediaRef Id="192633284"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="859063813"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -362,7 +383,7 @@
 				<Event Id="1105655235" Name="C1_12_50" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="192633284"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="859063813"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -373,7 +394,7 @@
 					<MediaRefs>
 						<MediaRef Id="192633284"/>
 						<MediaRef Id="613554267"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="859063813"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -383,8 +404,8 @@
 				<Event Id="321959118" Name="C1_18_00" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="192633284"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="659221316"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="859063813"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -394,7 +415,7 @@
 				<Event Id="338736807" Name="C1_18_16" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="192633284"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="859063813"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -404,7 +425,7 @@
 				<Event Id="382505183" Name="C1_19_06" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="192633284"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="859063813"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -424,7 +445,7 @@
 				<Event Id="3994027508" Name="C1_22_25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="192633284"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="859063813"/>
 						<MediaRef Id="1003170687"/>
 					</MediaRefs>
@@ -434,8 +455,9 @@
 				</Event>
 				<Event Id="3377781462" Name="C2_00_20" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="779245781"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -444,9 +466,10 @@
 				</Event>
 				<Event Id="3411336767" Name="C2_00_43" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
+						<MediaRef Id="916918217"/>
 					</MediaRefs>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
@@ -455,8 +478,8 @@
 				<Event Id="1681844728" Name="C2_12_50" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="179510948"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -466,8 +489,8 @@
 				<Event Id="1153949597" Name="C2_13_12" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="59347613"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -476,8 +499,8 @@
 				</Event>
 				<Event Id="384477417" Name="C2_18_00" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -487,8 +510,8 @@
 				<Event Id="367699824" Name="C2_18_16" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="410168488"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -498,9 +521,10 @@
 				<Event Id="303143000" Name="C2_19_06" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="410168488"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
+						<MediaRef Id="1001344937"/>
 					</MediaRefs>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
@@ -508,8 +532,9 @@
 				</Event>
 				<Event Id="1848698379" Name="C2_22_25" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="294919922"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -518,8 +543,8 @@
 				</Event>
 				<Event Id="4054355444" Name="C2_23_07" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 						<MediaRef Id="964139239"/>
 					</MediaRefs>
@@ -534,8 +559,8 @@
 				</Event>
 				<Event Id="4037577735" Name="C2_23_17" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 						<MediaRef Id="964139239"/>
 					</MediaRefs>
@@ -550,8 +575,8 @@
 				</Event>
 				<Event Id="4087910622" Name="C2_23_27" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 						<MediaRef Id="964139239"/>
 					</MediaRefs>
@@ -566,8 +591,8 @@
 				</Event>
 				<Event Id="4071133025" Name="C2_23_37" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 						<MediaRef Id="964139239"/>
 					</MediaRefs>
@@ -582,8 +607,8 @@
 				</Event>
 				<Event Id="4121465912" Name="C2_23_47" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 						<MediaRef Id="964139239"/>
 					</MediaRefs>
@@ -599,7 +624,7 @@
 				<Event Id="361887124" Name="C4_00_20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="870953033"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
@@ -610,7 +635,7 @@
 				<Event Id="328331853" Name="C4_00_43" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="870953033"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
@@ -621,7 +646,7 @@
 				<Event Id="737889529" Name="C4_15_16" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="870953033"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
@@ -633,7 +658,7 @@
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
 						<MediaRef Id="76647228"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -644,7 +669,7 @@
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
 						<MediaRef Id="321404863"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -654,7 +679,7 @@
 				<Event Id="3205204992" Name="C4_23_27" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="929915281"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
@@ -665,7 +690,7 @@
 				<Event Id="3188427411" Name="C4_23_37" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="920777890"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
@@ -676,7 +701,7 @@
 				<Event Id="3171649830" Name="C4_23_47" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="880800395"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
@@ -697,8 +722,8 @@
 				<Event Id="567590384" Name="C5_00_03" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -708,8 +733,8 @@
 				<Event Id="601145561" Name="C5_00_20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -719,8 +744,8 @@
 				<Event Id="634700860" Name="C5_00_43" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -730,8 +755,8 @@
 				<Event Id="3953680567" Name="C5_12_50" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -741,8 +766,8 @@
 				<Event Id="1766025650" Name="C5_13_12" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -752,8 +777,8 @@
 				<Event Id="247154354" Name="C5_14_39" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -763,8 +788,8 @@
 				<Event Id="328488640" Name="C5_15_16" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -774,8 +799,8 @@
 				<Event Id="3841600122" Name="C5_18_00" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -785,8 +810,8 @@
 				<Event Id="3858377707" Name="C5_18_16" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -796,8 +821,8 @@
 				<Event Id="1785844931" Name="C5_19_06" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -807,8 +832,8 @@
 				<Event Id="1735512069" Name="C5_19_39" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -818,8 +843,8 @@
 				<Event Id="1929024936" Name="C5_22_25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -829,8 +854,8 @@
 				<Event Id="3403998363" Name="C5_23_07" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -840,8 +865,8 @@
 				<Event Id="3420775944" Name="C5_23_17" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -851,8 +876,8 @@
 				<Event Id="3437553637" Name="C5_23_27" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -862,8 +887,8 @@
 				<Event Id="3454331218" Name="C5_23_37" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -873,8 +898,8 @@
 				<Event Id="3336887895" Name="C5_23_47" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -884,8 +909,8 @@
 				<Event Id="3353665476" Name="C5_23_57" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
-						<MediaRef Id="626362567"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -896,7 +921,7 @@
 					<MediaRefs>
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="470927915"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="965307109"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -907,7 +932,7 @@
 					<MediaRefs>
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="470927915"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 					</MediaRefs>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
@@ -918,7 +943,7 @@
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="470927915"/>
 						<MediaRef Id="526065240"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 					</MediaRefs>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
@@ -928,7 +953,7 @@
 					<MediaRefs>
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="470927915"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 					</MediaRefs>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
@@ -938,7 +963,7 @@
 					<MediaRefs>
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="470927915"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="848811204"/>
 					</MediaRefs>
 					<ActionPostEvent>
@@ -949,7 +974,7 @@
 					<MediaRefs>
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="470927915"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 					</MediaRefs>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
@@ -959,7 +984,7 @@
 					<MediaRefs>
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="470927915"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 					</MediaRefs>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
@@ -970,7 +995,7 @@
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="151256277"/>
 						<MediaRef Id="470927915"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 					</MediaRefs>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
@@ -981,7 +1006,7 @@
 						<MediaRef Id="34232821"/>
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="470927915"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 					</MediaRefs>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
@@ -991,7 +1016,7 @@
 					<MediaRefs>
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="470927915"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 					</MediaRefs>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
@@ -1002,7 +1027,7 @@
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="324298945"/>
 						<MediaRef Id="470927915"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 					</MediaRefs>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
@@ -1012,209 +1037,11 @@
 					<MediaRefs>
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="470927915"/>
-						<MediaRef Id="626362567"/>
+						<MediaRef Id="825287063"/>
 					</MediaRefs>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
 					</ActionPostEvent>
-				</Event>
-				<Event Id="4273887302" Name="C7_00_03" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="4240332159" Name="C7_00_20" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="4206776858" Name="C7_00_43" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="2157397117" Name="C7_12_50" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="2138065780" Name="C7_13_12" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="1393158280" Name="C7_14_39" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="3565260070" Name="C7_15_16" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="2907537964" Name="C7_18_00" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="2924315545" Name="C7_18_16" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="3536098705" Name="C7_19_06" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="3552876291" Name="C7_19_39" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="807619246" Name="C7_22_25" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="2370491457" Name="C7_23_07" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="2387269182" Name="C7_23_17" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="2336936295" Name="C7_23_27" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="2353713876" Name="C7_23_37" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="2437602037" Name="C7_23_47" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="2454379618" Name="C7_23_57" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="866303284"/>
-						<MediaRef Id="998206093"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
 				</Event>
 				<Event Id="4019301512" Name="Cam1Offline" DurationType="Infinite">
 					<MediaRefs>
@@ -1235,6 +1062,17 @@
 					<MediaRefs>
 						<MediaRef Id="694575309"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="158810036" Name="DisplayLogs" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="2351864238" Name="Play_testevent" DurationType="OneShot" DurationMin="0.6333333" DurationMax="0.6333333">
 					<MediaRefs>
@@ -1330,5 +1168,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A30F8F48-9D1E-DC0D-D796-9E72559FF81C}</FileHash>
+	<FileHash>{7549039D-9B6D-C0EA-7B37-616EB96D5848}</FileHash>
 </SoundBanksInfo>

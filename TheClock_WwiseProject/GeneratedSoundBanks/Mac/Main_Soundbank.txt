@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	158810036	DisplayLogs			\Default Work Unit\C1 control room\DisplayLogs\DisplayLogs	
 	247154354	C5_14_39			\Default Work Unit\C5 snowstorm\C5_14_39	
 	303143000	C2_19_06			\Default Work Unit\C2 dome\C2_19_06	
 	321959118	C1_18_00			\Default Work Unit\C1 control room\C1_18_00	
@@ -19,11 +20,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	634700860	C5_00_43			\Default Work Unit\C5 snowstorm\C5_00_43	
 	713540241	PlaySliderPM			\Default Work Unit\Controller\PlaySliderPM	
 	737889529	C4_15_16			\Default Work Unit\C4 geotracker + audiolog\C4_15_16	
-	807619246	C7_22_25			\Default Work Unit\C7 logs\C7_22_25	
 	827475449	PlayCameraNext			\Default Work Unit\Controller\PlayCameraNext	
 	1105655235	C1_12_50			\Default Work Unit\C1 control room\C1_12_50	
 	1153949597	C2_13_12			\Default Work Unit\C2 dome\C2_13_12	
-	1393158280	C7_14_39			\Default Work Unit\C7 logs\C7_14_39	
 	1437731693	PlayTickClockwiseMinutes			\Default Work Unit\Controller\PlayTickClockwiseMinutes	
 	1501610189	Cam6Offline			\Default Work Unit\CamError\Cam6Offline	
 	1652600306	PlayTickCounterclockwise			\Default Work Unit\Controller\PlayTickCounterclockwise	
@@ -36,22 +35,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	1929024936	C5_22_25			\Default Work Unit\C5 snowstorm\C5_22_25	
 	2057731148	C6_12_50			\Default Work Unit\C6 cafeteria\C6_12_50	
 	2073980345	Cam2Offline			\Default Work Unit\CamError\Cam2Offline	
-	2138065780	C7_13_12			\Default Work Unit\C7 logs\C7_13_12	
-	2157397117	C7_12_50			\Default Work Unit\C7 logs\C7_12_50	
 	2189135566	PlayHelpButton			\Default Work Unit\Controller\PlayHelpButton	
-	2336936295	C7_23_27			\Default Work Unit\C7 logs\C7_23_27	
 	2351864238	Play_testevent			\Default Work Unit\Play_testevent	
-	2353713876	C7_23_37			\Default Work Unit\C7 logs\C7_23_37	
-	2370491457	C7_23_07			\Default Work Unit\C7 logs\C7_23_07	
-	2387269182	C7_23_17			\Default Work Unit\C7 logs\C7_23_17	
-	2437602037	C7_23_47			\Default Work Unit\C7 logs\C7_23_47	
 	2441637858	PlayTapeRunout			\Default Work Unit\Controller\PlayTapeRunout	
-	2454379618	C7_23_57			\Default Work Unit\C7 logs\C7_23_57	
 	2642394135	C6_15_16			\Default Work Unit\C6 cafeteria\C6_15_16	
 	2708859806	PlayTickClockwise			\Default Work Unit\Controller\PlayTickClockwise	
-	2907537964	C7_18_00			\Default Work Unit\C7 logs\C7_18_00	
 	2910054147	Cam4Offline			\Default Work Unit\CamError\Cam4Offline	
-	2924315545	C7_18_16			\Default Work Unit\C7 logs\C7_18_16	
 	3154872137	C4_23_57			\Default Work Unit\C4 geotracker + audiolog\C4_23_57	
 	3171649830	C4_23_47			\Default Work Unit\C4 geotracker + audiolog\C4_23_47	
 	3188427411	C4_23_37			\Default Work Unit\C4 geotracker + audiolog\C4_23_37	
@@ -69,9 +58,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3420775944	C5_23_17			\Default Work Unit\C5 snowstorm\C5_23_17	
 	3437553637	C5_23_27			\Default Work Unit\C5 snowstorm\C5_23_27	
 	3454331218	C5_23_37			\Default Work Unit\C5 snowstorm\C5_23_37	
-	3536098705	C7_19_06			\Default Work Unit\C7 logs\C7_19_06	
-	3552876291	C7_19_39			\Default Work Unit\C7 logs\C7_19_39	
-	3565260070	C7_15_16			\Default Work Unit\C7 logs\C7_15_16	
 	3841600122	C5_18_00			\Default Work Unit\C5 snowstorm\C5_18_00	
 	3858377707	C5_18_16			\Default Work Unit\C5 snowstorm\C5_18_16	
 	3953680567	C5_12_50			\Default Work Unit\C5 snowstorm\C5_12_50	
@@ -88,9 +74,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	4109963620	C6_18_16			\Default Work Unit\C6 cafeteria\C6_18_16	
 	4121465912	C2_23_47			\Default Work Unit\C2 dome\C2_23_47	
 	4126741205	C6_18_00			\Default Work Unit\C6 cafeteria\C6_18_00	
-	4206776858	C7_00_43			\Default Work Unit\C7 logs\C7_00_43	
-	4240332159	C7_00_20			\Default Work Unit\C7 logs\C7_00_20	
-	4273887302	C7_00_03			\Default Work Unit\C7 logs\C7_00_03	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2485212962	clockspeed			\Default Work Unit\clockspeed	
@@ -100,6 +83,7 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	7963171	snowstorm int4	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\snowstorm int4_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\geogravi\geogravi blend\snowstorm int4		3158262
+	21633705	C1_00_20	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\C1_00_20_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\C1_00_20		386012
 	34232821	C6S11 tu ne veux pas voir la pluie d'étoiles filantes _ non je me couche tot ce soir	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\C6S11 tu ne veux pas voir la pluie d'étoiles filantes _ non je me couche tot ce soir_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narration\C6S11 tu ne veux pas voir la pluie d'étoiles filantes _ non je me couche tot ce soir		489510
 	47698508	Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_05	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_9633D3B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\clockwise\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_05		6083
 	59347613	gravimetre low	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\gravimetre 3 niveaux_BB46F070.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Gravi\gravimetre low		655846
@@ -119,6 +103,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	235812864	cameranextcameraprevious layer rc_04	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\cameranextcameraprevious layer rc_4CA43F6E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\add layer\cameranextcameraprevious layer rc_04		52427
 	261239790	cam2offline	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\errors-002_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Error\cam2offline		1587826
 	287632855	camera next camera previous_03	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\camera next camera previous_87800BCB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\camera next previous\camera next camera previous_03		59981
+	294919922	C2_22_25	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\C2_22_25_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\C2_22_25		657411
 	310666768	snowstorm v3	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\snowstorm v3_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\snowstorm\snowstorm\snowstorm v3		3946111
 	314925946	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_03	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_9BF866B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\mincntrclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_03		6372
 	321404863	geotracker 4+1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\geotracker_89D8C6F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Geotracker\geotracker 4+1		113406
@@ -141,16 +126,17 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	557991585	testevent	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\Soundly Voice Designer, Abbi 2_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\testevent		17217
 	582689518	Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_01	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_33A13367.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\clockwise\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_01		6300
 	613554267	beeper slow mid desi low	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\beeper slow mid desi low_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\DESI\beeper slow mid desi low		1578871
-	626362567	ost theclock1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\ost theclock1_B7355EF7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\ost theclock1		10584776
 	659221316	C1S8 c'est dommage que alexandre ne soit pas avec nous pour la fete_	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\C1S8 c'est dommage que alexandre ne soit pas avec nous pour la fete__37EAA2CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narration\C1S8 c'est dommage que alexandre ne soit pas avec nous pour la fete_		179564
 	694575309	cam6offline	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\cam6alarm_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Error\cam6offline		707560
 	700869081	tchik	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\Clocks, Mechanics, Old, Metal, Mechanism, Short SND9439_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\tchiktchak\tchik		10806
 	740301231	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_C7DD13E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\mincntrclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015		6436
+	779245781	C2_00_20	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\C2_00_20 mat noire_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\C2_00_20		620510
 	789897436	camera next camera previous_05	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\camera next camera previous_22376E8E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\camera next previous\camera next camera previous_05		46680
 	790030656	Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_04	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_B7985681.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\clockwise\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_04		7127
 	793390884	snowstorm v1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\snowstorm v1_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\snowstorm\snowstorm\snowstorm v1		3966303
 	810046928	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_02	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_3CA8EE5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\mincntrclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_02		5451
 	813835800	dome v1 real	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\dome v1 real_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\dome\dome blend\dome v1 real		2851522
+	825287063	ost theclock1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\assemblage ost 123_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\ost theclock1		27818915
 	827848437	Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_07	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_5FD3770F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\clockwise\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_07		6399
 	829730024	snowstorm int3	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\snowstorm int3_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\dome\dome blend\snowstorm int3		3091899
 	848811204	emission	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\emission_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\cafet\radios\emission		1534856
@@ -161,6 +147,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	889549542	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_01	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_2DC370B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\mincntrclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_01		7693
 	907039128	tchak	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\Clocks, Mechanics, Old, Metal, Mechanism, Short SND9439 1_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\tchiktchak\tchak		15454
 	910907459	am switch	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\am switch_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\ampm slider\am switch		24632
+	916918217	C2_00_43	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\C2_00_43_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\C2_00_43		670162
 	920777890	geotracker 2+1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\geotracker_EF6049D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Geotracker\geotracker 2+1		75829
 	929915281	geotracker 3+1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\geotracker_AF21455B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Geotracker\geotracker 3+1		124716
 	964139239	very loow beeper the beast desi broken	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\very loow beeper the beast desi broken_E3B4A69A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\DESI\very loow beeper the beast desi broken		1429959
@@ -168,6 +155,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	978082249	snowstorm v2	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\snowstorm v2_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\snowstorm\snowstorm\snowstorm v2		3773452
 	989589681	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_04	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_A5C15490.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\minclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_04		9852
 	998206093	logupdatelogscreen	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\logupdate_952E39D7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\logupdatelogscreen		23427
+	1001344937	C2_19_06	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\C2_19_06_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\C2_19_06		635074
 	1003170687	beeping1 desi high	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\beeping1 desi high_D5F5C115.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\DESI\beeping1 desi high		422540
 	1004644863	geotracker room v1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\geotracker room v1_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\geogravi\geogravi blend\geotracker room v1		2855173
 	1005152139	cameranextcameraprevious layer rc_03	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Mac\SFX\cameranextcameraprevious layer rc_D39326BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\add layer\cameranextcameraprevious layer rc_03		50225
