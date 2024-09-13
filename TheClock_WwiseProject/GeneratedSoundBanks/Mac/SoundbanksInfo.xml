@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BFDCF260-6840-A27D-9D5A-05427A55AF56}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -19,26 +19,1316 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="1117531639" Name="AMB"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3930136735" Name="DIALOGUE"/>
+				<Bus Id="3991942870" Name="MUSIC"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="460070935" Name="RTPC_MASTER_VOL"/>
+				<GameParameter Id="2485212962" Name="clockspeed"/>
+				<GameParameter Id="3061620274" Name="RTPC_MUSIC_VOL"/>
+				<GameParameter Id="3502123226" Name="RTPC_SFX_VOL"/>
+				<GameParameter Id="3553633719" Name="RTPC_DIALOGUE_VOL"/>
+				<GameParameter Id="4239806503" Name="RTPC_AMB_VOL"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{FD6C6D79-C761-F6D0-5F5B-78DE085613DE}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{08DF4C77-3C47-E54D-F104-C458236EC7A8}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
+				<File Id="7963171" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>snowstorm int4.wav</ShortName>
+					<CachePath>SFX/snowstorm int4_755F56E2.wem</CachePath>
+				</File>
+				<File Id="34232821" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C6S11 tu ne veux pas voir la pluie d'étoiles filantes _ non je me couche tot ce soir.wav</ShortName>
+					<CachePath>SFX/C6S11 tu ne veux pas voir la pluie d'étoiles filantes _ non je me couche tot ce soir_755F56E2.wem</CachePath>
+				</File>
+				<File Id="47698508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1.wav</ShortName>
+					<CachePath>SFX/Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_9633D3B3.wem</CachePath>
+				</File>
+				<File Id="59347613" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gravimetre 3 niveaux.wav</ShortName>
+					<CachePath>SFX/gravimetre 3 niveaux_BB46F070.wem</CachePath>
+				</File>
+				<File Id="60134096" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>camera next camera previous.wav</ShortName>
+					<CachePath>SFX/camera next camera previous_0F867880.wem</CachePath>
+				</File>
+				<File Id="71816272" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tape Machine, Play, Chewing the tape then stopped (Short version) 06 3.wav</ShortName>
+					<CachePath>SFX/Tape Machine, Play, Chewing the tape then stopped (Short version) 06 3_34BFC4D8.wem</CachePath>
+				</File>
+				<File Id="73031717" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>camera next camera previous.wav</ShortName>
+					<CachePath>SFX/camera next camera previous_19960DBD.wem</CachePath>
+				</File>
+				<File Id="76647228" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>geotracker.wav</ShortName>
+					<CachePath>SFX/geotracker_6D8C00D8.wem</CachePath>
+				</File>
+				<File Id="78300076" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>snowstorm int1.wav</ShortName>
+					<CachePath>SFX/snowstorm int1_5A5783C8.wem</CachePath>
+				</File>
+				<File Id="79478959" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>camera next camera previous.wav</ShortName>
+					<CachePath>SFX/camera next camera previous_3A8D4FC6.wem</CachePath>
+				</File>
+				<File Id="127241421" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1.wav</ShortName>
+					<CachePath>SFX/Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_88AC4066.wem</CachePath>
+				</File>
+				<File Id="131195188" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>camera next camera previous.wav</ShortName>
+					<CachePath>SFX/camera next camera previous_36E44D39.wem</CachePath>
+				</File>
+				<File Id="151256277" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C6S8 walla.wav</ShortName>
+					<CachePath>SFX/C6S8 walla_755F56E2.wem</CachePath>
+				</File>
+				<File Id="179510948" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gravimetre 3 niveaux.wav</ShortName>
+					<CachePath>SFX/gravimetre 3 niveaux_8CFB14ED.wem</CachePath>
+				</File>
+				<File Id="192633284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>control v1.wav</ShortName>
+					<CachePath>SFX/control v1_755F56E2.wem</CachePath>
+				</File>
+				<File Id="215077952" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>geotracker.wav</ShortName>
+					<CachePath>SFX/geotracker_14284B51.wem</CachePath>
+				</File>
+				<File Id="216307312" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cam4 error.wav</ShortName>
+					<CachePath>SFX/cam4 error_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="235812864" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cameranextcameraprevious layer rc.wav</ShortName>
+					<CachePath>SFX/cameranextcameraprevious layer rc_4CA43F6E.wem</CachePath>
+				</File>
+				<File Id="261239790" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>errors-002.wav</ShortName>
+					<CachePath>SFX/errors-002_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="287632855" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>camera next camera previous.wav</ShortName>
+					<CachePath>SFX/camera next camera previous_87800BCB.wem</CachePath>
+				</File>
+				<File Id="310666768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>snowstorm v3.wav</ShortName>
+					<CachePath>SFX/snowstorm v3_755F56E2.wem</CachePath>
+				</File>
+				<File Id="314925946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
+					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_9BF866B7.wem</CachePath>
+				</File>
+				<File Id="321404863" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>geotracker.wav</ShortName>
+					<CachePath>SFX/geotracker_89D8C6F8.wem</CachePath>
+				</File>
+				<File Id="322688939" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
+					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_BC5922B9.wem</CachePath>
+				</File>
+				<File Id="323111567" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1.wav</ShortName>
+					<CachePath>SFX/Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_41BD22A7.wem</CachePath>
+				</File>
+				<File Id="324298945" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ubv76.wav</ShortName>
+					<CachePath>SFX/ubv76_755F56E2.wem</CachePath>
+				</File>
+				<File Id="377295070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pm switch.wav</ShortName>
+					<CachePath>SFX/pm switch_755F56E2.wem</CachePath>
+				</File>
+				<File Id="382878983" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cameranextcameraprevious layer rc.wav</ShortName>
+					<CachePath>SFX/cameranextcameraprevious layer rc_970E0176.wem</CachePath>
+				</File>
+				<File Id="392737791" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cameranextcameraprevious layer rc.wav</ShortName>
+					<CachePath>SFX/cameranextcameraprevious layer rc_6EE7A620.wem</CachePath>
+				</File>
+				<File Id="394428278" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>helpbutton.wav</ShortName>
+					<CachePath>SFX/helpbutton_755F56E2.wem</CachePath>
+				</File>
+				<File Id="401283212" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1.wav</ShortName>
+					<CachePath>SFX/Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_8292B162.wem</CachePath>
+				</File>
+				<File Id="405290914" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
+					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_5591E78C.wem</CachePath>
+				</File>
+				<File Id="410168488" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gravimetre 3 niveaux.wav</ShortName>
+					<CachePath>SFX/gravimetre 3 niveaux_791320E6.wem</CachePath>
+				</File>
+				<File Id="427078570" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cameranextcameraprevious layer rc.wav</ShortName>
+					<CachePath>SFX/cameranextcameraprevious layer rc_7CD7EE02.wem</CachePath>
+				</File>
+				<File Id="470927915" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cafet amb v1.wav</ShortName>
+					<CachePath>SFX/cafet amb v1_755F56E2.wem</CachePath>
+				</File>
+				<File Id="505594289" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>camera next camera previous.wav</ShortName>
+					<CachePath>SFX/camera next camera previous_6D021E02.wem</CachePath>
+				</File>
+				<File Id="518638525" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1.wav</ShortName>
+					<CachePath>SFX/Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_2532F4BF.wem</CachePath>
+				</File>
+				<File Id="526065240" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>firebird.wav</ShortName>
+					<CachePath>SFX/firebird_755F56E2.wem</CachePath>
+				</File>
+				<File Id="547238914" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
+					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_8C7D64D2.wem</CachePath>
+				</File>
 				<File Id="557991585" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Voice Designer, Abbi 2.wav</ShortName>
 					<CachePath>SFX/Soundly Voice Designer, Abbi 2_755F56E2.wem</CachePath>
 				</File>
+				<File Id="582689518" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1.wav</ShortName>
+					<CachePath>SFX/Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_33A13367.wem</CachePath>
+				</File>
+				<File Id="613554267" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>beeper slow mid desi low.wav</ShortName>
+					<CachePath>SFX/beeper slow mid desi low_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="626362567" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ost theclock1.wav</ShortName>
+					<CachePath>SFX/ost theclock1_B7355EF7.wem</CachePath>
+				</File>
+				<File Id="659221316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C1S8 c'est dommage que alexandre ne soit pas avec nous pour la fete_.wav</ShortName>
+					<CachePath>SFX/C1S8 c'est dommage que alexandre ne soit pas avec nous pour la fete__37EAA2CF.wem</CachePath>
+				</File>
+				<File Id="694575309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cam6alarm.wav</ShortName>
+					<CachePath>SFX/cam6alarm_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="700869081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Mechanics, Old, Metal, Mechanism, Short SND9439.wav</ShortName>
+					<CachePath>SFX/Clocks, Mechanics, Old, Metal, Mechanism, Short SND9439_755F56E2.wem</CachePath>
+				</File>
+				<File Id="740301231" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
+					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_C7DD13E4.wem</CachePath>
+				</File>
+				<File Id="789897436" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>camera next camera previous.wav</ShortName>
+					<CachePath>SFX/camera next camera previous_22376E8E.wem</CachePath>
+				</File>
+				<File Id="790030656" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1.wav</ShortName>
+					<CachePath>SFX/Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_B7985681.wem</CachePath>
+				</File>
+				<File Id="793390884" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>snowstorm v1.wav</ShortName>
+					<CachePath>SFX/snowstorm v1_755F56E2.wem</CachePath>
+				</File>
+				<File Id="810046928" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
+					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_3CA8EE5F.wem</CachePath>
+				</File>
+				<File Id="813835800" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>dome v1 real.wav</ShortName>
+					<CachePath>SFX/dome v1 real_755F56E2.wem</CachePath>
+				</File>
+				<File Id="827848437" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1.wav</ShortName>
+					<CachePath>SFX/Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_5FD3770F.wem</CachePath>
+				</File>
+				<File Id="829730024" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>snowstorm int3.wav</ShortName>
+					<CachePath>SFX/snowstorm int3_755F56E2.wem</CachePath>
+				</File>
+				<File Id="848811204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>emission.wav</ShortName>
+					<CachePath>SFX/emission_755F56E2.wem</CachePath>
+				</File>
+				<File Id="859063813" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>snowstorm int2.wav</ShortName>
+					<CachePath>SFX/snowstorm int2_755F56E2.wem</CachePath>
+				</File>
+				<File Id="866303284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>logscreen amb.wav</ShortName>
+					<CachePath>SFX/logscreen amb_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="870953033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>audiolog bleep.wav</ShortName>
+					<CachePath>SFX/audiolog bleep_A80BA8C4.wem</CachePath>
+				</File>
+				<File Id="880800395" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>geotracker.wav</ShortName>
+					<CachePath>SFX/geotracker_1356FD85.wem</CachePath>
+				</File>
+				<File Id="889549542" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
+					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_2DC370B0.wem</CachePath>
+				</File>
+				<File Id="907039128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Mechanics, Old, Metal, Mechanism, Short SND9439 1.wav</ShortName>
+					<CachePath>SFX/Clocks, Mechanics, Old, Metal, Mechanism, Short SND9439 1_755F56E2.wem</CachePath>
+				</File>
+				<File Id="910907459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>am switch.wav</ShortName>
+					<CachePath>SFX/am switch_755F56E2.wem</CachePath>
+				</File>
+				<File Id="920777890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>geotracker.wav</ShortName>
+					<CachePath>SFX/geotracker_EF6049D8.wem</CachePath>
+				</File>
+				<File Id="929915281" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>geotracker.wav</ShortName>
+					<CachePath>SFX/geotracker_AF21455B.wem</CachePath>
+				</File>
+				<File Id="964139239" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>very loow beeper the beast desi broken.wav</ShortName>
+					<CachePath>SFX/very loow beeper the beast desi broken_E3B4A69A.wem</CachePath>
+				</File>
+				<File Id="965307109" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C6S7 Rendez-vous à 18h00 pour fêter le départ de maureen.wav</ShortName>
+					<CachePath>SFX/C6S7 Rendez-vous à 18h00 pour fêter le départ de maureen_7262ABD8.wem</CachePath>
+				</File>
+				<File Id="978082249" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>snowstorm v2.wav</ShortName>
+					<CachePath>SFX/snowstorm v2_755F56E2.wem</CachePath>
+				</File>
+				<File Id="989589681" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
+					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_A5C15490.wem</CachePath>
+				</File>
+				<File Id="998206093" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>logupdate.wav</ShortName>
+					<CachePath>SFX/logupdate_952E39D7.wem</CachePath>
+				</File>
+				<File Id="1003170687" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>beeping1 desi high.wav</ShortName>
+					<CachePath>SFX/beeping1 desi high_D5F5C115.wem</CachePath>
+				</File>
+				<File Id="1004644863" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>geotracker room v1.wav</ShortName>
+					<CachePath>SFX/geotracker room v1_755F56E2.wem</CachePath>
+				</File>
+				<File Id="1005152139" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cameranextcameraprevious layer rc.wav</ShortName>
+					<CachePath>SFX/cameranextcameraprevious layer rc_D39326BC.wem</CachePath>
+				</File>
+				<File Id="1053148617" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
+					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_EEF4827C.wem</CachePath>
+				</File>
+				<File Id="1060255485" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>camera next camera previous.wav</ShortName>
+					<CachePath>SFX/camera next camera previous_B4274624.wem</CachePath>
+				</File>
+				<File Id="1063006575" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
+					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_F80EE838.wem</CachePath>
+				</File>
+				<File Id="1064078893" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>errors-001.wav</ShortName>
+					<CachePath>SFX/errors-001_073B4D0C.wem</CachePath>
+				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3546444380" Name="Big_Garage1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
+				<Event Id="359480061" Name="C1_00_20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="192633284"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="859063813"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1105655235" Name="C1_12_50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="192633284"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="859063813"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3953841524" Name="C1_15_16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="192633284"/>
+						<MediaRef Id="613554267"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="859063813"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="321959118" Name="C1_18_00" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="192633284"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="659221316"/>
+						<MediaRef Id="859063813"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="338736807" Name="C1_18_16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="192633284"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="859063813"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="382505183" Name="C1_19_06" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="192633284"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="859063813"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="332172297" Name="C1_19_39" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="192633284"/>
+						<MediaRef Id="613554267"/>
+						<MediaRef Id="859063813"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3994027508" Name="C1_22_25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="192633284"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="859063813"/>
+						<MediaRef Id="1003170687"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3377781462" Name="C2_00_20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="829730024"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3411336767" Name="C2_00_43" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="829730024"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1681844728" Name="C2_12_50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="179510948"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="829730024"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1153949597" Name="C2_13_12" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="59347613"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="829730024"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="384477417" Name="C2_18_00" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="829730024"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="367699824" Name="C2_18_16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="410168488"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="829730024"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="303143000" Name="C2_19_06" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="410168488"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="829730024"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1848698379" Name="C2_22_25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="829730024"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4054355444" Name="C2_23_07" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="829730024"/>
+						<MediaRef Id="964139239"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4037577735" Name="C2_23_17" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="829730024"/>
+						<MediaRef Id="964139239"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4087910622" Name="C2_23_27" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="829730024"/>
+						<MediaRef Id="964139239"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4071133025" Name="C2_23_37" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="829730024"/>
+						<MediaRef Id="964139239"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4121465912" Name="C2_23_47" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="829730024"/>
+						<MediaRef Id="964139239"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="361887124" Name="C4_00_20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="7963171"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="870953033"/>
+						<MediaRef Id="1004644863"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="328331853" Name="C4_00_43" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="7963171"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="870953033"/>
+						<MediaRef Id="1004644863"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="737889529" Name="C4_15_16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="7963171"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="870953033"/>
+						<MediaRef Id="1004644863"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3238760298" Name="C4_23_07" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="7963171"/>
+						<MediaRef Id="76647228"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="1004644863"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3221982717" Name="C4_23_17" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="7963171"/>
+						<MediaRef Id="321404863"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="1004644863"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3205204992" Name="C4_23_27" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="7963171"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="929915281"/>
+						<MediaRef Id="1004644863"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3188427411" Name="C4_23_37" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="7963171"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="920777890"/>
+						<MediaRef Id="1004644863"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3171649830" Name="C4_23_47" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="7963171"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="880800395"/>
+						<MediaRef Id="1004644863"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3154872137" Name="C4_23_57" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
+					<MediaRefs>
+						<MediaRef Id="7963171"/>
+						<MediaRef Id="215077952"/>
+						<MediaRef Id="1004644863"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="567590384" Name="C5_00_03" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="601145561" Name="C5_00_20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="634700860" Name="C5_00_43" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3953680567" Name="C5_12_50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1766025650" Name="C5_13_12" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="247154354" Name="C5_14_39" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="328488640" Name="C5_15_16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3841600122" Name="C5_18_00" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3858377707" Name="C5_18_16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1785844931" Name="C5_19_06" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1735512069" Name="C5_19_39" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1929024936" Name="C5_22_25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3403998363" Name="C5_23_07" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3420775944" Name="C5_23_17" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3437553637" Name="C5_23_27" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3454331218" Name="C5_23_37" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3336887895" Name="C5_23_47" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3353665476" Name="C5_23_57" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="310666768"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="793390884"/>
+						<MediaRef Id="978082249"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3385182255" Name="C6_00_03" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="965307109"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3418737522" Name="C6_00_20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="626362567"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3318071779" Name="C6_00_43" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="526065240"/>
+						<MediaRef Id="626362567"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="2057731148" Name="C6_12_50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="626362567"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4079931033" Name="C6_13_12" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="626362567"/>
+						<MediaRef Id="848811204"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="488294521" Name="C6_14_39" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="626362567"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="2642394135" Name="C6_15_16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="626362567"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4126741205" Name="C6_18_00" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="151256277"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="626362567"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4109963620" Name="C6_18_16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="34232821"/>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="626362567"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4024618444" Name="C6_19_06" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="626362567"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4007840862" Name="C6_19_39" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="324298945"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="626362567"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1910442799" Name="C6_22_25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="626362567"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4273887302" Name="C7_00_03" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="4240332159" Name="C7_00_20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="4206776858" Name="C7_00_43" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2157397117" Name="C7_12_50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2138065780" Name="C7_13_12" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="1393158280" Name="C7_14_39" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3565260070" Name="C7_15_16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2907537964" Name="C7_18_00" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2924315545" Name="C7_18_16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3536098705" Name="C7_19_06" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3552876291" Name="C7_19_39" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="807619246" Name="C7_22_25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2370491457" Name="C7_23_07" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2387269182" Name="C7_23_17" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2336936295" Name="C7_23_27" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2353713876" Name="C7_23_37" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2437602037" Name="C7_23_47" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2454379618" Name="C7_23_57" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="4019301512" Name="Cam1Offline" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1064078893"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2073980345" Name="Cam2Offline" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="261239790"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2910054147" Name="Cam4Offline" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="216307312"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1501610189" Name="Cam6Offline" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="694575309"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2351864238" Name="Play_testevent" DurationType="OneShot" DurationMin="0.6333333" DurationMax="0.6333333">
 					<MediaRefs>
 						<MediaRef Id="557991585"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="827475449" Name="PlayCameraNext" DurationType="OneShot" DurationMin="1.2562337" DurationMax="2.0669246">
+					<MediaRefs>
+						<MediaRef Id="60134096"/>
+						<MediaRef Id="73031717"/>
+						<MediaRef Id="79478959"/>
+						<MediaRef Id="131195188"/>
+						<MediaRef Id="235812864"/>
+						<MediaRef Id="287632855"/>
+						<MediaRef Id="382878983"/>
+						<MediaRef Id="392737791"/>
+						<MediaRef Id="427078570"/>
+						<MediaRef Id="505594289"/>
+						<MediaRef Id="789897436"/>
+						<MediaRef Id="1005152139"/>
+						<MediaRef Id="1060255485"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2189135566" Name="PlayHelpButton" DurationType="OneShot" DurationMin="0.6391875" DurationMax="0.6391875">
+					<MediaRefs>
+						<MediaRef Id="394428278"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="461876018" Name="PlaySliderAM" DurationType="OneShot" DurationMin="1.7389792" DurationMax="1.7389792">
+					<MediaRefs>
+						<MediaRef Id="910907459"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="713540241" Name="PlaySliderPM" DurationType="OneShot" DurationMin="1.9169792" DurationMax="1.9169792">
+					<MediaRefs>
+						<MediaRef Id="377295070"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2441637858" Name="PlayTapeRunout" DurationType="OneShot" DurationMin="2.7963758" DurationMax="2.7963758">
+					<MediaRefs>
+						<MediaRef Id="71816272"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2708859806" Name="PlayTickClockwise" DurationType="OneShot" DurationMin="0.17486264" DurationMax="0.27760416">
+					<MediaRefs>
+						<MediaRef Id="47698508"/>
+						<MediaRef Id="127241421"/>
+						<MediaRef Id="323111567"/>
+						<MediaRef Id="401283212"/>
+						<MediaRef Id="518638525"/>
+						<MediaRef Id="582689518"/>
+						<MediaRef Id="700869081"/>
+						<MediaRef Id="790030656"/>
+						<MediaRef Id="827848437"/>
+						<MediaRef Id="907039128"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1437731693" Name="PlayTickClockwiseMinutes" DurationType="OneShot" DurationMin="0.04355703" DurationMax="0.15953438">
+					<MediaRefs>
+						<MediaRef Id="322688939"/>
+						<MediaRef Id="405290914"/>
+						<MediaRef Id="547238914"/>
+						<MediaRef Id="989589681"/>
+						<MediaRef Id="1053148617"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1652600306" Name="PlayTickCounterclockwise" DurationType="OneShot" DurationMin="0.24729313" DurationMax="0.3591257">
+					<MediaRefs>
+						<MediaRef Id="47698508"/>
+						<MediaRef Id="127241421"/>
+						<MediaRef Id="323111567"/>
+						<MediaRef Id="401283212"/>
+						<MediaRef Id="518638525"/>
+						<MediaRef Id="582689518"/>
+						<MediaRef Id="700869081"/>
+						<MediaRef Id="790030656"/>
+						<MediaRef Id="827848437"/>
+						<MediaRef Id="907039128"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="427600625" Name="PlayTickCounterclockwiseMinutes" DurationType="OneShot" DurationMin="0.08422528" DurationMax="0.18402228">
+					<MediaRefs>
+						<MediaRef Id="314925946"/>
+						<MediaRef Id="740301231"/>
+						<MediaRef Id="810046928"/>
+						<MediaRef Id="889549542"/>
+						<MediaRef Id="1063006575"/>
+					</MediaRefs>
+				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="2485212962" Name="clockspeed"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B520FEB2-70F5-4603-8AD4-038565727CAE}</FileHash>
+	<FileHash>{A30F8F48-9D1E-DC0D-D796-9E72559FF81C}</FileHash>
 </SoundBanksInfo>

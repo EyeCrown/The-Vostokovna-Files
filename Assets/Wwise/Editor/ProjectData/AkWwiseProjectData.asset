@@ -38,8 +38,42 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 4955735f44722643a3d02d4907c17562
     GuidInternal: 
-    m_lastTime: -8584757232000478929
+    m_lastTime: -8584754655940148316
     List:
+    - name: AMB
+      guid: 65d73d150e02554b8e0f21d8186f4227
+      id: 1117531639
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4955735f44722643a3d02d4907c17562
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: AMB
+        ObjectType: 2
+        guid: 65d73d150e02554b8e0f21d8186f4227
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AMB
+    - name: DIALOGUE
+      guid: 716dd986fb66874aa555202cd3a1c328
+      id: 3930136735
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4955735f44722643a3d02d4907c17562
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: DIALOGUE
+        ObjectType: 2
+        guid: 716dd986fb66874aa555202cd3a1c328
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DIALOGUE
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -54,6 +88,40 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: MUSIC
+      guid: 6a531510d9e8324c8b8029b260e47655
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4955735f44722643a3d02d4907c17562
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: MUSIC
+        ObjectType: 2
+        guid: 6a531510d9e8324c8b8029b260e47655
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUSIC
+    - name: SFX
+      guid: 2462f40b8f330d46afb323b25332210d
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4955735f44722643a3d02d4907c17562
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 2462f40b8f330d46afb323b25332210d
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +134,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 3391bd305a3232409ddeb7cf2e936144
     GuidInternal: 
-    m_lastTime: -8584757220846377336
+    m_lastTime: -8584754269301317368
     List:
     - name: Main_Soundbank
       guid: 30e8a7e2b8b8c5409a9a0cccc286d06e
@@ -94,8 +162,2427 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: cf1ea47e616b9641b1ef00c3728f3959
     GuidInternal: 
-    m_lastTime: -8584757221999569253
+    m_lastTime: -8584754226667558137
     List:
+    - name: C1 control room
+      guid: 70a9aea0080ba640954f11aa9a8aac7c
+      id: 1096388427
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      Path: Events\Default Work Unit\C1 control room
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_00_03
+      guid: 4bfa3d2167a789488ec4f0cf53254b37
+      id: 325924756
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_00_03
+        ObjectType: 3
+        guid: 4bfa3d2167a789488ec4f0cf53254b37
+      Path: Events\Default Work Unit\C1 control room\C1_00_03
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_00_20
+      guid: b7e53689de8413449358acc8a0d60e8a
+      id: 359480061
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_00_20
+        ObjectType: 3
+        guid: b7e53689de8413449358acc8a0d60e8a
+      Path: Events\Default Work Unit\C1 control room\C1_00_20
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_00_43
+      guid: 2c145b88e735df428dfb4cfc87ca20af
+      id: 258814312
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_00_43
+        ObjectType: 3
+        guid: 2c145b88e735df428dfb4cfc87ca20af
+      Path: Events\Default Work Unit\C1 control room\C1_00_43
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_12_50
+      guid: 41a4eded3ebe9048802313f09af01080
+      id: 1105655235
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_12_50
+        ObjectType: 3
+        guid: 41a4eded3ebe9048802313f09af01080
+      Path: Events\Default Work Unit\C1 control room\C1_12_50
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_13_12
+      guid: 0df91ad575eab64f8cdf7d7a75bc6b64
+      id: 3925649110
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_13_12
+        ObjectType: 3
+        guid: 0df91ad575eab64f8cdf7d7a75bc6b64
+      Path: Events\Default Work Unit\C1 control room\C1_13_12
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_14_39
+      guid: d2e984118b7479498819c9c29ee538c3
+      id: 1714629294
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_14_39
+        ObjectType: 3
+        guid: d2e984118b7479498819c9c29ee538c3
+      Path: Events\Default Work Unit\C1 control room\C1_14_39
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_15_16
+      guid: 0610b24e16dc5a479862f2c0c299e8ec
+      id: 3953841524
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_15_16
+        ObjectType: 3
+        guid: 0610b24e16dc5a479862f2c0c299e8ec
+      Path: Events\Default Work Unit\C1 control room\C1_15_16
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_18_00
+      guid: 66d6809774ff5643a85041a1fd861b7a
+      id: 321959118
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_18_00
+        ObjectType: 3
+        guid: 66d6809774ff5643a85041a1fd861b7a
+      Path: Events\Default Work Unit\C1 control room\C1_18_00
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_18_16
+      guid: 099a8a6299834643b225bee35fa688b0
+      id: 338736807
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_18_16
+        ObjectType: 3
+        guid: 099a8a6299834643b225bee35fa688b0
+      Path: Events\Default Work Unit\C1 control room\C1_18_16
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_19_06
+      guid: f6f37fbce7e8bf47887246dda442b0f6
+      id: 382505183
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_19_06
+        ObjectType: 3
+        guid: f6f37fbce7e8bf47887246dda442b0f6
+      Path: Events\Default Work Unit\C1 control room\C1_19_06
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_19_39
+      guid: 717f9158f3841f40a5ac7783924dd547
+      id: 332172297
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_19_39
+        ObjectType: 3
+        guid: 717f9158f3841f40a5ac7783924dd547
+      Path: Events\Default Work Unit\C1 control room\C1_19_39
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_22_25
+      guid: 5e7f06619eb1ed48832757b25e0599ff
+      id: 3994027508
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_22_25
+        ObjectType: 3
+        guid: 5e7f06619eb1ed48832757b25e0599ff
+      Path: Events\Default Work Unit\C1 control room\C1_22_25
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_23_07
+      guid: a0768a1fca15234f9252c1d2d0349e09
+      id: 3331911463
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_23_07
+        ObjectType: 3
+        guid: a0768a1fca15234f9252c1d2d0349e09
+      Path: Events\Default Work Unit\C1 control room\C1_23_07
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_23_17
+      guid: b0e1088e3d252344b6ea34ec74fd9265
+      id: 3348689044
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_23_17
+        ObjectType: 3
+        guid: b0e1088e3d252344b6ea34ec74fd9265
+      Path: Events\Default Work Unit\C1 control room\C1_23_17
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_23_27
+      guid: 0fda2f4cee7e9f41bee5fc03bfb1051e
+      id: 3365466625
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_23_27
+        ObjectType: 3
+        guid: 0fda2f4cee7e9f41bee5fc03bfb1051e
+      Path: Events\Default Work Unit\C1 control room\C1_23_27
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_23_37
+      guid: cab993e485dc8c4b911fc12f62732528
+      id: 3382244350
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_23_37
+        ObjectType: 3
+        guid: cab993e485dc8c4b911fc12f62732528
+      Path: Events\Default Work Unit\C1 control room\C1_23_37
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_23_47
+      guid: 767974f6b665154697b50fffe79346e4
+      id: 3399021931
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_23_47
+        ObjectType: 3
+        guid: 767974f6b665154697b50fffe79346e4
+      Path: Events\Default Work Unit\C1 control room\C1_23_47
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C1_23_57
+      guid: dfb6b2828808774cb18447ea34e4f3ef
+      id: 3415799512
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: C1_23_57
+        ObjectType: 3
+        guid: dfb6b2828808774cb18447ea34e4f3ef
+      Path: Events\Default Work Unit\C1 control room\C1_23_57
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2 dome
+      guid: 026f1e114f80f34c90c180d7b636da4e
+      id: 3771762535
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      Path: Events\Default Work Unit\C2 dome
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_00_03
+      guid: c8a008e6c474124fad83f63f6f42f1fb
+      id: 3344226291
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_00_03
+        ObjectType: 3
+        guid: c8a008e6c474124fad83f63f6f42f1fb
+      Path: Events\Default Work Unit\C2 dome\C2_00_03
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_00_20
+      guid: a9cfd46530de9043b8b26a663ca21579
+      id: 3377781462
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_00_20
+        ObjectType: 3
+        guid: a9cfd46530de9043b8b26a663ca21579
+      Path: Events\Default Work Unit\C2 dome\C2_00_20
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_00_43
+      guid: d3a72c65919a704294353b61b38768b9
+      id: 3411336767
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_00_43
+        ObjectType: 3
+        guid: d3a72c65919a704294353b61b38768b9
+      Path: Events\Default Work Unit\C2 dome\C2_00_43
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_12_50
+      guid: de7938c283fa614588e7784b99e780ec
+      id: 1681844728
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_12_50
+        ObjectType: 3
+        guid: de7938c283fa614588e7784b99e780ec
+      Path: Events\Default Work Unit\C2 dome\C2_12_50
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_13_12
+      guid: b8e61eb2df521447bdd9c1e010715d0d
+      id: 1153949597
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_13_12
+        ObjectType: 3
+        guid: b8e61eb2df521447bdd9c1e010715d0d
+      Path: Events\Default Work Unit\C2 dome\C2_13_12
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_14_39
+      guid: d437ea3ae040a0449a55385a305b1669
+      id: 1733146549
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_14_39
+        ObjectType: 3
+        guid: d437ea3ae040a0449a55385a305b1669
+      Path: Events\Default Work Unit\C2 dome\C2_14_39
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_15_16
+      guid: 7fb9ff0eb10b7e439f7124ebe53f01f5
+      id: 3866457819
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_15_16
+        ObjectType: 3
+        guid: 7fb9ff0eb10b7e439f7124ebe53f01f5
+      Path: Events\Default Work Unit\C2 dome\C2_15_16
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_18_00
+      guid: 9a545d98071aa1498e3e43d1dc5d7995
+      id: 384477417
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_18_00
+        ObjectType: 3
+        guid: 9a545d98071aa1498e3e43d1dc5d7995
+      Path: Events\Default Work Unit\C2 dome\C2_18_00
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_18_16
+      guid: b51738ea1670624fb799235cc3f50d46
+      id: 367699824
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_18_16
+        ObjectType: 3
+        guid: b51738ea1670624fb799235cc3f50d46
+      Path: Events\Default Work Unit\C2 dome\C2_18_16
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_19_06
+      guid: ed3c4ee50314cb47a449530599a7caee
+      id: 303143000
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_19_06
+        ObjectType: 3
+        guid: ed3c4ee50314cb47a449530599a7caee
+      Path: Events\Default Work Unit\C2 dome\C2_19_06
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_19_39
+      guid: fda67c21e7356147aa1856015ffab31d
+      id: 286365410
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_19_39
+        ObjectType: 3
+        guid: fda67c21e7356147aa1856015ffab31d
+      Path: Events\Default Work Unit\C2 dome\C2_19_39
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_22_25
+      guid: d94648f166fa4144addf5122b6306f8a
+      id: 1848698379
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_22_25
+        ObjectType: 3
+        guid: d94648f166fa4144addf5122b6306f8a
+      Path: Events\Default Work Unit\C2 dome\C2_22_25
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_23_07
+      guid: 40fa7f44f65a1e4785e15fec71d2898a
+      id: 4054355444
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_23_07
+        ObjectType: 3
+        guid: 40fa7f44f65a1e4785e15fec71d2898a
+      Path: Events\Default Work Unit\C2 dome\C2_23_07
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_23_17
+      guid: 778b011e0d045449b1853618e1b98233
+      id: 4037577735
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_23_17
+        ObjectType: 3
+        guid: 778b011e0d045449b1853618e1b98233
+      Path: Events\Default Work Unit\C2 dome\C2_23_17
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_23_27
+      guid: 4e38442c92bef541b5ee838041114692
+      id: 4087910622
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_23_27
+        ObjectType: 3
+        guid: 4e38442c92bef541b5ee838041114692
+      Path: Events\Default Work Unit\C2 dome\C2_23_27
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_23_37
+      guid: 17e9dd2cb1358c4085211339019821d0
+      id: 4071133025
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_23_37
+        ObjectType: 3
+        guid: 17e9dd2cb1358c4085211339019821d0
+      Path: Events\Default Work Unit\C2 dome\C2_23_37
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_23_47
+      guid: fbf6d508bd728845b590d287ec9944b8
+      id: 4121465912
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_23_47
+        ObjectType: 3
+        guid: fbf6d508bd728845b590d287ec9944b8
+      Path: Events\Default Work Unit\C2 dome\C2_23_47
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C2_23_57
+      guid: 27f7defbcd36fa418558b7016a602031
+      id: 4104688203
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C2 dome
+        ObjectType: 4
+        guid: 026f1e114f80f34c90c180d7b636da4e
+      - ElementName: C2_23_57
+        ObjectType: 3
+        guid: 27f7defbcd36fa418558b7016a602031
+      Path: Events\Default Work Unit\C2 dome\C2_23_57
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4 geotracker + audiolog
+      guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      id: 3632784730
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      Path: Events\Default Work Unit\C4 geotracker + audiolog
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_00_03
+      guid: 82056888b283e949878c4ca4c386e58d
+      id: 395442425
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_00_03
+        ObjectType: 3
+        guid: 82056888b283e949878c4ca4c386e58d
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_00_03
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_00_20
+      guid: a792b568779b3b49a1aa1e9b764dd8ac
+      id: 361887124
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_00_20
+        ObjectType: 3
+        guid: a792b568779b3b49a1aa1e9b764dd8ac
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_00_20
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_00_43
+      guid: 53a5e78a63c8bb4b912ebaa41e64362f
+      id: 328331853
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_00_43
+        ObjectType: 3
+        guid: 53a5e78a63c8bb4b912ebaa41e64362f
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_00_43
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_12_50
+      guid: 7562fefb34c5704d890a5386a7ca3227
+      id: 3451854774
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_12_50
+        ObjectType: 3
+        guid: 7562fefb34c5704d890a5386a7ca3227
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_12_50
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_13_12
+      guid: 1fcfcebde2052a459c5e0a4174c62d6b
+      id: 3450397759
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_13_12
+        ObjectType: 3
+        guid: 1fcfcebde2052a459c5e0a4174c62d6b
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_13_12
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_14_39
+      guid: c58e96931a7c39419e63d57f401fdf96
+      id: 3513985507
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_14_39
+        ObjectType: 3
+        guid: c58e96931a7c39419e63d57f401fdf96
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_14_39
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_15_16
+      guid: 4daf8042610bf345a413e749abcafc6f
+      id: 737889529
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_15_16
+        ObjectType: 3
+        guid: 4daf8042610bf345a413e749abcafc6f
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_15_16
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_18_00
+      guid: 3790201f0ac7c142a1dba47a985c8e3e
+      id: 1416399987
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_18_00
+        ObjectType: 3
+        guid: 3790201f0ac7c142a1dba47a985c8e3e
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_18_00
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_18_16
+      guid: ed8f986e0c872f4c8c62504a6034c13d
+      id: 1399622278
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_18_16
+        ObjectType: 3
+        guid: ed8f986e0c872f4c8c62504a6034c13d
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_18_16
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_19_06
+      guid: f537b4ed1c57da42ad15bad1e095c625
+      id: 3472155054
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_19_06
+        ObjectType: 3
+        guid: f537b4ed1c57da42ad15bad1e095c625
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_19_06
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_19_39
+      guid: 3b57f05c442c80418e2f8d22412a79c1
+      id: 3522487912
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_19_39
+        ObjectType: 3
+        guid: 3b57f05c442c80418e2f8d22412a79c1
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_19_39
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_22_25
+      guid: 44c7a3828c578145a3d69120f882fb1b
+      id: 418766425
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_22_25
+        ObjectType: 3
+        guid: 44c7a3828c578145a3d69120f882fb1b
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_22_25
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_23_07
+      guid: b5e2076197fc7a42a2f8ce343850fc5c
+      id: 3238760298
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_23_07
+        ObjectType: 3
+        guid: b5e2076197fc7a42a2f8ce343850fc5c
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_23_07
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_23_17
+      guid: cbda82059cb36547bd61932de2dbfeb6
+      id: 3221982717
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_23_17
+        ObjectType: 3
+        guid: cbda82059cb36547bd61932de2dbfeb6
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_23_17
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_23_27
+      guid: ce803d8fe8be584d8e0eb007cbc1b5d3
+      id: 3205204992
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_23_27
+        ObjectType: 3
+        guid: ce803d8fe8be584d8e0eb007cbc1b5d3
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_23_27
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_23_37
+      guid: 4ac1275a5a104e4da32af51ad471b0d5
+      id: 3188427411
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_23_37
+        ObjectType: 3
+        guid: 4ac1275a5a104e4da32af51ad471b0d5
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_23_37
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_23_47
+      guid: 7040cd633feda347a8c60a70835b6952
+      id: 3171649830
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_23_47
+        ObjectType: 3
+        guid: 7040cd633feda347a8c60a70835b6952
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_23_47
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C4_23_57
+      guid: 41e0d6b03b0dbf4699d0cf218177b5c6
+      id: 3154872137
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C4 geotracker + audiolog
+        ObjectType: 4
+        guid: 072b52b8caee0e4f8d4c96fd9c58e3b5
+      - ElementName: C4_23_57
+        ObjectType: 3
+        guid: 41e0d6b03b0dbf4699d0cf218177b5c6
+      Path: Events\Default Work Unit\C4 geotracker + audiolog\C4_23_57
+      maxAttenuation: 0
+      maxDuration: 74.87823
+      minDuration: 74.87823
+    - name: C5 snowstorm
+      guid: 3a8f9286f2014442acc797fc60b4b1b7
+      id: 1563757949
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      Path: Events\Default Work Unit\C5 snowstorm
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_00_03
+      guid: 2e23188e8b2d644f8b818c0bc502d4b3
+      id: 567590384
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_00_03
+        ObjectType: 3
+        guid: 2e23188e8b2d644f8b818c0bc502d4b3
+      Path: Events\Default Work Unit\C5 snowstorm\C5_00_03
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_00_20
+      guid: 3aed24f116ef0547998fcef17157e0b2
+      id: 601145561
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_00_20
+        ObjectType: 3
+        guid: 3aed24f116ef0547998fcef17157e0b2
+      Path: Events\Default Work Unit\C5 snowstorm\C5_00_20
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_00_43
+      guid: 3f0065fc38e2e445a4331ed9d700e772
+      id: 634700860
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_00_43
+        ObjectType: 3
+        guid: 3f0065fc38e2e445a4331ed9d700e772
+      Path: Events\Default Work Unit\C5 snowstorm\C5_00_43
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_12_50
+      guid: 8364c40e3133f24e8913412fd0fd0bbe
+      id: 3953680567
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_12_50
+        ObjectType: 3
+        guid: 8364c40e3133f24e8913412fd0fd0bbe
+      Path: Events\Default Work Unit\C5 snowstorm\C5_12_50
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_13_12
+      guid: 3e041dfd1285ae4ab00172895871c8b2
+      id: 1766025650
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_13_12
+        ObjectType: 3
+        guid: 3e041dfd1285ae4ab00172895871c8b2
+      Path: Events\Default Work Unit\C5 snowstorm\C5_13_12
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_14_39
+      guid: e372c48c08db9d4989fa21b47a9c704b
+      id: 247154354
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_14_39
+        ObjectType: 3
+        guid: e372c48c08db9d4989fa21b47a9c704b
+      Path: Events\Default Work Unit\C5 snowstorm\C5_14_39
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_15_16
+      guid: 3b9c1360b058174cb404ef76bb55806d
+      id: 328488640
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_15_16
+        ObjectType: 3
+        guid: 3b9c1360b058174cb404ef76bb55806d
+      Path: Events\Default Work Unit\C5 snowstorm\C5_15_16
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_18_00
+      guid: 9e8a683c94fdef40877d72ba8639c7e2
+      id: 3841600122
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_18_00
+        ObjectType: 3
+        guid: 9e8a683c94fdef40877d72ba8639c7e2
+      Path: Events\Default Work Unit\C5 snowstorm\C5_18_00
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_18_16
+      guid: ab3fd7d7fefe384fbd33502347ef39f6
+      id: 3858377707
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_18_16
+        ObjectType: 3
+        guid: ab3fd7d7fefe384fbd33502347ef39f6
+      Path: Events\Default Work Unit\C5 snowstorm\C5_18_16
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_19_06
+      guid: f4e8e27bedc29b47abc35beef50f950e
+      id: 1785844931
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_19_06
+        ObjectType: 3
+        guid: f4e8e27bedc29b47abc35beef50f950e
+      Path: Events\Default Work Unit\C5 snowstorm\C5_19_06
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_19_39
+      guid: ac9e12feb422f244b2c2c169b70945b5
+      id: 1735512069
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_19_39
+        ObjectType: 3
+        guid: ac9e12feb422f244b2c2c169b70945b5
+      Path: Events\Default Work Unit\C5 snowstorm\C5_19_39
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_22_25
+      guid: 21c7ca413214ff4db5a3dff650c4740b
+      id: 1929024936
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_22_25
+        ObjectType: 3
+        guid: 21c7ca413214ff4db5a3dff650c4740b
+      Path: Events\Default Work Unit\C5 snowstorm\C5_22_25
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_23_07
+      guid: d6e09772a533a54d9e556a108ec69328
+      id: 3403998363
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_23_07
+        ObjectType: 3
+        guid: d6e09772a533a54d9e556a108ec69328
+      Path: Events\Default Work Unit\C5 snowstorm\C5_23_07
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_23_17
+      guid: da6656a2b8f43b48826d3e20777c7a90
+      id: 3420775944
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_23_17
+        ObjectType: 3
+        guid: da6656a2b8f43b48826d3e20777c7a90
+      Path: Events\Default Work Unit\C5 snowstorm\C5_23_17
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_23_27
+      guid: 8f20e8fd21d9a446bd31fd92bd4de52a
+      id: 3437553637
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_23_27
+        ObjectType: 3
+        guid: 8f20e8fd21d9a446bd31fd92bd4de52a
+      Path: Events\Default Work Unit\C5 snowstorm\C5_23_27
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_23_37
+      guid: fe89b351530b4c4cb8503a603039cff1
+      id: 3454331218
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_23_37
+        ObjectType: 3
+        guid: fe89b351530b4c4cb8503a603039cff1
+      Path: Events\Default Work Unit\C5 snowstorm\C5_23_37
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_23_47
+      guid: 4136bba36e49ae418a7dacfdc3757251
+      id: 3336887895
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_23_47
+        ObjectType: 3
+        guid: 4136bba36e49ae418a7dacfdc3757251
+      Path: Events\Default Work Unit\C5 snowstorm\C5_23_47
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C5_23_57
+      guid: f262aeba9339dc44b742269cf4157290
+      id: 3353665476
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C5 snowstorm
+        ObjectType: 4
+        guid: 3a8f9286f2014442acc797fc60b4b1b7
+      - ElementName: C5_23_57
+        ObjectType: 3
+        guid: f262aeba9339dc44b742269cf4157290
+      Path: Events\Default Work Unit\C5 snowstorm\C5_23_57
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6 cafeteria
+      guid: bec4b07ff1134a42809440c5905ec3b6
+      id: 4289521464
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      Path: Events\Default Work Unit\C6 cafeteria
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_00_03
+      guid: 5d59dd3fc2f99f4dbc3dd88fcd0ff27c
+      id: 3385182255
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_00_03
+        ObjectType: 3
+        guid: 5d59dd3fc2f99f4dbc3dd88fcd0ff27c
+      Path: Events\Default Work Unit\C6 cafeteria\C6_00_03
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_00_20
+      guid: 099588663ba2ec4db78d7baf18501cf4
+      id: 3418737522
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_00_20
+        ObjectType: 3
+        guid: 099588663ba2ec4db78d7baf18501cf4
+      Path: Events\Default Work Unit\C6 cafeteria\C6_00_20
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_00_43
+      guid: c9efa4635a558d4c8a8ab507812bef2a
+      id: 3318071779
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_00_43
+        ObjectType: 3
+        guid: c9efa4635a558d4c8a8ab507812bef2a
+      Path: Events\Default Work Unit\C6 cafeteria\C6_00_43
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_12_50
+      guid: 1d495b719e53684c9dd165d027fefdf9
+      id: 2057731148
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_12_50
+        ObjectType: 3
+        guid: 1d495b719e53684c9dd165d027fefdf9
+      Path: Events\Default Work Unit\C6 cafeteria\C6_12_50
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_13_12
+      guid: 748837d8f7b8bf4d9256b673e4fdfdcc
+      id: 4079931033
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_13_12
+        ObjectType: 3
+        guid: 748837d8f7b8bf4d9256b673e4fdfdcc
+      Path: Events\Default Work Unit\C6 cafeteria\C6_13_12
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_14_39
+      guid: 584e78ab60d3e04aaf548e5b6b933e9b
+      id: 488294521
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_14_39
+        ObjectType: 3
+        guid: 584e78ab60d3e04aaf548e5b6b933e9b
+      Path: Events\Default Work Unit\C6 cafeteria\C6_14_39
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_15_16
+      guid: b8afd8a186766d4ab18ee80fad98eed3
+      id: 2642394135
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_15_16
+        ObjectType: 3
+        guid: b8afd8a186766d4ab18ee80fad98eed3
+      Path: Events\Default Work Unit\C6 cafeteria\C6_15_16
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_18_00
+      guid: 547b6c97aedf8d4a9e7006c15d7bb54b
+      id: 4126741205
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_18_00
+        ObjectType: 3
+        guid: 547b6c97aedf8d4a9e7006c15d7bb54b
+      Path: Events\Default Work Unit\C6 cafeteria\C6_18_00
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_18_16
+      guid: 93979ed2e7754144bc1ea7b6878f3862
+      id: 4109963620
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_18_16
+        ObjectType: 3
+        guid: 93979ed2e7754144bc1ea7b6878f3862
+      Path: Events\Default Work Unit\C6 cafeteria\C6_18_16
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_19_06
+      guid: a5bc13acdc1f24488e2826ed88f09405
+      id: 4024618444
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_19_06
+        ObjectType: 3
+        guid: a5bc13acdc1f24488e2826ed88f09405
+      Path: Events\Default Work Unit\C6 cafeteria\C6_19_06
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_19_39
+      guid: c1ec6ed0101fe24b942b45f316f89c06
+      id: 4007840862
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_19_39
+        ObjectType: 3
+        guid: c1ec6ed0101fe24b942b45f316f89c06
+      Path: Events\Default Work Unit\C6 cafeteria\C6_19_39
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_22_25
+      guid: 20460b123b5c34448eb04e8fcaa8ae86
+      id: 1910442799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_22_25
+        ObjectType: 3
+        guid: 20460b123b5c34448eb04e8fcaa8ae86
+      Path: Events\Default Work Unit\C6 cafeteria\C6_22_25
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_23_07
+      guid: b5b0d141e56042459cf87e20ed86cf7e
+      id: 1968564520
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_23_07
+        ObjectType: 3
+        guid: b5b0d141e56042459cf87e20ed86cf7e
+      Path: Events\Default Work Unit\C6 cafeteria\C6_23_07
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_23_17
+      guid: edddd6c1b0c67b41b38344479898387f
+      id: 1951786939
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_23_17
+        ObjectType: 3
+        guid: edddd6c1b0c67b41b38344479898387f
+      Path: Events\Default Work Unit\C6 cafeteria\C6_23_17
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_23_27
+      guid: 5c1c1055760027408ccc6f982f0d7f36
+      id: 2002119794
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_23_27
+        ObjectType: 3
+        guid: 5c1c1055760027408ccc6f982f0d7f36
+      Path: Events\Default Work Unit\C6 cafeteria\C6_23_27
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_23_37
+      guid: b2ea79a3684f554d973059f7140a13a6
+      id: 1985342085
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_23_37
+        ObjectType: 3
+        guid: b2ea79a3684f554d973059f7140a13a6
+      Path: Events\Default Work Unit\C6 cafeteria\C6_23_37
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_23_47
+      guid: 584da575c4dd064bba4bf01216c69195
+      id: 1901454052
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_23_47
+        ObjectType: 3
+        guid: 584da575c4dd064bba4bf01216c69195
+      Path: Events\Default Work Unit\C6 cafeteria\C6_23_47
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C6_23_57
+      guid: f4abeb356eb05b43bdf6b75eb583781d
+      id: 1884676471
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C6 cafeteria
+        ObjectType: 4
+        guid: bec4b07ff1134a42809440c5905ec3b6
+      - ElementName: C6_23_57
+        ObjectType: 3
+        guid: f4abeb356eb05b43bdf6b75eb583781d
+      Path: Events\Default Work Unit\C6 cafeteria\C6_23_57
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7 logs
+      guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      id: 3881998136
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      Path: Events\Default Work Unit\C7 logs
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_00_03
+      guid: 14c640eae11cb344ad418dface359bad
+      id: 4273887302
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_00_03
+        ObjectType: 3
+        guid: 14c640eae11cb344ad418dface359bad
+      Path: Events\Default Work Unit\C7 logs\C7_00_03
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_00_20
+      guid: 2b859f98060bd945944b4c4dc370f048
+      id: 4240332159
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_00_20
+        ObjectType: 3
+        guid: 2b859f98060bd945944b4c4dc370f048
+      Path: Events\Default Work Unit\C7 logs\C7_00_20
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_00_43
+      guid: 1b9fa0dc081c9a44811de802e3dea40a
+      id: 4206776858
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_00_43
+        ObjectType: 3
+        guid: 1b9fa0dc081c9a44811de802e3dea40a
+      Path: Events\Default Work Unit\C7 logs\C7_00_43
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_12_50
+      guid: e40608ca60a6154282f66afafca6aff2
+      id: 2157397117
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_12_50
+        ObjectType: 3
+        guid: e40608ca60a6154282f66afafca6aff2
+      Path: Events\Default Work Unit\C7 logs\C7_12_50
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_13_12
+      guid: 8c1d143e8f51924b97817b387a0e86e9
+      id: 2138065780
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_13_12
+        ObjectType: 3
+        guid: 8c1d143e8f51924b97817b387a0e86e9
+      Path: Events\Default Work Unit\C7 logs\C7_13_12
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_14_39
+      guid: 8cc997da2dcd5e428e5bc07d5bfbb4d7
+      id: 1393158280
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_14_39
+        ObjectType: 3
+        guid: 8cc997da2dcd5e428e5bc07d5bfbb4d7
+      Path: Events\Default Work Unit\C7 logs\C7_14_39
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_15_16
+      guid: 878961c4bc0e024da3ff07390e4394de
+      id: 3565260070
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_15_16
+        ObjectType: 3
+        guid: 878961c4bc0e024da3ff07390e4394de
+      Path: Events\Default Work Unit\C7 logs\C7_15_16
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_18_00
+      guid: 9dc0df62bb067f4cb4ec8139b113dfd8
+      id: 2907537964
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_18_00
+        ObjectType: 3
+        guid: 9dc0df62bb067f4cb4ec8139b113dfd8
+      Path: Events\Default Work Unit\C7 logs\C7_18_00
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_18_16
+      guid: b2bfa8159212854b969a226d2793bde0
+      id: 2924315545
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_18_16
+        ObjectType: 3
+        guid: b2bfa8159212854b969a226d2793bde0
+      Path: Events\Default Work Unit\C7 logs\C7_18_16
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_19_06
+      guid: fc419b763996b8429fa394a3eaea7b16
+      id: 3536098705
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_19_06
+        ObjectType: 3
+        guid: fc419b763996b8429fa394a3eaea7b16
+      Path: Events\Default Work Unit\C7 logs\C7_19_06
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_19_39
+      guid: 4afe881de930514a9cf8381dbb7c40c1
+      id: 3552876291
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_19_39
+        ObjectType: 3
+        guid: 4afe881de930514a9cf8381dbb7c40c1
+      Path: Events\Default Work Unit\C7 logs\C7_19_39
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_22_25
+      guid: cf01129146a63240a4a1c5e4c71be03c
+      id: 807619246
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_22_25
+        ObjectType: 3
+        guid: cf01129146a63240a4a1c5e4c71be03c
+      Path: Events\Default Work Unit\C7 logs\C7_22_25
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_23_07
+      guid: 9792210483bc2d47a8894e6092ad3863
+      id: 2370491457
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_23_07
+        ObjectType: 3
+        guid: 9792210483bc2d47a8894e6092ad3863
+      Path: Events\Default Work Unit\C7 logs\C7_23_07
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_23_17
+      guid: 3ed08233921aa8479cc6ec776b185ea5
+      id: 2387269182
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_23_17
+        ObjectType: 3
+        guid: 3ed08233921aa8479cc6ec776b185ea5
+      Path: Events\Default Work Unit\C7 logs\C7_23_17
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_23_27
+      guid: 275250197889a54db3afd27eb59682fc
+      id: 2336936295
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_23_27
+        ObjectType: 3
+        guid: 275250197889a54db3afd27eb59682fc
+      Path: Events\Default Work Unit\C7 logs\C7_23_27
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_23_37
+      guid: 9f5f777c80cc2747ad0b48c0b22d5ca9
+      id: 2353713876
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_23_37
+        ObjectType: 3
+        guid: 9f5f777c80cc2747ad0b48c0b22d5ca9
+      Path: Events\Default Work Unit\C7 logs\C7_23_37
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_23_47
+      guid: d20979fd78ba5e47983844ce01564ef4
+      id: 2437602037
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_23_47
+        ObjectType: 3
+        guid: d20979fd78ba5e47983844ce01564ef4
+      Path: Events\Default Work Unit\C7 logs\C7_23_47
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C7_23_57
+      guid: 67c4ce436f177844a62f713d3f50cac2
+      id: 2454379618
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C7 logs
+        ObjectType: 4
+        guid: 08f6bbbf6eb2314fa1b4e516b84c6d32
+      - ElementName: C7_23_57
+        ObjectType: 3
+        guid: 67c4ce436f177844a62f713d3f50cac2
+      Path: Events\Default Work Unit\C7 logs\C7_23_57
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Cam1Offline
+      guid: 3789a92bafec2144a4501c166540b135
+      id: 4019301512
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: CamError
+        ObjectType: 4
+        guid: 0d1e81e4decb4840a3084d76ae08a40d
+      - ElementName: Cam1Offline
+        ObjectType: 3
+        guid: 3789a92bafec2144a4501c166540b135
+      Path: Events\Default Work Unit\CamError\Cam1Offline
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Cam2Offline
+      guid: c7a130d1ec3918418558a6615e497faa
+      id: 2073980345
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: CamError
+        ObjectType: 4
+        guid: 0d1e81e4decb4840a3084d76ae08a40d
+      - ElementName: Cam2Offline
+        ObjectType: 3
+        guid: c7a130d1ec3918418558a6615e497faa
+      Path: Events\Default Work Unit\CamError\Cam2Offline
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Cam4Offline
+      guid: 6bfd3086461ff94bb11250b5a36a6f83
+      id: 2910054147
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: CamError
+        ObjectType: 4
+        guid: 0d1e81e4decb4840a3084d76ae08a40d
+      - ElementName: Cam4Offline
+        ObjectType: 3
+        guid: 6bfd3086461ff94bb11250b5a36a6f83
+      Path: Events\Default Work Unit\CamError\Cam4Offline
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Cam6Offline
+      guid: 2c77b4e1b4b51043bb61c95950c76295
+      id: 1501610189
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: CamError
+        ObjectType: 4
+        guid: 0d1e81e4decb4840a3084d76ae08a40d
+      - ElementName: Cam6Offline
+        ObjectType: 3
+        guid: 2c77b4e1b4b51043bb61c95950c76295
+      Path: Events\Default Work Unit\CamError\Cam6Offline
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: CamError
+      guid: 0d1e81e4decb4840a3084d76ae08a40d
+      id: 3596370896
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: CamError
+        ObjectType: 4
+        guid: 0d1e81e4decb4840a3084d76ae08a40d
+      Path: Events\Default Work Unit\CamError
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Controller
+      guid: bf41468fe7c9b1459e4bead7bfc24d34
+      id: 1720438449
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: Controller
+        ObjectType: 4
+        guid: bf41468fe7c9b1459e4bead7bfc24d34
+      Path: Events\Default Work Unit\Controller
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: DisplayLogs
+      guid: 822afa27c45ba743b7c441e60e0895a4
+      id: 158810036
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: DisplayLogs
+        ObjectType: 4
+        guid: 822afa27c45ba743b7c441e60e0895a4
+      Path: Events\Default Work Unit\C1 control room\DisplayLogs
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: DisplayLogs
+      guid: e3a6115ff52fd2459e4de1cddee34040
+      id: 158810036
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: C1 control room
+        ObjectType: 4
+        guid: 70a9aea0080ba640954f11aa9a8aac7c
+      - ElementName: DisplayLogs
+        ObjectType: 4
+        guid: 822afa27c45ba743b7c441e60e0895a4
+      - ElementName: DisplayLogs
+        ObjectType: 3
+        guid: e3a6115ff52fd2459e4de1cddee34040
+      Path: Events\Default Work Unit\C1 control room\DisplayLogs\DisplayLogs
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_testevent
       guid: 918833c611f1744eac3f2614f74a0a3b
       id: 2351864238
@@ -113,6 +2600,186 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.6333333
       minDuration: 0.6333333
+    - name: PlayCameraNext
+      guid: f06c9edf6d1d1247a68d8fdf3c3ab9fa
+      id: 827475449
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: Controller
+        ObjectType: 4
+        guid: bf41468fe7c9b1459e4bead7bfc24d34
+      - ElementName: PlayCameraNext
+        ObjectType: 3
+        guid: f06c9edf6d1d1247a68d8fdf3c3ab9fa
+      Path: Events\Default Work Unit\Controller\PlayCameraNext
+      maxAttenuation: 0
+      maxDuration: 2.0669246
+      minDuration: 1.2562337
+    - name: PlayHelpButton
+      guid: dd003dd3c6e7f941bc2bcfb738a48767
+      id: 2189135566
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: Controller
+        ObjectType: 4
+        guid: bf41468fe7c9b1459e4bead7bfc24d34
+      - ElementName: PlayHelpButton
+        ObjectType: 3
+        guid: dd003dd3c6e7f941bc2bcfb738a48767
+      Path: Events\Default Work Unit\Controller\PlayHelpButton
+      maxAttenuation: 0
+      maxDuration: 0.6391875
+      minDuration: 0.6391875
+    - name: PlaySliderAM
+      guid: 4fed5028dc9b384db7a4691384f0f2f7
+      id: 461876018
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: Controller
+        ObjectType: 4
+        guid: bf41468fe7c9b1459e4bead7bfc24d34
+      - ElementName: PlaySliderAM
+        ObjectType: 3
+        guid: 4fed5028dc9b384db7a4691384f0f2f7
+      Path: Events\Default Work Unit\Controller\PlaySliderAM
+      maxAttenuation: 0
+      maxDuration: 1.7389792
+      minDuration: 1.7389792
+    - name: PlaySliderPM
+      guid: 278e48e421974548a884ac3a0d6fed79
+      id: 713540241
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: Controller
+        ObjectType: 4
+        guid: bf41468fe7c9b1459e4bead7bfc24d34
+      - ElementName: PlaySliderPM
+        ObjectType: 3
+        guid: 278e48e421974548a884ac3a0d6fed79
+      Path: Events\Default Work Unit\Controller\PlaySliderPM
+      maxAttenuation: 0
+      maxDuration: 1.9169792
+      minDuration: 1.9169792
+    - name: PlayTapeRunout
+      guid: 8a006ff792559847b5a950f268b0635b
+      id: 2441637858
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: Controller
+        ObjectType: 4
+        guid: bf41468fe7c9b1459e4bead7bfc24d34
+      - ElementName: PlayTapeRunout
+        ObjectType: 3
+        guid: 8a006ff792559847b5a950f268b0635b
+      Path: Events\Default Work Unit\Controller\PlayTapeRunout
+      maxAttenuation: 0
+      maxDuration: 2.7963758
+      minDuration: 2.7963758
+    - name: PlayTickClockwise
+      guid: f38cc983533f254999a47a341ae0ba09
+      id: 2708859806
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: Controller
+        ObjectType: 4
+        guid: bf41468fe7c9b1459e4bead7bfc24d34
+      - ElementName: PlayTickClockwise
+        ObjectType: 3
+        guid: f38cc983533f254999a47a341ae0ba09
+      Path: Events\Default Work Unit\Controller\PlayTickClockwise
+      maxAttenuation: 0
+      maxDuration: 0.27760416
+      minDuration: 0.17486264
+    - name: PlayTickClockwiseMinutes
+      guid: 8cb11e5372949c4797326041f38d39ca
+      id: 1437731693
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: Controller
+        ObjectType: 4
+        guid: bf41468fe7c9b1459e4bead7bfc24d34
+      - ElementName: PlayTickClockwiseMinutes
+        ObjectType: 3
+        guid: 8cb11e5372949c4797326041f38d39ca
+      Path: Events\Default Work Unit\Controller\PlayTickClockwiseMinutes
+      maxAttenuation: 0
+      maxDuration: 0.15953438
+      minDuration: 0.04355703
+    - name: PlayTickCounterclockwise
+      guid: 15511d67eb669849844d44e28cf39cd6
+      id: 1652600306
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: Controller
+        ObjectType: 4
+        guid: bf41468fe7c9b1459e4bead7bfc24d34
+      - ElementName: PlayTickCounterclockwise
+        ObjectType: 3
+        guid: 15511d67eb669849844d44e28cf39cd6
+      Path: Events\Default Work Unit\Controller\PlayTickCounterclockwise
+      maxAttenuation: 0
+      maxDuration: 0.3591257
+      minDuration: 0.24729313
+    - name: PlayTickCounterclockwiseMinutes
+      guid: d52ab5d442df094c9b410ef7b2335516
+      id: 427600625
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf1ea47e616b9641b1ef00c3728f3959
+      - ElementName: Controller
+        ObjectType: 4
+        guid: bf41468fe7c9b1459e4bead7bfc24d34
+      - ElementName: PlayTickCounterclockwiseMinutes
+        ObjectType: 3
+        guid: d52ab5d442df094c9b410ef7b2335516
+      Path: Events\Default Work Unit\Controller\PlayTickCounterclockwiseMinutes
+      maxAttenuation: 0
+      maxDuration: 0.18402228
+      minDuration: 0.08422528
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -125,8 +2792,92 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 87cfd5c1dc4775499ad28ef0596899d0
     GuidInternal: 
-    m_lastTime: -8584757231998418957
-    List: []
+    m_lastTime: -8584754655940366212
+    List:
+    - name: clockspeed
+      guid: 11451dcb13df074d816b0e125fdf5ecd
+      id: 2485212962
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87cfd5c1dc4775499ad28ef0596899d0
+      - ElementName: clockspeed
+        ObjectType: 13
+        guid: 11451dcb13df074d816b0e125fdf5ecd
+      Path: Game Parameters\Default Work Unit\clockspeed
+    - name: RTPC_AMB_VOL
+      guid: 5a95c0603e9ab84e868bd4a22b102187
+      id: 4239806503
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87cfd5c1dc4775499ad28ef0596899d0
+      - ElementName: RTPC_AMB_VOL
+        ObjectType: 13
+        guid: 5a95c0603e9ab84e868bd4a22b102187
+      Path: Game Parameters\Default Work Unit\RTPC_AMB_VOL
+    - name: RTPC_DIALOGUE_VOL
+      guid: 49eecb0bfe2a5642babff48ce283c378
+      id: 3553633719
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87cfd5c1dc4775499ad28ef0596899d0
+      - ElementName: RTPC_DIALOGUE_VOL
+        ObjectType: 13
+        guid: 49eecb0bfe2a5642babff48ce283c378
+      Path: Game Parameters\Default Work Unit\RTPC_DIALOGUE_VOL
+    - name: RTPC_MASTER_VOL
+      guid: 49951f9b14cbec4384691454f471ef22
+      id: 460070935
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87cfd5c1dc4775499ad28ef0596899d0
+      - ElementName: RTPC_MASTER_VOL
+        ObjectType: 13
+        guid: 49951f9b14cbec4384691454f471ef22
+      Path: Game Parameters\Default Work Unit\RTPC_MASTER_VOL
+    - name: RTPC_MUSIC_VOL
+      guid: 092e848343cca442b4c785f483decd75
+      id: 3061620274
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87cfd5c1dc4775499ad28ef0596899d0
+      - ElementName: RTPC_MUSIC_VOL
+        ObjectType: 13
+        guid: 092e848343cca442b4c785f483decd75
+      Path: Game Parameters\Default Work Unit\RTPC_MUSIC_VOL
+    - name: RTPC_SFX_VOL
+      guid: 5f6576b2bd379347871eeb6bb77942ab
+      id: 3502123226
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87cfd5c1dc4775499ad28ef0596899d0
+      - ElementName: RTPC_SFX_VOL
+        ObjectType: 13
+        guid: 5f6576b2bd379347871eeb6bb77942ab
+      Path: Game Parameters\Default Work Unit\RTPC_SFX_VOL
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:

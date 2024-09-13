@@ -49,6 +49,11 @@
 				<ActorMixer Name="Controller" ID="{DA6FF3E1-1FAB-481E-9DC5-0424399DFFD8}" ShortID="101269734">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
@@ -64,7 +69,7 @@
 							<PropertyList>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -634,6 +639,11 @@
 													<Modifier Name="" ID="{717B38D4-AD7C-41CD-A8CC-51436AEA9163}"/>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -1341,6 +1351,11 @@
 													<Modifier Name="" ID="{F13C43A2-008E-4A78-8F3A-D3925D890BFA}"/>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -2081,6 +2096,13 @@
 							</ChildrenList>
 						</ActorMixer>
 						<Sound Name="tape run out" ID="{0A2484BB-D4A9-4DC1-BBE2-C9FB8099EC3F}" ShortID="273600315">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
@@ -2193,6 +2215,13 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="camera" ID="{9830BC31-B61E-43CC-A46D-D1B1AFF3EF62}" ShortID="837269618">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
@@ -2398,6 +2427,11 @@
 															<Modifier Name="" ID="{B0EE772E-70AD-45B7-813D-B550117685D2}"/>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -2762,7 +2796,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2875,6 +2909,11 @@
 								<Sound Name="gravi high" ID="{BE56DA94-1E01-42C3-8B77-C948A894D031}" ShortID="191451537">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2977,14 +3016,11 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>23</Value>
+										<Value>15</Value>
 									</ValueList>
 								</Property>
-								<Property Name="MakeUpGain" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3211,8 +3247,20 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{A3782B56-3734-49E5-8F97-ACE96F698FD1}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-26.1593341260404"/>
+										<Property Name="PanY" Type="Real64" Value="-0.624219725343321"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
 						</ActorMixer>
 						<ActorMixer Name="Audiolog" ID="{808BAD74-A20B-4BB5-94C4-28B45E94A559}" ShortID="172187498">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
@@ -3257,6 +3305,14 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{7F356403-5C7D-4F79-B530-66DDF67B4F1E}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="46.0166468489893"/>
+										<Property Name="PanY" Type="Real64" Value="0.624219725343321"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
 						</ActorMixer>
 						<Sound Name="logupdate" ID="{EF2B559E-00B7-470E-8D51-54047A594080}" ShortID="47740843">
 							<PropertyList>
@@ -3266,6 +3322,11 @@
 									</ValueList>
 								</Property>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3318,6 +3379,59 @@
 								<ActiveSource Name="alarm1" ID="{46B974CF-435D-4FFC-92B1-1A685BA15433}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="logupdatelogscreen" ID="{DF7371CD-EB62-4834-8F63-D1E5727EA2F6}" ShortID="975434654">
+							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Big_Garage1" ID="{172402A8-22F4-40FC-BE1D-5269594CB633}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5F735549-7244-4326-A3D0-2D4907C17562}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="logupdate" ID="{6BA0BEC8-8750-4F17-B472-DC0F86E954CC}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.0564842970049917"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0564842970049917"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>logupdate.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="998206093"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="logupdate" ID="{6BA0BEC8-8750-4F17-B472-DC0F86E954CC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="World" ID="{F4EF790F-1241-4257-9F06-7CD890AFA274}" ShortID="86902937">
@@ -3333,6 +3447,175 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5F735549-7244-4326-A3D0-2D4907C17562}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="C1_00_20" ID="{36BBB637-AB64-488C-95DE-744525EC6479}" ShortID="288368810">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5F735549-7244-4326-A3D0-2D4907C17562}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="C1_00_20" ID="{C6E08352-F8B4-4A6C-98A8-84EA3EDD085B}">
+									<Language>SFX</Language>
+									<AudioFile>C1_00_20.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="21633705"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="C1_00_20" ID="{C6E08352-F8B4-4A6C-98A8-84EA3EDD085B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="C2_00_20" ID="{B87F3135-A868-44B0-8806-82CC07F7208C}" ShortID="849679783">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5F735549-7244-4326-A3D0-2D4907C17562}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="C2_00_20" ID="{46E75606-9A21-46F0-A287-034DC0A2D129}">
+									<Language>SFX</Language>
+									<AudioFile>C2_00_20.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="953504778"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="C2_00_20 mat noire" ID="{237E3E8F-BB0E-4403-927B-642E42FFA8F4}">
+									<Language>SFX</Language>
+									<AudioFile>C2_00_20 mat noire.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="779245781"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="C2_00_20 mat noire" ID="{237E3E8F-BB0E-4403-927B-642E42FFA8F4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="C2_00_43" ID="{92ABB6DA-F90B-449C-A507-C7E1C96F5E16}" ShortID="688262718">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5F735549-7244-4326-A3D0-2D4907C17562}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="C2_00_43" ID="{65ED8715-CD39-4811-9EC6-849621E71242}">
+									<Language>SFX</Language>
+									<AudioFile>C2_00_43.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="916918217"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="C2_00_43" ID="{65ED8715-CD39-4811-9EC6-849621E71242}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="C2_19_06" ID="{AF8393F7-FFC7-4AE4-BA53-3CD3C8007534}" ShortID="460095961">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5F735549-7244-4326-A3D0-2D4907C17562}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="C2_19_06" ID="{B0A8B133-EBEC-44C6-AFF4-8BEF8AF04F6F}">
+									<Language>SFX</Language>
+									<AudioFile>C2_19_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1001344937"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="C2_19_06" ID="{B0A8B133-EBEC-44C6-AFF4-8BEF8AF04F6F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="C2_22_25" ID="{B1F27964-79B7-4D39-8344-E54E1BDA7166}" ShortID="464465172">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5F735549-7244-4326-A3D0-2D4907C17562}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="C2_22_25" ID="{0C33D918-89D5-4BB9-973E-E4C3F946129E}">
+									<Language>SFX</Language>
+									<AudioFile>C2_22_25.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="294919922"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="C2_22_25" ID="{0C33D918-89D5-4BB9-973E-E4C3F946129E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Error" ID="{622C6610-B81F-4823-94EE-DFB9049708BB}" ShortID="769873080">
 					<PropertyList>
@@ -3363,7 +3646,7 @@
 						</Property>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-7</Value>
+								<Value>-14</Value>
 							</ValueList>
 						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -3372,7 +3655,6 @@
 								<ModifierInfo>
 									<Modifier Name="" ID="{0DE829FC-5FB2-4184-A873-2E495D74D72C}">
 										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
 											<Property Name="Max" Type="Real64" Value="200"/>
 											<Property Name="Min" Type="Real64" Value="-200"/>
 										</PropertyList>
@@ -3391,6 +3673,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="cam1offline" ID="{0C13376E-7AC1-4CDE-A042-9226D6B6C10B}" ShortID="402798782">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
@@ -3419,6 +3704,7 @@
 										<Value>16</Value>
 									</ValueList>
 								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -3447,6 +3733,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="cam2offline" ID="{6817B2DF-91B1-4502-8B9D-1FAEE1C0E2A6}" ShortID="361483166">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
@@ -3470,6 +3759,7 @@
 						</Sound>
 						<Sound Name="cam6offline" ID="{68FF6F7D-89FE-44BA-9BAF-2C23CFF035E2}" ShortID="279633004">
 							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
 										<Value>6</Value>
@@ -3787,6 +4077,62 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5F735549-7244-4326-A3D0-2D4907C17562}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ost theclock1" ID="{E48F0792-E225-4717-BC98-00936D3C9418}" ShortID="380471389">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5F735549-7244-4326-A3D0-2D4907C17562}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ost theclock1" ID="{6CBAFE86-C73F-46F2-B502-406719C2388A}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="267.730337078652"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ost theclock1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="626362567"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="ost theclock1 sansbug" ID="{9BCD6F12-F9CF-40F2-9151-D0FA702DFE51}">
+									<Language>SFX</Language>
+									<AudioFile>ost theclock1 sansbug.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="655388474"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="assemblage ost 123" ID="{BD191464-B9F0-4803-8763-F50CEC9E90D1}">
+									<Language>SFX</Language>
+									<AudioFile>assemblage ost 123.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="825287063"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="assemblage ost 123" ID="{BD191464-B9F0-4803-8763-F50CEC9E90D1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Amb" ID="{5CF81882-7510-4E9D-9AFA-2DBFB67C707F}" ShortID="825237885">
 					<PropertyList>
@@ -3995,7 +4341,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4237,8 +4583,8 @@
 													<Modifier Name="" ID="{78108F0C-FA61-449D-BE04-73856F401DA9}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="100"/>
-															<Property Name="Min" Type="Real64" Value="-100"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -4405,6 +4751,11 @@
 														<Value>3</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -4432,6 +4783,11 @@
 												<Property Name="MakeUpGain" Type="Real64">
 													<ValueList>
 														<Value>2</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -4565,6 +4921,53 @@
 										</Sound>
 									</ChildrenList>
 								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="logscreen" ID="{D69124F0-7755-4083-BD71-158464DC917A}" ShortID="621461258">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5F735549-7244-4326-A3D0-2D4907C17562}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="logscreen amb" ID="{9BFF91CB-D7FB-431D-B1D4-23EC6D3DE533}" ShortID="252537626">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B123F89F-099C-4CC4-9F54-7250CF643619}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5F735549-7244-4326-A3D0-2D4907C17562}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="logscreen amb" ID="{445E6F4F-AB83-4FB7-9993-5B4226A38970}">
+											<Language>SFX</Language>
+											<AudioFile>logscreen amb.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="866303284"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="logscreen amb" ID="{445E6F4F-AB83-4FB7-9993-5B4226A38970}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

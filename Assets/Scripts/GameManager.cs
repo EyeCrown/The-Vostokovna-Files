@@ -321,6 +321,7 @@ public class GameManager : MonoBehaviour
         {
             DisplayTextureFile($"{_currentCameraImageName}_help");
         }
+
     }
     
     #endregion

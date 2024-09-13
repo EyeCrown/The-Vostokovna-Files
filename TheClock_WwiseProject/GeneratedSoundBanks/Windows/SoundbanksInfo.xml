@@ -34,13 +34,17 @@
 				<GameParameter Id="4239806503" Name="RTPC_AMB_VOL"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{2B0394A9-BE83-E664-CA0E-38B74CEA7B39}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{E16A14D0-2FA1-5419-1AE5-42721671D532}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
 				<File Id="7963171" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>snowstorm int4.wav</ShortName>
 					<CachePath>SFX/snowstorm int4_755F56E2.wem</CachePath>
+				</File>
+				<File Id="21633705" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C1_00_20.wav</ShortName>
+					<CachePath>SFX/C1_00_20_755F56E2.wem</CachePath>
 				</File>
 				<File Id="34232821" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>C6S11 tu ne veux pas voir la pluie d'étoiles filantes _ non je me couche tot ce soir.wav</ShortName>
@@ -104,7 +108,7 @@
 				</File>
 				<File Id="216307312" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>cam4 error.wav</ShortName>
-					<CachePath>SFX/cam4 error_755F56E2.wem</CachePath>
+					<CachePath>SFX/cam4 error_073B4D0C.wem</CachePath>
 				</File>
 				<File Id="235812864" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>cameranextcameraprevious layer rc.wav</ShortName>
@@ -112,11 +116,15 @@
 				</File>
 				<File Id="261239790" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>errors-002.wav</ShortName>
-					<CachePath>SFX/errors-002_755F56E2.wem</CachePath>
+					<CachePath>SFX/errors-002_073B4D0C.wem</CachePath>
 				</File>
 				<File Id="287632855" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>camera next camera previous.wav</ShortName>
 					<CachePath>SFX/camera next camera previous_87800BCB.wem</CachePath>
+				</File>
+				<File Id="294919922" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C2_22_25.wav</ShortName>
+					<CachePath>SFX/C2_22_25_755F56E2.wem</CachePath>
 				</File>
 				<File Id="310666768" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>snowstorm v3.wav</ShortName>
@@ -137,6 +145,10 @@
 				<File Id="323111567" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1.wav</ShortName>
 					<CachePath>SFX/Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_41BD22A7.wem</CachePath>
+				</File>
+				<File Id="324298945" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ubv76.wav</ShortName>
+					<CachePath>SFX/ubv76_755F56E2.wem</CachePath>
 				</File>
 				<File Id="377295070" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pm switch.wav</ShortName>
@@ -182,6 +194,10 @@
 					<ShortName>Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1.wav</ShortName>
 					<CachePath>SFX/Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_2532F4BF.wem</CachePath>
 				</File>
+				<File Id="526065240" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>firebird.wav</ShortName>
+					<CachePath>SFX/firebird_755F56E2.wem</CachePath>
+				</File>
 				<File Id="547238914" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
 					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_8C7D64D2.wem</CachePath>
@@ -204,7 +220,7 @@
 				</File>
 				<File Id="694575309" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>cam6alarm.wav</ShortName>
-					<CachePath>SFX/cam6alarm_755F56E2.wem</CachePath>
+					<CachePath>SFX/cam6alarm_073B4D0C.wem</CachePath>
 				</File>
 				<File Id="700869081" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Clocks, Mechanics, Old, Metal, Mechanism, Short SND9439.wav</ShortName>
@@ -213,6 +229,10 @@
 				<File Id="740301231" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
 					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_C7DD13E4.wem</CachePath>
+				</File>
+				<File Id="779245781" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C2_00_20 mat noire.wav</ShortName>
+					<CachePath>SFX/C2_00_20 mat noire_755F56E2.wem</CachePath>
 				</File>
 				<File Id="789897436" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>camera next camera previous.wav</ShortName>
@@ -234,6 +254,10 @@
 					<ShortName>dome v1 real.wav</ShortName>
 					<CachePath>SFX/dome v1 real_755F56E2.wem</CachePath>
 				</File>
+				<File Id="825287063" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>assemblage ost 123.wav</ShortName>
+					<CachePath>SFX/assemblage ost 123_073B4D0C.wem</CachePath>
+				</File>
 				<File Id="827848437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1.wav</ShortName>
 					<CachePath>SFX/Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_5FD3770F.wem</CachePath>
@@ -242,9 +266,17 @@
 					<ShortName>snowstorm int3.wav</ShortName>
 					<CachePath>SFX/snowstorm int3_755F56E2.wem</CachePath>
 				</File>
+				<File Id="848811204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>emission.wav</ShortName>
+					<CachePath>SFX/emission_755F56E2.wem</CachePath>
+				</File>
 				<File Id="859063813" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>snowstorm int2.wav</ShortName>
 					<CachePath>SFX/snowstorm int2_755F56E2.wem</CachePath>
+				</File>
+				<File Id="866303284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>logscreen amb.wav</ShortName>
+					<CachePath>SFX/logscreen amb_073B4D0C.wem</CachePath>
 				</File>
 				<File Id="870953033" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>audiolog bleep.wav</ShortName>
@@ -265,6 +297,10 @@
 				<File Id="910907459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>am switch.wav</ShortName>
 					<CachePath>SFX/am switch_755F56E2.wem</CachePath>
+				</File>
+				<File Id="916918217" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C2_00_43.wav</ShortName>
+					<CachePath>SFX/C2_00_43_755F56E2.wem</CachePath>
 				</File>
 				<File Id="920777890" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>geotracker.wav</ShortName>
@@ -289,6 +325,14 @@
 				<File Id="989589681" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015.wav</ShortName>
 					<CachePath>SFX/Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_A5C15490.wem</CachePath>
+				</File>
+				<File Id="998206093" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>logupdate.wav</ShortName>
+					<CachePath>SFX/logupdate_952E39D7.wem</CachePath>
+				</File>
+				<File Id="1001344937" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C2_19_06.wav</ShortName>
+					<CachePath>SFX/C2_19_06_755F56E2.wem</CachePath>
 				</File>
 				<File Id="1003170687" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>beeping1 desi high.wav</ShortName>
@@ -316,7 +360,7 @@
 				</File>
 				<File Id="1064078893" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>errors-001.wav</ShortName>
-					<CachePath>SFX/errors-001_755F56E2.wem</CachePath>
+					<CachePath>SFX/errors-001_073B4D0C.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -325,603 +369,717 @@
 				</ShareSets>
 			</Plugins>
 			<Events>
-				<Event Id="4159720949" Name="C1S1" DurationType="Infinite">
+				<Event Id="359480061" Name="C1_00_20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="21633705"/>
+						<MediaRef Id="192633284"/>
+						<MediaRef Id="825287063"/>
+						<MediaRef Id="859063813"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1105655235" Name="C1_12_50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="192633284"/>
+						<MediaRef Id="825287063"/>
+						<MediaRef Id="859063813"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3953841524" Name="C1_15_16" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="192633284"/>
 						<MediaRef Id="613554267"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="859063813"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="1145747615" Name="C1S10" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
-					<MediaRefs>
-						<MediaRef Id="192633284"/>
-						<MediaRef Id="859063813"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1145747614" Name="C1S11" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
-					<MediaRefs>
-						<MediaRef Id="192633284"/>
-						<MediaRef Id="859063813"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1145747613" Name="C1S12" DurationType="OneShot" DurationMin="12.211716" DurationMax="15.3857975">
-					<MediaRefs>
-						<MediaRef Id="1064078893"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1145747612" Name="C1S13" DurationType="OneShot" DurationMin="12.211716" DurationMax="15.3857975">
-					<MediaRefs>
-						<MediaRef Id="1064078893"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1145747611" Name="C1S14" DurationType="OneShot" DurationMin="12.211716" DurationMax="15.3857975">
-					<MediaRefs>
-						<MediaRef Id="1064078893"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1145747610" Name="C1S15" DurationType="OneShot" DurationMin="12.211716" DurationMax="15.3857975">
-					<MediaRefs>
-						<MediaRef Id="1064078893"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1145747609" Name="C1S16" DurationType="OneShot" DurationMin="12.211716" DurationMax="15.3857975">
-					<MediaRefs>
-						<MediaRef Id="1064078893"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1145747608" Name="C1S17" DurationType="OneShot" DurationMin="12.211716" DurationMax="15.3857975">
-					<MediaRefs>
-						<MediaRef Id="1064078893"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4159720950" Name="C1S2" DurationType="OneShot" DurationMin="12.211716" DurationMax="15.3857975">
-					<MediaRefs>
-						<MediaRef Id="1064078893"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4159720951" Name="C1S3" DurationType="OneShot" DurationMin="12.211716" DurationMax="15.3857975">
-					<MediaRefs>
-						<MediaRef Id="1064078893"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4159720944" Name="C1S4" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
-					<MediaRefs>
-						<MediaRef Id="192633284"/>
-						<MediaRef Id="859063813"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4159720945" Name="C1S5" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="192633284"/>
-						<MediaRef Id="613554267"/>
-						<MediaRef Id="859063813"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1095414727" Name="C1S61" DurationType="OneShot" DurationMin="12.211716" DurationMax="15.3857975">
-					<MediaRefs>
-						<MediaRef Id="1064078893"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1095414724" Name="C1S62" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
-					<MediaRefs>
-						<MediaRef Id="192633284"/>
-						<MediaRef Id="859063813"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4159720947" Name="C1S7" DurationType="OneShot" DurationMin="12.211716" DurationMax="15.3857975">
-					<MediaRefs>
-						<MediaRef Id="1064078893"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4159720956" Name="C1S8" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
+				<Event Id="321959118" Name="C1_18_00" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="192633284"/>
 						<MediaRef Id="659221316"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="859063813"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="4159720957" Name="C1S9" DurationType="Infinite">
+				<Event Id="338736807" Name="C1_18_16" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="192633284"/>
+						<MediaRef Id="825287063"/>
+						<MediaRef Id="859063813"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="382505183" Name="C1_19_06" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="192633284"/>
+						<MediaRef Id="825287063"/>
+						<MediaRef Id="859063813"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="332172297" Name="C1_19_39" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="192633284"/>
+						<MediaRef Id="613554267"/>
+						<MediaRef Id="859063813"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3994027508" Name="C1_22_25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="192633284"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="859063813"/>
 						<MediaRef Id="1003170687"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3757205154" Name="C2S1" DurationType="OneShot" DurationMin="22.90883" DurationMax="28.863317">
+				<Event Id="3377781462" Name="C2_00_20" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="261239790"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="748130614" Name="C2S10" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="410168488"/>
+						<MediaRef Id="779245781"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="748130615" Name="C2S11" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="410168488"/>
-						<MediaRef Id="813835800"/>
-						<MediaRef Id="829730024"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="748130612" Name="C2S12" DurationType="Infinite">
+				<Event Id="3411336767" Name="C2_00_43" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
-						<MediaRef Id="964139239"/>
+						<MediaRef Id="916918217"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="748130613" Name="C2S13" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="813835800"/>
-						<MediaRef Id="829730024"/>
-						<MediaRef Id="964139239"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="748130610" Name="C2S14" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="813835800"/>
-						<MediaRef Id="829730024"/>
-						<MediaRef Id="964139239"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="748130611" Name="C2S15" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="813835800"/>
-						<MediaRef Id="829730024"/>
-						<MediaRef Id="964139239"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="748130608" Name="C2S16" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="813835800"/>
-						<MediaRef Id="829730024"/>
-						<MediaRef Id="964139239"/>
-					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3546444380"/>
-						</ShareSets>
-					</PluginRefs>
-				</Event>
-				<Event Id="748130609" Name="C2S17" DurationType="OneShot" DurationMin="22.90883" DurationMax="28.863317">
-					<MediaRefs>
-						<MediaRef Id="261239790"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3757205153" Name="C2S2" DurationType="OneShot" DurationMin="22.90883" DurationMax="28.863317">
-					<MediaRefs>
-						<MediaRef Id="261239790"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3757205152" Name="C2S3" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="59347613"/>
-						<MediaRef Id="813835800"/>
-						<MediaRef Id="829730024"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3757205159" Name="C2S4" DurationType="Infinite">
+				<Event Id="1681844728" Name="C2_12_50" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="179510948"/>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3757205158" Name="C2S5" DurationType="OneShot" DurationMin="22.90883" DurationMax="28.863317">
+				<Event Id="1153949597" Name="C2_13_12" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="261239790"/>
+						<MediaRef Id="59347613"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
+						<MediaRef Id="829730024"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="798463374" Name="C2S61" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
+				<Event Id="384477417" Name="C2_18_00" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="798463373" Name="C2S62" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
+				<Event Id="367699824" Name="C2_18_16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="410168488"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
+						<MediaRef Id="829730024"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="303143000" Name="C2_19_06" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="410168488"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
+						<MediaRef Id="829730024"/>
+						<MediaRef Id="1001344937"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1848698379" Name="C2_22_25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="294919922"/>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
+						<MediaRef Id="829730024"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4054355444" Name="C2_23_07" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
+						<MediaRef Id="964139239"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3757205156" Name="C2S7" DurationType="OneShot" DurationMin="22.90883" DurationMax="28.863317">
-					<MediaRefs>
-						<MediaRef Id="261239790"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3757205163" Name="C2S8" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
+				<Event Id="4037577735" Name="C2_23_17" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
+						<MediaRef Id="964139239"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3757205162" Name="C2S9" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
+				<Event Id="4087910622" Name="C2_23_27" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="829730024"/>
+						<MediaRef Id="964139239"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3756322616" Name="C4S1" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
+				<Event Id="4071133025" Name="C2_23_37" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
+						<MediaRef Id="829730024"/>
+						<MediaRef Id="964139239"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4121465912" Name="C2_23_47" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="813835800"/>
+						<MediaRef Id="825287063"/>
+						<MediaRef Id="829730024"/>
+						<MediaRef Id="964139239"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="361887124" Name="C4_00_20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="870953033"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="2909050136" Name="C4S10" DurationType="OneShot" DurationMin="27.490591" DurationMax="34.635975">
+				<Event Id="328331853" Name="C4_00_43" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="216307312"/>
+						<MediaRef Id="7963171"/>
+						<MediaRef Id="825287063"/>
+						<MediaRef Id="870953033"/>
+						<MediaRef Id="1004644863"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="2909050137" Name="C4S11" DurationType="OneShot" DurationMin="27.490591" DurationMax="34.635975">
+				<Event Id="737889529" Name="C4_15_16" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="216307312"/>
+						<MediaRef Id="7963171"/>
+						<MediaRef Id="825287063"/>
+						<MediaRef Id="870953033"/>
+						<MediaRef Id="1004644863"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="2909050138" Name="C4S12" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
+				<Event Id="3238760298" Name="C4_23_07" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
 						<MediaRef Id="321404863"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="2909050139" Name="C4S13" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
+				<Event Id="3221982717" Name="C4_23_17" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
 						<MediaRef Id="76647228"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="2909050140" Name="C4S14" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
+				<Event Id="3205204992" Name="C4_23_27" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="929915281"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="2909050141" Name="C4S15" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
+				<Event Id="3188427411" Name="C4_23_37" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="920777890"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="2909050142" Name="C4S16" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
+				<Event Id="3171649830" Name="C4_23_47" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="880800395"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="2909050143" Name="C4S17" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
+				<Event Id="3154872137" Name="C4_23_57" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
 					<MediaRefs>
 						<MediaRef Id="7963171"/>
 						<MediaRef Id="215077952"/>
 						<MediaRef Id="1004644863"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3756322619" Name="C4S2" DurationType="OneShot" DurationMin="27.490591" DurationMax="34.635975">
-					<MediaRefs>
-						<MediaRef Id="216307312"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3756322618" Name="C4S3" DurationType="OneShot" DurationMin="27.490591" DurationMax="34.635975">
-					<MediaRefs>
-						<MediaRef Id="216307312"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3756322621" Name="C4S4" DurationType="OneShot" DurationMin="27.490591" DurationMax="34.635975">
-					<MediaRefs>
-						<MediaRef Id="216307312"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3756322620" Name="C4S5" DurationType="OneShot" DurationMin="27.490591" DurationMax="34.635975">
-					<MediaRefs>
-						<MediaRef Id="216307312"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3026493468" Name="C4S61" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
-					<MediaRefs>
-						<MediaRef Id="7963171"/>
-						<MediaRef Id="870953033"/>
-						<MediaRef Id="1004644863"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3026493471" Name="C4S62" DurationType="OneShot" DurationMin="74.87823" DurationMax="74.87823">
-					<MediaRefs>
-						<MediaRef Id="7963171"/>
-						<MediaRef Id="870953033"/>
-						<MediaRef Id="1004644863"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3756322622" Name="C4S7" DurationType="OneShot" DurationMin="27.490591" DurationMax="34.635975">
-					<MediaRefs>
-						<MediaRef Id="216307312"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3756322609" Name="C4S8" DurationType="OneShot" DurationMin="27.490591" DurationMax="34.635975">
-					<MediaRefs>
-						<MediaRef Id="216307312"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3756322608" Name="C4S9" DurationType="OneShot" DurationMin="27.490591" DurationMax="34.635975">
-					<MediaRefs>
-						<MediaRef Id="216307312"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3756469649" Name="C5S1" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="567590384" Name="C5_00_03" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="166509427" Name="C5S10" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="601145561" Name="C5_00_20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="166509426" Name="C5S11" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="634700860" Name="C5_00_43" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="166509425" Name="C5S12" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="3953680567" Name="C5_12_50" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="166509424" Name="C5S13" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="1766025650" Name="C5_13_12" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="166509431" Name="C5S14" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="247154354" Name="C5_14_39" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="166509430" Name="C5S15" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="328488640" Name="C5_15_16" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="166509429" Name="C5S16" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="3841600122" Name="C5_18_00" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="166509428" Name="C5S17" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="3858377707" Name="C5_18_16" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3756469650" Name="C5S2" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="1785844931" Name="C5_19_06" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3756469651" Name="C5S3" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="1735512069" Name="C5_19_39" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3756469652" Name="C5S4" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="1929024936" Name="C5_22_25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3756469653" Name="C5S5" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="3403998363" Name="C5_23_07" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="250397459" Name="C5S61" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="3420775944" Name="C5_23_17" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="250397456" Name="C5S62" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="3437553637" Name="C5_23_27" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3756469655" Name="C5S7" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="3454331218" Name="C5_23_37" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3756469656" Name="C5S8" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="3336887895" Name="C5_23_47" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3756469657" Name="C5S9" DurationType="OneShot" DurationMin="67.810234" DurationMax="85.43555">
+				<Event Id="3353665476" Name="C5_23_57" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="310666768"/>
 						<MediaRef Id="793390884"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="978082249"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3890837758" Name="C6S1" DurationType="Infinite">
+				<Event Id="3385182255" Name="C6_00_03" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="470927915"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="310999018" Name="C6S10" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="78300076"/>
-						<MediaRef Id="470927915"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="310999019" Name="C6S11" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="34232821"/>
-						<MediaRef Id="78300076"/>
-						<MediaRef Id="470927915"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="310999016" Name="C6S12" DurationType="OneShot" DurationMin="14.051755" DurationMax="17.704102">
-					<MediaRefs>
-						<MediaRef Id="694575309"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="310999017" Name="C6S13" DurationType="OneShot" DurationMin="14.051755" DurationMax="17.704102">
-					<MediaRefs>
-						<MediaRef Id="694575309"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="310999022" Name="C6S14" DurationType="OneShot" DurationMin="14.051755" DurationMax="17.704102">
-					<MediaRefs>
-						<MediaRef Id="694575309"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="310999023" Name="C6S15" DurationType="OneShot" DurationMin="14.051755" DurationMax="17.704102">
-					<MediaRefs>
-						<MediaRef Id="694575309"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="310999020" Name="C6S16" DurationType="OneShot" DurationMin="14.051755" DurationMax="17.704102">
-					<MediaRefs>
-						<MediaRef Id="694575309"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="310999021" Name="C6S17" DurationType="OneShot" DurationMin="14.051755" DurationMax="17.704102">
-					<MediaRefs>
-						<MediaRef Id="694575309"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3890837757" Name="C6S2" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="78300076"/>
-						<MediaRef Id="470927915"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3890837756" Name="C6S3" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="78300076"/>
-						<MediaRef Id="470927915"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3890837755" Name="C6S4" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="78300076"/>
-						<MediaRef Id="470927915"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3890837754" Name="C6S5" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="78300076"/>
-						<MediaRef Id="470927915"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="227110858" Name="C6S61" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="78300076"/>
-						<MediaRef Id="470927915"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="227110857" Name="C6S62" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="78300076"/>
-						<MediaRef Id="470927915"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3890837752" Name="C6S7" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="78300076"/>
-						<MediaRef Id="470927915"/>
+						<MediaRef Id="825287063"/>
 						<MediaRef Id="965307109"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3890837751" Name="C6S8" DurationType="Infinite">
+				<Event Id="3418737522" Name="C6_00_20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="825287063"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3318071779" Name="C6_00_43" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="526065240"/>
+						<MediaRef Id="825287063"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="2057731148" Name="C6_12_50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="825287063"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4079931033" Name="C6_13_12" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="825287063"/>
+						<MediaRef Id="848811204"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="488294521" Name="C6_14_39" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="825287063"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="2642394135" Name="C6_15_16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="825287063"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4126741205" Name="C6_18_00" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="151256277"/>
 						<MediaRef Id="470927915"/>
+						<MediaRef Id="825287063"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3890837750" Name="C6S9" DurationType="Infinite">
+				<Event Id="4109963620" Name="C6_18_16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="34232821"/>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="825287063"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4024618444" Name="C6_19_06" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="78300076"/>
 						<MediaRef Id="470927915"/>
+						<MediaRef Id="825287063"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4007840862" Name="C6_19_39" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="324298945"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="825287063"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1910442799" Name="C6_22_25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78300076"/>
+						<MediaRef Id="470927915"/>
+						<MediaRef Id="825287063"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2441637858" Name="PlayTapeRunout"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="4019301512" Name="Cam1Offline" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1064078893"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4025205711" Name="C7S1" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2133147373" Name="C7S10" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2133147372" Name="C7S11" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2133147375" Name="C7S12" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2133147374" Name="C7S13" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2133147369" Name="C7S14" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2133147368" Name="C7S15" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2133147371" Name="C7S16" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2133147370" Name="C7S17" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4025205708" Name="C7S2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4025205709" Name="C7S3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4025205706" Name="C7S4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4025205707" Name="C7S5" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2015704041" Name="C7S61" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2015704042" Name="C7S62" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4025205705" Name="C7S7" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4025205702" Name="C7S8" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4025205703" Name="C7S9" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3941019376" Name="Play_TC_SFX_RC_Control_CameraNext" DurationType="OneShot" DurationMin="1.2562337" DurationMax="2.0669246">
+				<Event Id="2073980345" Name="Cam2Offline" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="261239790"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2910054147" Name="Cam4Offline" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="216307312"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1501610189" Name="Cam6Offline" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="694575309"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="158810036" Name="DisplayLogs" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866303284"/>
+						<MediaRef Id="998206093"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2351864238" Name="Play_testevent" DurationType="OneShot" DurationMin="0.6333333" DurationMax="0.6333333">
+					<MediaRefs>
+						<MediaRef Id="557991585"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="827475449" Name="PlayCameraNext" DurationType="OneShot" DurationMin="1.2562337" DurationMax="2.0669246">
 					<MediaRefs>
 						<MediaRef Id="60134096"/>
 						<MediaRef Id="73031717"/>
@@ -938,27 +1096,27 @@
 						<MediaRef Id="1060255485"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="902629463" Name="Play_TC_SFX_RC_Control_HelpButton" DurationType="OneShot" DurationMin="0.6391875" DurationMax="0.6391875">
+				<Event Id="2189135566" Name="PlayHelpButton" DurationType="OneShot" DurationMin="0.6391875" DurationMax="0.6391875">
 					<MediaRefs>
 						<MediaRef Id="394428278"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3348876875" Name="Play_TC_SFX_RC_Control_SliderAM" DurationType="OneShot" DurationMin="1.7389792" DurationMax="1.7389792">
+				<Event Id="461876018" Name="PlaySliderAM" DurationType="OneShot" DurationMin="1.7389792" DurationMax="1.7389792">
 					<MediaRefs>
 						<MediaRef Id="910907459"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3634096260" Name="Play_TC_SFX_RC_Control_SliderPM" DurationType="OneShot" DurationMin="1.9169792" DurationMax="1.9169792">
+				<Event Id="713540241" Name="PlaySliderPM" DurationType="OneShot" DurationMin="1.9169792" DurationMax="1.9169792">
 					<MediaRefs>
 						<MediaRef Id="377295070"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1909750219" Name="Play_TC_SFX_RC_Control_TapeRunout" DurationType="OneShot" DurationMin="2.7963758" DurationMax="2.7963758">
+				<Event Id="2441637858" Name="PlayTapeRunout" DurationType="OneShot" DurationMin="2.7963758" DurationMax="2.7963758">
 					<MediaRefs>
 						<MediaRef Id="71816272"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="919921797" Name="Play_TC_SFX_RC_Control_TickClockwise" DurationType="OneShot" DurationMin="0.17486264" DurationMax="0.27760416">
+				<Event Id="2708859806" Name="PlayTickClockwise" DurationType="OneShot" DurationMin="0.17486264" DurationMax="0.27760416">
 					<MediaRefs>
 						<MediaRef Id="47698508"/>
 						<MediaRef Id="127241421"/>
@@ -972,7 +1130,7 @@
 						<MediaRef Id="907039128"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1808890972" Name="Play_TC_SFX_RC_Control_TickClockwiseMinutes" DurationType="OneShot" DurationMin="0.04355703" DurationMax="0.15953438">
+				<Event Id="1437731693" Name="PlayTickClockwiseMinutes" DurationType="OneShot" DurationMin="0.04355703" DurationMax="0.15953438">
 					<MediaRefs>
 						<MediaRef Id="322688939"/>
 						<MediaRef Id="405290914"/>
@@ -981,7 +1139,7 @@
 						<MediaRef Id="1053148617"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3773613759" Name="Play_TC_SFX_RC_Control_TickCounterclockwise" DurationType="OneShot" DurationMin="0.24729313" DurationMax="0.3591257">
+				<Event Id="1652600306" Name="PlayTickCounterclockwise" DurationType="OneShot" DurationMin="0.24729313" DurationMax="0.3591257">
 					<MediaRefs>
 						<MediaRef Id="47698508"/>
 						<MediaRef Id="127241421"/>
@@ -995,7 +1153,7 @@
 						<MediaRef Id="907039128"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2677265010" Name="Play_TC_SFX_RC_Control_TickCounterclockwiseMinutes" DurationType="OneShot" DurationMin="0.08422528" DurationMax="0.18402228">
+				<Event Id="427600625" Name="PlayTickCounterclockwiseMinutes" DurationType="OneShot" DurationMin="0.08422528" DurationMax="0.18402228">
 					<MediaRefs>
 						<MediaRef Id="314925946"/>
 						<MediaRef Id="740301231"/>
@@ -1004,16 +1162,11 @@
 						<MediaRef Id="1063006575"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2351864238" Name="Play_testevent" DurationType="OneShot" DurationMin="0.6333333" DurationMax="0.6333333">
-					<MediaRefs>
-						<MediaRef Id="557991585"/>
-					</MediaRefs>
-				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="2485212962" Name="clockspeed"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{918CEE8F-2F3C-D700-FF6D-C5257E9D55E9}</FileHash>
+	<FileHash>{37DC8A25-1E1A-1154-649E-AF44A7631818}</FileHash>
 </SoundBanksInfo>

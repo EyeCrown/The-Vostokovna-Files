@@ -21,6 +21,38 @@
 							<ObjectRef Name="PlayTickCounterclockwiseMinutes" ID="{D4B52AD5-DF42-4C09-9B41-0EF7B2335516}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
 							<Position X="1" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="C1_12_50" ID="{EDEDA441-BE3E-4890-8023-13F09AF01080}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="C2_00_20" ID="{65D4CFA9-DE30-4390-B8B2-6A663CA21579}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="C4_00_43" ID="{8AE7A553-C863-4BBB-912E-BAA41E64362F}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="C5_14_39" ID="{8CC472E3-DB08-499D-89FA-21B47A9C704B}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="C7_14_39" ID="{DA97C98C-CD2D-425E-8E5B-C07D5BFBB4D7}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="C6_15_16" ID="{A1D8AFB8-7686-4A6D-B18E-E80FAD98EED3}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cam1Offline" ID="{2BA98937-ECAF-4421-A450-1C166540B135}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cam4Offline" ID="{8630FD6B-1F46-4BF9-B112-50B5A36A6F83}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="4" Y="3"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
