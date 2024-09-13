@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -8,6 +9,10 @@ public class EventLog : MonoBehaviour
     [SerializeField] private RecordList _recordList;
     [SerializeField] private GameObject _infoContainer;
     [SerializeField] private GameObject _eventLogContainer;
+
+    [SerializeField] private GameObject _logUpdateUI;
+    [SerializeField] private int _logUpdateDuration;
+    private Coroutine _logUpdateCoroutine;
 
     [SerializeField] private GameObject _logRegistryPrefab;
     [SerializeField] private IntData _selectedCamera;
@@ -24,13 +29,13 @@ public class EventLog : MonoBehaviour
 
     private void OnEnable()
     {
-        GameManager.OnNewRecordWithInfoDisplay += RevealInfo;
+        GameManager.OnRecordWithInfoDisplay += RevealInfo;
         _selectedCamera.OnChange.AddListener(OnCameraChanges);
     }
 
     private void OnDisable()
     {
-        GameManager.OnNewRecordWithInfoDisplay -= RevealInfo;
+        GameManager.OnRecordWithInfoDisplay -= RevealInfo;
         _selectedCamera.OnChange.RemoveListener(OnCameraChanges);
     }
 
@@ -86,12 +91,28 @@ public class EventLog : MonoBehaviour
         {
             if (logRegistry.InfoField.text == infoText)
             {
+                if (_logUpdateCoroutine!= null)
+                {
+                    StopCoroutine( _logUpdateCoroutine );
+                }
+
+                _logUpdateCoroutine = StartCoroutine("EnableAndDisableLogUpdateUI");
                 logRegistry.RevealInfoText();
                 logRegistry.EnableNotification(true);
                 break;
             }
         }
     }
+
+    public IEnumerator EnableAndDisableLogUpdateUI()
+    {
+        _logUpdateUI.gameObject.SetActive(true);
+        yield return new WaitForSeconds(_logUpdateDuration);
+        _logUpdateUI.gameObject.SetActive(false);
+    }
+
+
+
 
     [ContextMenu("Reveal Every Infos")]
     public void RevealEveryInfos()
