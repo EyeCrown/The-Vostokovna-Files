@@ -10,7 +10,7 @@
 >Game Made on ENJMIN 2024 Inclusivity & Connectivity
 >
 >10 people team on 4 full-days work
-
+---
 >### Strange things are happening at the Vostokovna research base in Antarctica...
 
 With the help of a strange clock* with multiple dials, you're in charge of investigating by digging through the various CCTV images.
