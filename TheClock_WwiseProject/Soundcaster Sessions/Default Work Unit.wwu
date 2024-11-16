@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C6C02CAA-6DA4-4545-8862-DDCDF1B1DD95}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{C6C02CAA-6DA4-4545-8862-DDCDF1B1DD95}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{D9FB1607-0496-4A6B-AAEB-9257B66C7224}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayTickClockwise" ID="{83C98CF3-3F53-4925-99A4-7A341AE0BA09}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayTickClockwiseMinutes" ID="{531EB18C-9472-479C-9732-6041F38D39CA}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayTickCounterclockwise" ID="{671D5115-66EB-4998-844D-44E28CF39CD6}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayTickCounterclockwiseMinutes" ID="{D4B52AD5-DF42-4C09-9B41-0EF7B2335516}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="C1_12_50" ID="{EDEDA441-BE3E-4890-8023-13F09AF01080}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="C2_00_20" ID="{65D4CFA9-DE30-4390-B8B2-6A663CA21579}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="C4_00_43" ID="{8AE7A553-C863-4BBB-912E-BAA41E64362F}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="C5_14_39" ID="{8CC472E3-DB08-499D-89FA-21B47A9C704B}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="C7_14_39" ID="{DA97C98C-CD2D-425E-8E5B-C07D5BFBB4D7}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="C6_15_16" ID="{A1D8AFB8-7686-4A6D-B18E-E80FAD98EED3}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cam1Offline" ID="{2BA98937-ECAF-4421-A450-1C166540B135}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cam4Offline" ID="{8630FD6B-1F46-4BF9-B112-50B5A36A6F83}" WorkUnitID="{7EA41ECF-6B61-4196-B1EF-00C3728F3959}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DIALOGUE_VOL" ID="{0BCBEE49-2AFE-4256-BABF-F48CE283C378}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_MUSIC_VOL" ID="{83842E09-CC43-42A4-B4C7-85F483DECD75}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_MASTER_VOL" ID="{9B1F9549-CB14-43EC-8469-1454F471EF22}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_SFX_VOL" ID="{B276655F-37BD-4793-871E-EB6BB77942AB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="clockspeed" ID="{CB1D4511-DF13-4D07-816B-0E125FDF5ECD}"/>
+							<Value>6.13275613275614</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_AMB_VOL" ID="{60C0955A-9A3E-4EB8-868B-D4A22B102187}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

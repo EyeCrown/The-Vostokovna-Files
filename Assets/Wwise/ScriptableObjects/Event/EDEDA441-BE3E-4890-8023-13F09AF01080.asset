@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c118e53060f53cf4296f725553e0a3ff, type: 3}
+  m_Name: EDEDA441-BE3E-4890-8023-13F09AF01080
+  m_EditorClassIdentifier: 
+  objectName: C1_12_50
+  id: 1105655235
+  guid: EDEDA441-BE3E-4890-8023-13F09AF01080

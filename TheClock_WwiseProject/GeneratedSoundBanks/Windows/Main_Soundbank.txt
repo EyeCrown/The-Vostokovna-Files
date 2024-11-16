@@ -1,0 +1,166 @@
+Event	ID	Name			Wwise Object Path	Notes
+	158810036	DisplayLogs			\Default Work Unit\C1 control room\DisplayLogs\DisplayLogs	
+	247154354	C5_14_39			\Default Work Unit\C5 snowstorm\C5_14_39	
+	303143000	C2_19_06			\Default Work Unit\C2 dome\C2_19_06	
+	321959118	C1_18_00			\Default Work Unit\C1 control room\C1_18_00	
+	328331853	C4_00_43			\Default Work Unit\C4 geotracker + audiolog\C4_00_43	
+	328488640	C5_15_16			\Default Work Unit\C5 snowstorm\C5_15_16	
+	332172297	C1_19_39			\Default Work Unit\C1 control room\C1_19_39	
+	338736807	C1_18_16			\Default Work Unit\C1 control room\C1_18_16	
+	359480061	C1_00_20			\Default Work Unit\C1 control room\C1_00_20	
+	361887124	C4_00_20			\Default Work Unit\C4 geotracker + audiolog\C4_00_20	
+	367699824	C2_18_16			\Default Work Unit\C2 dome\C2_18_16	
+	382505183	C1_19_06			\Default Work Unit\C1 control room\C1_19_06	
+	384477417	C2_18_00			\Default Work Unit\C2 dome\C2_18_00	
+	427600625	PlayTickCounterclockwiseMinutes			\Default Work Unit\Controller\PlayTickCounterclockwiseMinutes	
+	461876018	PlaySliderAM			\Default Work Unit\Controller\PlaySliderAM	
+	488294521	C6_14_39			\Default Work Unit\C6 cafeteria\C6_14_39	
+	567590384	C5_00_03			\Default Work Unit\C5 snowstorm\C5_00_03	
+	601145561	C5_00_20			\Default Work Unit\C5 snowstorm\C5_00_20	
+	634700860	C5_00_43			\Default Work Unit\C5 snowstorm\C5_00_43	
+	713540241	PlaySliderPM			\Default Work Unit\Controller\PlaySliderPM	
+	737889529	C4_15_16			\Default Work Unit\C4 geotracker + audiolog\C4_15_16	
+	827475449	PlayCameraNext			\Default Work Unit\Controller\PlayCameraNext	
+	1105655235	C1_12_50			\Default Work Unit\C1 control room\C1_12_50	
+	1153949597	C2_13_12			\Default Work Unit\C2 dome\C2_13_12	
+	1437731693	PlayTickClockwiseMinutes			\Default Work Unit\Controller\PlayTickClockwiseMinutes	
+	1501610189	Cam6Offline			\Default Work Unit\CamError\Cam6Offline	
+	1652600306	PlayTickCounterclockwise			\Default Work Unit\Controller\PlayTickCounterclockwise	
+	1681844728	C2_12_50			\Default Work Unit\C2 dome\C2_12_50	
+	1735512069	C5_19_39			\Default Work Unit\C5 snowstorm\C5_19_39	
+	1766025650	C5_13_12			\Default Work Unit\C5 snowstorm\C5_13_12	
+	1785844931	C5_19_06			\Default Work Unit\C5 snowstorm\C5_19_06	
+	1848698379	C2_22_25			\Default Work Unit\C2 dome\C2_22_25	
+	1910442799	C6_22_25			\Default Work Unit\C6 cafeteria\C6_22_25	
+	1929024936	C5_22_25			\Default Work Unit\C5 snowstorm\C5_22_25	
+	2057731148	C6_12_50			\Default Work Unit\C6 cafeteria\C6_12_50	
+	2073980345	Cam2Offline			\Default Work Unit\CamError\Cam2Offline	
+	2189135566	PlayHelpButton			\Default Work Unit\Controller\PlayHelpButton	
+	2351864238	Play_testevent			\Default Work Unit\Play_testevent	
+	2441637858	PlayTapeRunout			\Default Work Unit\Controller\PlayTapeRunout	
+	2642394135	C6_15_16			\Default Work Unit\C6 cafeteria\C6_15_16	
+	2708859806	PlayTickClockwise			\Default Work Unit\Controller\PlayTickClockwise	
+	2910054147	Cam4Offline			\Default Work Unit\CamError\Cam4Offline	
+	3154872137	C4_23_57			\Default Work Unit\C4 geotracker + audiolog\C4_23_57	
+	3171649830	C4_23_47			\Default Work Unit\C4 geotracker + audiolog\C4_23_47	
+	3188427411	C4_23_37			\Default Work Unit\C4 geotracker + audiolog\C4_23_37	
+	3205204992	C4_23_27			\Default Work Unit\C4 geotracker + audiolog\C4_23_27	
+	3221982717	C4_23_17			\Default Work Unit\C4 geotracker + audiolog\C4_23_17	
+	3238760298	C4_23_07			\Default Work Unit\C4 geotracker + audiolog\C4_23_07	
+	3318071779	C6_00_43			\Default Work Unit\C6 cafeteria\C6_00_43	
+	3336887895	C5_23_47			\Default Work Unit\C5 snowstorm\C5_23_47	
+	3353665476	C5_23_57			\Default Work Unit\C5 snowstorm\C5_23_57	
+	3377781462	C2_00_20			\Default Work Unit\C2 dome\C2_00_20	
+	3385182255	C6_00_03			\Default Work Unit\C6 cafeteria\C6_00_03	
+	3403998363	C5_23_07			\Default Work Unit\C5 snowstorm\C5_23_07	
+	3411336767	C2_00_43			\Default Work Unit\C2 dome\C2_00_43	
+	3418737522	C6_00_20			\Default Work Unit\C6 cafeteria\C6_00_20	
+	3420775944	C5_23_17			\Default Work Unit\C5 snowstorm\C5_23_17	
+	3437553637	C5_23_27			\Default Work Unit\C5 snowstorm\C5_23_27	
+	3454331218	C5_23_37			\Default Work Unit\C5 snowstorm\C5_23_37	
+	3841600122	C5_18_00			\Default Work Unit\C5 snowstorm\C5_18_00	
+	3858377707	C5_18_16			\Default Work Unit\C5 snowstorm\C5_18_16	
+	3953680567	C5_12_50			\Default Work Unit\C5 snowstorm\C5_12_50	
+	3953841524	C1_15_16			\Default Work Unit\C1 control room\C1_15_16	
+	3994027508	C1_22_25			\Default Work Unit\C1 control room\C1_22_25	
+	4007840862	C6_19_39			\Default Work Unit\C6 cafeteria\C6_19_39	
+	4019301512	Cam1Offline			\Default Work Unit\CamError\Cam1Offline	
+	4024618444	C6_19_06			\Default Work Unit\C6 cafeteria\C6_19_06	
+	4037577735	C2_23_17			\Default Work Unit\C2 dome\C2_23_17	
+	4054355444	C2_23_07			\Default Work Unit\C2 dome\C2_23_07	
+	4071133025	C2_23_37			\Default Work Unit\C2 dome\C2_23_37	
+	4079931033	C6_13_12			\Default Work Unit\C6 cafeteria\C6_13_12	
+	4087910622	C2_23_27			\Default Work Unit\C2 dome\C2_23_27	
+	4109963620	C6_18_16			\Default Work Unit\C6 cafeteria\C6_18_16	
+	4121465912	C2_23_47			\Default Work Unit\C2 dome\C2_23_47	
+	4126741205	C6_18_00			\Default Work Unit\C6 cafeteria\C6_18_00	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2485212962	clockspeed			\Default Work Unit\clockspeed	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3546444380	Big_Garage1	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7963171	snowstorm int4	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\snowstorm int4_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\geogravi\geogravi blend\snowstorm int4		3158262
+	21633705	C1_00_20	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\C1_00_20_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\C1_00_20		386012
+	34232821	C6S11 tu ne veux pas voir la pluie d'étoiles filantes _ non je me couche tot ce soir	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\C6S11 tu ne veux pas voir la pluie d'étoiles filantes _ non je me couche tot ce soir_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narration\C6S11 tu ne veux pas voir la pluie d'étoiles filantes _ non je me couche tot ce soir		489510
+	47698508	Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_05	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_9633D3B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\clockwise\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_05		6083
+	59347613	gravimetre low	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\gravimetre 3 niveaux_BB46F070.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Gravi\gravimetre low		655846
+	60134096	camera next camera previous_06	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\camera next camera previous_0F867880.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\camera next previous\camera next camera previous_06		62003
+	71816272	tape run out	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Tape Machine, Play, Chewing the tape then stopped (Short version) 06 3_34BFC4D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\tape run out		130464
+	73031717	camera next camera previous	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\camera next camera previous_19960DBD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\camera next previous\camera next camera previous		65530
+	76647228	geotracker 4+1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\geotracker_89D8C6F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Geotracker\geotracker 4+1		113406
+	78300076	snowstorm int1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\snowstorm int1_5A5783C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\cafet\cafet blend\snowstorm int1		3463779
+	79478959	camera next camera previous_04	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\camera next camera previous_3A8D4FC6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\camera next previous\camera next camera previous_04		65079
+	127241421	Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_02	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_88AC4066.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\clockwise\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_02		6905
+	131195188	camera next camera previous_02	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\camera next camera previous_36E44D39.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\camera next previous\camera next camera previous_02		61219
+	151256277	C6S8 walla	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\C6S8 walla_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narration\C6S8 walla		1391825
+	179510948	gravi mid	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\gravimetre 3 niveaux_8CFB14ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Gravi\gravi mid		575794
+	192633284	control v1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\control v1_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\control\control blend\control v1		3149996
+	215077952	geotracker killer	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\geotracker_14284B51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Geotracker\geotracker killer		32467
+	216307312	cam4offline	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\cam4 error_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Error\cam4offline		2077204
+	235812864	cameranextcameraprevious layer rc_04	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\cameranextcameraprevious layer rc_4CA43F6E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\add layer\cameranextcameraprevious layer rc_04		52427
+	261239790	cam2offline	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\errors-002_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Error\cam2offline		1587826
+	287632855	camera next camera previous_03	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\camera next camera previous_87800BCB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\camera next previous\camera next camera previous_03		59981
+	294919922	C2_22_25	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\C2_22_25_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\C2_22_25		657411
+	310666768	snowstorm v3	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\snowstorm v3_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\snowstorm\snowstorm\snowstorm v3		3946111
+	314925946	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_03	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_9BF866B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\mincntrclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_03		6372
+	321404863	geotracker 6+1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\geotracker_6D8C00D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Geotracker\geotracker 6+1		96414
+	322688939	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_03	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_BC5922B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\minclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_03		5694
+	323111567	Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_06	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_41BD22A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\clockwise\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_06		6835
+	324298945	ubv76	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\ubv76_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\cafet\radios\ubv76		4146827
+	377295070	pm switch	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\pm switch_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\ampm slider\pm switch		40321
+	382878983	cameranextcameraprevious layer rc_02	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\cameranextcameraprevious layer rc_970E0176.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\add layer\cameranextcameraprevious layer rc_02		42859
+	392737791	cameranextcameraprevious layer rc_01	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\cameranextcameraprevious layer rc_6EE7A620.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\add layer\cameranextcameraprevious layer rc_01		38040
+	394428278	helpbutton	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\helpbutton_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\helpbutton		37980
+	401283212	Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_8292B162.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\clockwise\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1		6599
+	405290914	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_5591E78C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\minclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015		4435
+	410168488	gravi high	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\gravimetre 3 niveaux_791320E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Gravi\gravi high		489144
+	427078570	cameranextcameraprevious layer rc	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\cameranextcameraprevious layer rc_7CD7EE02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\add layer\cameranextcameraprevious layer rc		23031
+	470927915	cafet amb v1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\cafet amb v1_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\cafet\cafet blend\cafet amb v1		2898942
+	505594289	camera next camera previous_01	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\camera next camera previous_6D021E02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\camera next previous\camera next camera previous_01		56437
+	518638525	Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_03	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_2532F4BF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\clockwise\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_03		6696
+	526065240	firebird	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\firebird_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\cafet\radios\firebird		2574618
+	547238914	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_02	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_8C7D64D2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\minclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_02		5438
+	557991585	testevent	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Soundly Voice Designer, Abbi 2_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\testevent		17217
+	582689518	Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_01	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_33A13367.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\clockwise\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_01		6300
+	613554267	beeper slow mid desi low	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\beeper slow mid desi low_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\DESI\beeper slow mid desi low		1578871
+	659221316	C1S8 c'est dommage que alexandre ne soit pas avec nous pour la fete_	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\C1S8 c'est dommage que alexandre ne soit pas avec nous pour la fete__37EAA2CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narration\C1S8 c'est dommage que alexandre ne soit pas avec nous pour la fete_		179564
+	694575309	cam6offline	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\cam6alarm_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Error\cam6offline		707560
+	700869081	tchik	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Mechanics, Old, Metal, Mechanism, Short SND9439_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\tchiktchak\tchik		10806
+	740301231	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_C7DD13E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\mincntrclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015		6436
+	779245781	C2_00_20	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\C2_00_20 mat noire_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\C2_00_20		620510
+	789897436	camera next camera previous_05	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\camera next camera previous_22376E8E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\camera next previous\camera next camera previous_05		46680
+	790030656	Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_04	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_B7985681.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\clockwise\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_04		7127
+	793390884	snowstorm v1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\snowstorm v1_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\snowstorm\snowstorm\snowstorm v1		3966303
+	810046928	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_02	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_3CA8EE5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\mincntrclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_02		5451
+	813835800	dome v1 real	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\dome v1 real_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\dome\dome blend\dome v1 real		2851522
+	825287063	ost theclock1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\assemblage ost 123_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\ost theclock1		27818915
+	827848437	Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_07	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_5FD3770F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\clockwise\Clocks, Tick, Kitchen Clock, Cooking Timer, Alarm, Ring SND6613 1_07		6399
+	829730024	snowstorm int3	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\snowstorm int3_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\dome\dome blend\snowstorm int3		3091899
+	848811204	emission	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\emission_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\cafet\radios\emission		1534856
+	859063813	snowstorm int2	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\snowstorm int2_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\control\control blend\snowstorm int2		2982896
+	866303284	logscreen amb	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\logscreen amb_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\logscreen\logscreen amb		5381205
+	870953033	audiolog bleep	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\audiolog bleep_A80BA8C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Audiolog\audiolog bleep		100178
+	880800395	geotracker 1+1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\geotracker_1356FD85.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Geotracker\geotracker 1+1		69541
+	889549542	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_01	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_2DC370B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\mincntrclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_01		7693
+	907039128	tchak	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Mechanics, Old, Metal, Mechanism, Short SND9439 1_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\hours\clockwise\tchiktchak\tchak		15454
+	910907459	am switch	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\am switch_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\ampm slider\am switch		24632
+	916918217	C2_00_43	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\C2_00_43_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\C2_00_43		670162
+	920777890	geotracker 2+1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\geotracker_EF6049D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Geotracker\geotracker 2+1		75829
+	929915281	geotracker 3+1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\geotracker_AF21455B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\Geotracker\geotracker 3+1		124716
+	964139239	very loow beeper the beast desi broken	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\very loow beeper the beast desi broken_E3B4A69A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\DESI\very loow beeper the beast desi broken		1429959
+	965307109	C6S7 Rendez-vous à 18h00 pour fêter le départ de maureen	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\C6S7 Rendez-vous à 18h00 pour fêter le départ de maureen_7262ABD8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Narration\C6S7 Rendez-vous à 18h00 pour fêter le départ de maureen		245197
+	978082249	snowstorm v2	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\snowstorm v2_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\snowstorm\snowstorm\snowstorm v2		3773452
+	989589681	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_04	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_A5C15490.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\minclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_04		9852
+	998206093	logupdatelogscreen	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\logupdate_952E39D7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\logupdatelogscreen		23427
+	1001344937	C2_19_06	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\C2_19_06_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\C2_19_06		635074
+	1003170687	beeping1 desi high	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\beeping1 desi high_D5F5C115.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machines\DESI\beeping1 desi high		422540
+	1004644863	geotracker room v1	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\geotracker room v1_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\geogravi\geogravi blend\geotracker room v1		2855173
+	1005152139	cameranextcameraprevious layer rc_03	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\cameranextcameraprevious layer rc_D39326BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\add layer\cameranextcameraprevious layer rc_03		50225
+	1053148617	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_01	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_EEF4827C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\minclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_01		4981
+	1060255485	camera next camera previous_07	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\camera next camera previous_B4274624.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\camera\camera blend\camera next previous\camera next camera previous_07		61331
+	1063006575	Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_04	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_F80EE838.wem		\Actor-Mixer Hierarchy\Default Work Unit\Controller\minutes\mincntrclockwise\Clocks, Mechanics, Medium Clockwork, Rotating Mechanic, Click 01 SND86015_04		8315
+	1064078893	cam1offline	C:\Users\Artik\TheClock\TheClock_WwiseProject\.cache\Windows\SFX\errors-001_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Error\cam1offline		792263
+

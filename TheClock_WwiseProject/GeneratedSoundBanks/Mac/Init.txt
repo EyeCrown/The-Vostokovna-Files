@@ -1,0 +1,18 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	460070935	RTPC_MASTER_VOL			\Default Work Unit\RTPC_MASTER_VOL	
+	3061620274	RTPC_MUSIC_VOL			\Default Work Unit\RTPC_MUSIC_VOL	
+	3502123226	RTPC_SFX_VOL			\Default Work Unit\RTPC_SFX_VOL	
+	3553633719	RTPC_DIALOGUE_VOL			\Default Work Unit\RTPC_DIALOGUE_VOL	
+	4239806503	RTPC_AMB_VOL			\Default Work Unit\RTPC_AMB_VOL	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1117531639	AMB			\Default Work Unit\Master Audio Bus\AMB	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3930136735	DIALOGUE			\Default Work Unit\Master Audio Bus\DIALOGUE	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
