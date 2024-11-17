@@ -179,9 +179,6 @@ public class GameManager : MonoBehaviour
 
     private void UpdateRecord()
     {
-        if (_subtitlesCoroutine != null) StopCoroutine(_subtitlesCoroutine);
-        _subtitleField.text = "";
-
         // Search if the Hour + Minute + Camera selected has a record
         foreach (IntervalInfos timeInterval in _recordList._cameras[_selectedCamera.Value]._hours[_selectedHour.Value]._intervalInfos)
         {
@@ -225,6 +222,12 @@ public class GameManager : MonoBehaviour
         }
         _isDisplayingNoSignal.Value = true;
         DisplayNothing();
+
+        if (_subtitlesCoroutine != null)
+        {
+            StopCoroutine(_subtitlesCoroutine);
+            _subtitleField.text = "";
+        }
     }
 
     public IEnumerator DisplaySubtitles(Subtitle[] subtitles)
