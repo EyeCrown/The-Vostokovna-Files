@@ -1161,13 +1161,22 @@ MonoBehaviour:
   _selectedHour: {fileID: 11400000, guid: 9e06fcce151922b499252986943edf54, type: 2}
   _selectedMinute: {fileID: 11400000, guid: d7a340e9281ce2547a91afea56fa6f99, type: 2}
   _selectedCamera: {fileID: 11400000, guid: 78bd4105935d4694fbb7d05c6281d9dd, type: 2}
-  _isDisplayingNoSignal: {fileID: 0}
+  _isDisplayingNoSignal: {fileID: 11400000, guid: d01207907b9e7834486fbba5730e6848, type: 2}
   _currentCameraImageName: 
   _subtitleField: {fileID: 115905805}
   _useArduino: 0
   _currentMode: {fileID: 11400000, guid: 3d9115d6d0b34804ca9b5c77c722f5f9, type: 2}
   _gameModeDatas: {fileID: 11400000, guid: a4d5c520eb861714990d44f1aa9d92f2, type: 2}
   _uiModePart: {fileID: 1075392886}
+  OnRecordWithInfoDisplay:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRecordChanges:
+    m_PersistentCalls:
+      m_Calls: []
+  OnNoSignal:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &1933193672
 Transform:
   m_ObjectHideFlags: 0

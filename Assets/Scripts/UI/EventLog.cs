@@ -1,9 +1,8 @@
-using NUnit.Framework;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class EventLog : MonoBehaviour
 {
@@ -20,7 +19,7 @@ public class EventLog : MonoBehaviour
 
     [SerializeField] private List<LogRegistry> _logRegistries = new();
 
-    static public event Action OnNewEventLogUnlocked;
+    public static UnityEvent OnNewEventLogUnlocked;
 
 
     private List<RecordBuffer> buffer = new();
@@ -32,13 +31,13 @@ public class EventLog : MonoBehaviour
 
     private void OnEnable()
     {
-        GameManager.OnRecordWithInfoDisplay += RevealInfo;
+        GameManager.Instance.OnRecordWithInfoDisplay.AddListener(RevealInfo);
         _selectedCamera.OnChange.AddListener(OnCameraChanges);
     }
 
     private void OnDisable()
     {
-        GameManager.OnRecordWithInfoDisplay -= RevealInfo;
+        GameManager.Instance.OnRecordWithInfoDisplay.RemoveListener(RevealInfo);
         _selectedCamera.OnChange.RemoveListener(OnCameraChanges);
     }
 
@@ -137,7 +136,7 @@ public class EventLog : MonoBehaviour
             _eventLogContainer.gameObject.SetActive(true);
         } else
         {
-            if (_eventLogContainer.gameObject.active == true)
+            if (_eventLogContainer.gameObject.activeSelf)
             {
                 _eventLogContainer.gameObject.SetActive(false);
                 RemoveAllNotifications();

@@ -1,14 +1,15 @@
-using JetBrains.Annotations;
 using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
+    #region Attributes
 
     [SerializeField] private IntData _selectedHour;
     [SerializeField] private IntData _selectedMinute;
     [SerializeField] private IntData _selectedCamera;
     [SerializeField] private BoolData _isDisplayingNoSignal;
 
+    #endregion
 
 
 
@@ -17,8 +18,8 @@ public class SoundManager : MonoBehaviour
         _selectedHour.OnChange.AddListener(OnHourChanges);
         _selectedMinute.OnChange.AddListener(OnMinuteChanges);
         _selectedCamera.OnChange.AddListener(OnCameraChanges);
-        GameManager.OnRecordChanges += OnRecordChanges;
-        GameManager.OnNoSignal += OnNoSignal;
+        GameManager.Instance.OnRecordChanges.AddListener(OnRecordChanges);
+        GameManager.Instance.OnNoSignal.AddListener(OnNoSignal);
     }
 
     private void OnDisable()
@@ -26,14 +27,10 @@ public class SoundManager : MonoBehaviour
         _selectedHour.OnChange.RemoveListener(OnHourChanges);
         _selectedMinute.OnChange.RemoveListener(OnMinuteChanges);
         _selectedCamera.OnChange.RemoveListener(OnCameraChanges);
-        GameManager.OnRecordChanges -= OnRecordChanges;
+        GameManager.Instance.OnRecordChanges.RemoveListener(OnRecordChanges);
+        GameManager.Instance.OnNoSignal.RemoveListener(OnNoSignal);
     }
-
-    private void Start()
-    {
-        
-    }
-
+    
     private void OnHourChanges()
     {
         Debug.Log("Hour changed : " + _selectedHour.Value);
@@ -88,9 +85,6 @@ public class SoundManager : MonoBehaviour
         {
             AkSoundEngine.PostEvent("Cam6Offline", gameObject);
         }
-    
-
-       
     }
 
 

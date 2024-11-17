@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO.Ports;
@@ -10,6 +9,24 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance
+    {
+        get
+        {
+            if (instance == null)
+                instance = FindObjectsByType<GameManager>(FindObjectsInactive.Include, FindObjectsSortMode.None)[0];
+            
+            return instance;
+        }
+        private set
+        {
+            instance = value;
+        }
+    }
+
+    public static GameManager instance;
+
+
     #region Attributes
 
     [SerializeField] private RecordList _recordList;
@@ -59,14 +76,14 @@ public class GameManager : MonoBehaviour
     private const string camImageFolder = "Rendus/";
 
     #region Events
-    static public event Action<IntervalInfos> OnRecordWithInfoDisplay;
+    public UnityEvent<IntervalInfos> OnRecordWithInfoDisplay;
 
     #endregion
 
 
     #region Events
-    static public event Action<string> OnRecordChanges;
-    static public event Action OnNoSignal;
+    public UnityEvent<string> OnRecordChanges;
+    public UnityEvent OnNoSignal;
 
     #endregion 
 
@@ -74,6 +91,14 @@ public class GameManager : MonoBehaviour
 
     #region Unity API
 
+    void Awake()
+    {
+        /*if (Instance != null && Instance != this) 
+            Destroy(this); 
+        else 
+            Instance = this; */
+    }
+    
     void Start()
     {
         _currentCameraImageName = String.Empty;
@@ -245,7 +270,6 @@ public class GameManager : MonoBehaviour
         _uiImage.texture = cameraImage;
         _isDisplayingNoSignal.Value = false;
         OnRecordChanges?.Invoke(filename);
-
     }
 
 
